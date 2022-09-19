@@ -78,17 +78,27 @@ dns:
     ipcidr:
     - 240.0.0.0/4
     - 0.0.0.0/32
-proxies: []
+proxies:
+- name: "\U0001F1FA\U0001F1F8 US 1"
+  server: s3.hass.win
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: automatic
   type: url-test
-  proxies: []
+  proxies:
+  - "\U0001F1FA\U0001F1F8 US 1"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
   type: select
   proxies:
   - automatic
+  - "\U0001F1FA\U0001F1F8 US 1"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
