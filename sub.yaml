@@ -82,8 +82,8 @@ proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 1"
   server: south.nn8qozmu.top
   type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 20920
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 20910
   password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
   cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 2"
@@ -97,42 +97,46 @@ proxies:
   server: south.nn8qozmu.top
   type: ss
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 20913
+  port: 20912
   password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
   cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 4"
-  server: south.nn8qozmu.top
-  type: ss
+  server: cm03.miruvip.com
+  type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 20914
-  password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
-  cipher: aes-256-gcm
+  port: 1664
+  password: Miru
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 12554:8ADgrg
+  obfs: plain
+  obfs-param: fd83a12554.microsoft.com
 - name: "\U0001F1E8\U0001F1F3 CN 5"
   server: south.nn8qozmu.top
   type: ss
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 20917
+  port: 20916
   password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
   cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 6"
   server: south.nn8qozmu.top
   type: ss
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 20912
+  port: 20915
   password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
   cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 7"
   server: south.nn8qozmu.top
   type: ss
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 20911
+  port: 20913
   password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
   cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 8"
   server: south.nn8qozmu.top
   type: ss
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 20918
+  port: 20914
   password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
   cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 9"
@@ -146,44 +150,46 @@ proxies:
   server: south.nn8qozmu.top
   type: ss
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 20910
+  port: 20918
   password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
   cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 11"
-  server: south.nn8qozmu.top
-  type: ss
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 20915
-  password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
-  cipher: aes-256-gcm
+  server: cm03.miruvip.com
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 1663
+  password: Miru
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 12554:8ADgrg
+  obfs: plain
+  obfs-param: fd83a12554.microsoft.com
 - name: "\U0001F1E8\U0001F1F3 CN 12"
   server: south.nn8qozmu.top
   type: ss
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 20916
+  port: 20917
   password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
   cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 13"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 49008
-  password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 14"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 49008
-  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 15"
   server: north.nn8qozmu.top
   type: ss
   country: "\U0001F1E9\U0001F1EA DE"
   port: 20960
+  password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 14"
+  server: south.nn8qozmu.top
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 20920
+  password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 15"
+  server: south.nn8qozmu.top
+  type: ss
+  country: "\U0001F1EE\U0001F1F3 IN"
+  port: 20964
   password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
   cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 16"
@@ -194,166 +200,68 @@ proxies:
   password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
   cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 17"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 49000
-  password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 18"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 49000
-  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 19"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 49006
-  password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 20"
-  server: south.nn8qozmu.top
-  type: ss
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 20964
-  password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
-  cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 21"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 49001
-  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 22"
-  server: east-2.nn8qozmu.top
-  type: ss
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 20954
-  password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
-  cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 23"
-  server: east-2.nn8qozmu.top
-  type: ss
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 20953
-  password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
-  cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 24"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 49007
-  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 25"
-  server: east-2.nn8qozmu.top
-  type: ss
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 20957
-  password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
-  cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 26"
-  server: east-2.nn8qozmu.top
-  type: ss
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 20952
-  password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
-  cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 27"
-  server: east-2.nn8qozmu.top
-  type: ss
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 20956
-  password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
-  cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 28"
   server: east-2.nn8qozmu.top
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   port: 20950
   password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
   cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 29"
+- name: "\U0001F1E8\U0001F1F3 CN 18"
+  server: east-2.nn8qozmu.top
+  type: ss
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 20952
+  password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 19"
+  server: east-2.nn8qozmu.top
+  type: ss
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 20954
+  password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 20"
+  server: east-2.nn8qozmu.top
+  type: ss
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 20956
+  password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 21"
   server: east-2.nn8qozmu.top
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   port: 20951
   password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
   cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 30"
-  server: cm01.miruvip.com
-  type: ssr
+- name: "\U0001F1E8\U0001F1F3 CN 22"
+  server: east-2.nn8qozmu.top
+  type: ss
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1651
-  password: Miru
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 12554:8ADgrg
-  obfs: plain
-  obfs-param: fd83a12554.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 31"
+  port: 20953
+  password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 23"
   server: east-2.nn8qozmu.top
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   port: 20955
   password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
   cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 32"
+- name: "\U0001F1E8\U0001F1F3 CN 24"
+  server: east-2.nn8qozmu.top
+  type: ss
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 20957
+  password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 25"
   server: south.nn8qozmu.top
   type: ss
   country: "\U0001F1F9\U0001F1F7 TR"
   port: 20963
   password: f45a516a-7648-40ef-a396-af3cc5ea1a1f
   cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 33"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 49004
-  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 34"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 49002
-  password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 35"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 49003
-  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 36"
-  server: los.ydnode.us
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1002
-  password: d6ed263c-3f14-44db-bfee-cfcc26b234d1
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 37"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 49005
-  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
-  skip-cert-verify: true
-  udp: true
 proxy-groups:
 - name: automatic
   type: url-test
@@ -383,18 +291,6 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 23"
   - "\U0001F1E8\U0001F1F3 CN 24"
   - "\U0001F1E8\U0001F1F3 CN 25"
-  - "\U0001F1E8\U0001F1F3 CN 26"
-  - "\U0001F1E8\U0001F1F3 CN 27"
-  - "\U0001F1E8\U0001F1F3 CN 28"
-  - "\U0001F1E8\U0001F1F3 CN 29"
-  - "\U0001F1E8\U0001F1F3 CN 30"
-  - "\U0001F1E8\U0001F1F3 CN 31"
-  - "\U0001F1E8\U0001F1F3 CN 32"
-  - "\U0001F1E8\U0001F1F3 CN 33"
-  - "\U0001F1E8\U0001F1F3 CN 34"
-  - "\U0001F1E8\U0001F1F3 CN 35"
-  - "\U0001F1FA\U0001F1F8 US 36"
-  - "\U0001F1E8\U0001F1F3 CN 37"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
@@ -426,18 +322,6 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 23"
   - "\U0001F1E8\U0001F1F3 CN 24"
   - "\U0001F1E8\U0001F1F3 CN 25"
-  - "\U0001F1E8\U0001F1F3 CN 26"
-  - "\U0001F1E8\U0001F1F3 CN 27"
-  - "\U0001F1E8\U0001F1F3 CN 28"
-  - "\U0001F1E8\U0001F1F3 CN 29"
-  - "\U0001F1E8\U0001F1F3 CN 30"
-  - "\U0001F1E8\U0001F1F3 CN 31"
-  - "\U0001F1E8\U0001F1F3 CN 32"
-  - "\U0001F1E8\U0001F1F3 CN 33"
-  - "\U0001F1E8\U0001F1F3 CN 34"
-  - "\U0001F1E8\U0001F1F3 CN 35"
-  - "\U0001F1FA\U0001F1F8 US 36"
-  - "\U0001F1E8\U0001F1F3 CN 37"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
