@@ -80,17 +80,6 @@ dns:
     - 0.0.0.0/32
 proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 1"
-  server: hnlt.817777.xyz
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 41106
-  password: zxOmdD
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  protocol-param: 22082:tgXIaG
-  obfs: tls1.2_ticket_auth
-  obfs-param: MGY2ZjMyMjA4Mi5taWNyb3NvZnQuY29t
-- name: "\U0001F1E8\U0001F1F3 CN 2"
   server: hnyd.817777.xyz
   type: ssr
   country: "\U0001F1E8\U0001F1F3 CN"
@@ -101,40 +90,18 @@ proxies:
   protocol-param: 22082:tgXIaG
   obfs: tls1.2_ticket_auth
   obfs-param: 0f6f322082.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 3"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1E8\U0001F1E6 CA"
-  port: 1103
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 4"
+- name: "\U0001F1E8\U0001F1F3 CN 2"
   server: 111.45.22.170
   type: ssr
-  country: "\U0001F1E8\U0001F1E6 CA"
-  port: 1103
+  country: "\U0001F1E7\U0001F1F7 BR"
+  port: 1107
   password: di15PV
-  cipher: aes-256-cfb
+  cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 5"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1E8\U0001F1E6 CA"
-  port: 1103
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 6"
+- name: "\U0001F1E8\U0001F1F3 CN 3"
   server: 36.138.255.242
   type: ssr
   country: "\U0001F1E7\U0001F1F7 BR"
@@ -145,8 +112,41 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 11814
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 5"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 1604
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 6"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 11804
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
 - name: "\U0001F1E8\U0001F1F3 CN 7"
-  server: 36.139.153.90
+  server: 36.138.255.223
   type: ssr
   country: "\U0001F1E7\U0001F1F7 BR"
   port: 1107
@@ -157,7 +157,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 8"
-  server: 36.139.153.90
+  server: 36.138.255.242
   type: ssr
   country: "\U0001F1E8\U0001F1E6 CA"
   port: 1103
@@ -167,16 +167,19 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1E6 CA 9"
-  server: 149.56.141.11
-  type: trojan
+- name: "\U0001F1E8\U0001F1F3 CN 9"
+  server: 111.45.22.170
+  type: ssr
   country: "\U0001F1E8\U0001F1E6 CA"
-  port: 443
-  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
-  skip-cert-verify: true
-  udp: true
+  port: 1103
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 10"
-  server: 36.138.255.242
+  server: 36.139.153.90
   type: ssr
   country: "\U0001F1E8\U0001F1E6 CA"
   port: 1103
@@ -189,56 +192,60 @@ proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 11"
   server: 36.139.153.103
   type: ssr
-  country: "\U0001F1E7\U0001F1F7 BR"
-  port: 1107
+  country: "\U0001F1E8\U0001F1E6 CA"
+  port: 1103
   password: di15PV
-  cipher: rc4-md5
+  cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 12"
-  server: 111.45.22.170
+  server: guangzhouddns.xyz
   type: ssr
-  country: "\U0001F1E7\U0001F1F7 BR"
-  port: 1107
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 13"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1E7\U0001F1F7 BR"
-  port: 1107
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 14"
-  server: 183.240.209.15
-  type: ss
   country: "\U0001F1E8\U0001F1F3 CN"
-  port: 31905
-  password: bBEXIq
-  cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 15"
-  server: xmsj-vip1.omo-m0m.com
+  port: 11807
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1E6 CA 13"
+  server: 149.56.141.11
   type: trojan
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 55004
-  password: e1b932a7-b178-3e77-b1b8-0bb0ae03a6c1
+  country: "\U0001F1E8\U0001F1E6 CA"
+  port: 443
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 16"
+- name: "\U0001F1E8\U0001F1F3 CN 14"
   server: 36.139.153.90
   type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1115
+  country: "\U0001F1E7\U0001F1F7 BR"
+  port: 1107
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 15"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1E7\U0001F1F7 BR"
+  port: 1107
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 16"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1E8\U0001F1E6 CA"
+  port: 1103
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -246,10 +253,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 17"
-  server: 111.45.22.170
+  server: 36.138.255.242
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1115
+  port: 1111
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -257,7 +264,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 18"
-  server: 36.138.255.223
+  server: 111.45.22.170
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
   port: 1116
@@ -268,10 +275,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 19"
-  server: 36.139.153.103
+  server: 36.138.255.242
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1112
+  port: 1113
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -279,6 +286,39 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 20"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 1114
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 21"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 1111
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 22"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 1111
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 23"
   server: cmjm.julvab.com
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
@@ -289,30 +329,8 @@ proxies:
   protocol-param: 10649:4miZdg
   obfs: http_simple
   obfs-param: 9c69010649.download.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 21"
+- name: "\U0001F1E8\U0001F1F3 CN 24"
   server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1116
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 22"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1113
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 23"
-  server: 36.139.153.103
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
   port: 1115
@@ -322,19 +340,19 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 24"
+- name: "\U0001F1E8\U0001F1F3 CN 25"
   server: 36.138.255.223
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1114
+  port: 1115
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 25"
-  server: 36.139.153.90
+- name: "\U0001F1E8\U0001F1F3 CN 26"
+  server: 36.139.153.103
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
   port: 1116
@@ -344,33 +362,22 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 26"
-  server: 36.138.255.242
+- name: "\U0001F1E8\U0001F1F3 CN 27"
+  server: 36.138.255.223
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1114
+  port: 1112
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 27"
-  server: liaoningddns.xyz
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 11428
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
 - name: "\U0001F1E8\U0001F1F3 CN 28"
   server: 111.45.22.170
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1114
+  port: 1111
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -381,7 +388,7 @@ proxies:
   server: 36.138.255.242
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1115
+  port: 1112
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -389,7 +396,29 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 30"
-  server: 36.139.153.90
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 1116
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 31"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 1113
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 32"
+  server: 36.139.153.103
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
   port: 1114
@@ -399,33 +428,11 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 31"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1111
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 32"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1111
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 33"
-  server: 36.138.255.223
+  server: 111.45.22.170
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1112
+  port: 1114
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -433,7 +440,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 34"
-  server: 36.139.153.90
+  server: 36.139.153.103
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
   port: 1113
@@ -444,10 +451,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 35"
-  server: 36.138.255.223
+  server: 36.139.153.90
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1111
+  port: 1113
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -458,7 +465,7 @@ proxies:
   server: 36.138.255.223
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1115
+  port: 1111
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -466,7 +473,14 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 37"
-  server: 36.138.255.242
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24008
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 38"
+  server: 36.138.255.223
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
   port: 1116
@@ -476,7 +490,7 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 38"
+- name: "\U0001F1E8\U0001F1F3 CN 39"
   server: 36.139.153.90
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
@@ -487,52 +501,8 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 39"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1112
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 40"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1113
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 41"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1111
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 42"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1116
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 43"
-  server: 36.139.153.103
+  server: 36.139.153.90
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
   port: 1114
@@ -542,11 +512,44 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 44"
+- name: "\U0001F1E8\U0001F1F3 CN 41"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 1115
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 42"
   server: 36.138.255.223
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1113
+  port: 1114
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 43"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 1116
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 44"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 1112
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -554,10 +557,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 45"
-  server: 36.138.255.242
+  server: 36.139.153.103
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1113
+  port: 1115
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -573,31 +576,18 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 47"
-  server: dgcm.pdjs.top
-  type: trojan
+  server: 36.139.153.90
+  type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 49008
-  password: 0f3abc1b-5443-4edd-a012-886bf1a43898
-  skip-cert-verify: true
-  udp: true
+  port: 1115
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 48"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 49008
-  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 49"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 49008
-  password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 50"
-  server: 111.45.22.170
+  server: 36.139.153.103
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
   port: 1112
@@ -607,15 +597,24 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 51"
-  server: 14.29.124.168
-  type: ss
+- name: "\U0001F1E8\U0001F1F3 CN 49"
+  server: dgcm.pdjs.top
+  type: trojan
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24003
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 52"
-  server: 36.139.153.90
+  port: 49008
+  password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 50"
+  server: dgcm.pdjs.top
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 49008
+  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 51"
+  server: 36.138.255.223
   type: ssr
   country: "\U0001F1E9\U0001F1EA DE"
   port: 2402
@@ -625,8 +624,19 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 52"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1E9\U0001F1EA DE"
+  port: 2403
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 53"
-  server: 36.139.153.90
+  server: 36.139.153.103
   type: ssr
   country: "\U0001F1E9\U0001F1EA DE"
   port: 2403
@@ -640,7 +650,7 @@ proxies:
   server: 36.139.153.90
   type: ssr
   country: "\U0001F1E9\U0001F1EA DE"
-  port: 2401
+  port: 2402
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -659,7 +669,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 56"
-  server: 36.138.255.223
+  server: 36.138.255.242
   type: ssr
   country: "\U0001F1E9\U0001F1EA DE"
   port: 2402
@@ -670,18 +680,15 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 57"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1E9\U0001F1EA DE"
-  port: 2401
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+  server: dgcm.pdjs.top
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 49008
+  password: 0f3abc1b-5443-4edd-a012-886bf1a43898
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 58"
-  server: 111.45.22.170
+  server: 36.139.153.90
   type: ssr
   country: "\U0001F1E9\U0001F1EA DE"
   port: 2401
@@ -692,6 +699,17 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 59"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1E9\U0001F1EA DE"
+  port: 2401
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 60"
   server: 36.139.153.103
   type: ssr
   country: "\U0001F1E9\U0001F1EA DE"
@@ -702,19 +720,8 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 60"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1E9\U0001F1EA DE"
-  port: 2403
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 61"
-  server: 36.138.255.242
+  server: 111.45.22.170
   type: ssr
   country: "\U0001F1E9\U0001F1EA DE"
   port: 2402
@@ -725,10 +732,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 62"
-  server: 111.45.22.170
+  server: 36.138.255.242
   type: ssr
   country: "\U0001F1E9\U0001F1EA DE"
-  port: 2402
+  port: 2401
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -747,7 +754,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 64"
-  server: 36.138.255.242
+  server: 36.138.255.223
   type: ssr
   country: "\U0001F1E9\U0001F1EA DE"
   port: 2401
@@ -758,7 +765,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 65"
-  server: 111.45.22.170
+  server: 36.139.153.90
   type: ssr
   country: "\U0001F1E9\U0001F1EA DE"
   port: 2403
@@ -769,7 +776,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 66"
-  server: 36.139.153.103
+  server: 36.138.255.242
   type: ssr
   country: "\U0001F1E9\U0001F1EA DE"
   port: 2403
@@ -780,41 +787,48 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 67"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24008
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 68"
   server: 36.139.153.103
   type: ssr
   country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1604
+  port: 1602
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1EB\U0001F1F7 FR 68"
+  server: 13.38.24.83
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 443
+  password: xxoo
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 69"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1603
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1EB\U0001F1F7 FR 69"
-  server: 35.180.122.151
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7 FR"
-  port: 443
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 70"
-  server: 13.38.55.14
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7 FR"
-  port: 443
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 70"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1700
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 71"
-  server: 111.45.22.170
+  server: 36.139.153.90
   type: ssr
   country: "\U0001F1EC\U0001F1E7 GB"
   port: 1602
@@ -825,7 +839,29 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 72"
-  server: 36.138.255.242
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1700
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 73"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1602
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 74"
+  server: 36.139.153.90
   type: ssr
   country: "\U0001F1EC\U0001F1E7 GB"
   port: 1601
@@ -835,44 +871,22 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 73"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1700
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 74"
+- name: "\U0001F1E8\U0001F1F3 CN 75"
   server: 111.45.22.170
   type: ssr
   country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1604
+  port: 1602
   password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 75"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1603
-  password: di15PV
-  cipher: rc4-md5
+  cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 76"
-  server: 36.139.153.90
+  server: 36.139.153.103
   type: ssr
   country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1606
+  port: 1603
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -880,28 +894,6 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 77"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1604
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 78"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1603
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 79"
   server: 36.138.255.223
   type: ssr
   country: "\U0001F1EC\U0001F1E7 GB"
@@ -912,8 +904,30 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 80"
+- name: "\U0001F1E8\U0001F1F3 CN 78"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1605
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 79"
   server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1603
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 80"
+  server: 36.138.255.242
   type: ssr
   country: "\U0001F1EC\U0001F1E7 GB"
   port: 1606
@@ -927,7 +941,7 @@ proxies:
   server: 36.138.255.242
   type: ssr
   country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1606
+  port: 1603
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -935,17 +949,21 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 82"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24002
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 83"
-  server: 36.138.255.242
+  server: 111.45.22.170
   type: ssr
   country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1603
+  port: 1605
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 83"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1604
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -953,10 +971,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 84"
-  server: 36.139.153.90
+  server: 111.45.22.170
   type: ssr
   country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1602
+  port: 1601
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -964,32 +982,32 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 85"
-  server: liaoningddns.xyz
+  server: 36.139.153.90
   type: ssr
   country: "\U0001F1EC\U0001F1E7 GB"
-  port: 11501
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 86"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1602
+  port: 1605
   password: di15PV
-  cipher: aes-256-cfb
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 86"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1606
+  password: di15PV
+  cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 87"
-  server: 36.139.153.103
+  server: 36.138.255.242
   type: ssr
   country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1603
+  port: 1700
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -1008,40 +1026,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 89"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1700
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 90"
   server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1606
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 91"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1700
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 92"
-  server: 36.139.153.90
   type: ssr
   country: "\U0001F1EC\U0001F1E7 GB"
   port: 1601
@@ -1051,80 +1036,18 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 93"
-  server: 36.138.255.242
+- name: "\U0001F1E8\U0001F1F3 CN 90"
+  server: liaoningddns.xyz
   type: ssr
   country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1604
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
+  port: 11501
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 94"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1603
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 95"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1602
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 96"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1604
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 97"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1602
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 98"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1700
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 99"
-  server: IEPL02.mzthcj.cn
-  type: ss
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 21650
-  password: 6b4e840d-d3b6-4157-a4ae-b9cdaf84799a
-  cipher: aes-128-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 100"
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 91"
   server: 36.139.153.103
   type: ssr
   country: "\U0001F1EC\U0001F1E7 GB"
@@ -1135,40 +1058,178 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 101"
+- name: "\U0001F1E8\U0001F1F3 CN 92"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1605
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 93"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1601
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 94"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1604
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 95"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1606
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 96"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1603
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 97"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1605
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 98"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1602
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 99"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1604
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 100"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1700
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1EC\U0001F1E7 GB 101"
+  server: 35.176.6.24
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 102"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1606
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1EC\U0001F1E7 GB 103"
+  server: 13.40.126.229
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 104"
+  server: 3.8.216.52
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 105"
+  server: 13.40.154.20
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 106"
+  server: IEPL02.mzthcj.cn
+  type: ss
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 21650
+  password: 6b4e840d-d3b6-4157-a4ae-b9cdaf84799a
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 107"
   server: 36.139.153.90
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2107
+  port: 2105
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 102"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2104
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 103"
+- name: "\U0001F1E8\U0001F1F3 CN 108"
   server: 36.139.153.103
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2108
+  port: 2105
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 104"
+- name: "\U0001F1E8\U0001F1F3 CN 109"
   server: 36.139.153.103
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -1179,66 +1240,11 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 105"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2106
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 106"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1605
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 107"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2106
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 108"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1605
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 109"
+- name: "\U0001F1E8\U0001F1F3 CN 110"
   server: 111.45.22.170
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2107
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 110"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2110
+  port: 2105
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -1246,23 +1252,23 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 111"
-  server: 111.45.22.170
+  server: 36.139.153.103
   type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1605
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2106
   password: di15PV
-  cipher: rc4-md5
+  cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 112"
-  server: 36.139.153.103
+  server: 36.138.255.223
   type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1605
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2106
   password: di15PV
-  cipher: rc4-md5
+  cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
@@ -1271,7 +1277,7 @@ proxies:
   server: 111.45.22.170
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2103
+  port: 2109
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -1279,32 +1285,28 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 114"
-  server: 36.138.255.242
+  server: 36.138.255.223
   type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 1605
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2109
   password: di15PV
-  cipher: rc4-md5
+  cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 115"
-  server: 36.138.255.242
-  type: ssr
+  server: 180.101.193.226
+  type: ss
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2111
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+  port: 10068
+  password: RsDk3peCSuo76B68
+  cipher: aes-256-cfb
 - name: "\U0001F1E8\U0001F1F3 CN 116"
-  server: 111.45.22.170
+  server: 36.139.153.103
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2101
+  port: 2109
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -1315,7 +1317,7 @@ proxies:
   server: 36.139.153.90
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2105
+  port: 2101
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -1326,7 +1328,7 @@ proxies:
   server: 36.138.255.242
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2108
+  port: 2105
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -1334,10 +1336,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 119"
-  server: 36.139.153.90
+  server: 36.138.255.223
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2106
+  port: 2105
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -1345,10 +1347,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 120"
-  server: 36.139.153.90
+  server: 36.138.255.223
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2109
+  port: 2101
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -1356,17 +1358,21 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 121"
-  server: 180.101.193.226
-  type: ss
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 10068
-  password: RsDk3peCSuo76B68
-  cipher: aes-256-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 122"
-  server: 111.45.22.170
+  server: 36.138.255.242
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2102
+  port: 2101
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 122"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2109
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -1377,9 +1383,9 @@ proxies:
   server: 111.45.22.170
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2112
+  port: 2106
   password: di15PV
-  cipher: chacha20-ietf
+  cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
@@ -1388,7 +1394,7 @@ proxies:
   server: 36.138.255.242
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2110
+  port: 2109
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -1399,7 +1405,7 @@ proxies:
   server: 36.138.255.242
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2103
+  port: 2106
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -1407,12 +1413,12 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 126"
-  server: 36.138.255.223
+  server: 111.45.22.170
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2111
+  port: 2101
   password: di15PV
-  cipher: rc4-md5
+  cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
@@ -1421,7 +1427,7 @@ proxies:
   server: 36.139.153.90
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2101
+  port: 2106
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -1429,465 +1435,6 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 128"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2104
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 129"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2105
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 130"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2112
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 131"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2108
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 132"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2109
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 133"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2111
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 134"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2106
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 135"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2103
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 136"
-  server: cm03.miruvip.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 1660
-  password: Miru
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 12554:8ADgrg
-  obfs: plain
-  obfs-param: fd83a12554.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 137"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2102
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 138"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2110
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 139"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2111
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 140"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2104
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 141"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2109
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 142"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2103
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 143"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2107
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 144"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2103
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 145"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2107
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 146"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2101
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 147"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2106
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 148"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2104
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 149"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2112
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 150"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2102
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 151"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2105
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 152"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2104
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 153"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2109
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 154"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2105
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 155"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2111
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 156"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2108
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 157"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2102
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 158"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2112
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 159"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2105
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 160"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2110
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 161"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2107
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 162"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2101
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 163"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2102
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1EC\U0001F1E7 GB 164"
-  server: 13.40.154.20
-  type: trojan
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 443
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 165"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2108
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 166"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2109
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 167"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2110
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 168"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2112
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 169"
-  server: liaoningddns.xyz
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 11421
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 170"
   server: liaoningddns.xyz
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -1898,15 +1445,7 @@ proxies:
   protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
   obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 171"
-  server: xi.kanao.xyz
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 58820
-  password: d9db7cd4-8ad4-4f90-972b-512e9d527d54
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 172"
+- name: "\U0001F1E8\U0001F1F3 CN 129"
   server: xi.kanao.xyz
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -1914,121 +1453,479 @@ proxies:
   password: d9db7cd4-8ad4-4f90-972b-512e9d527d54
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 173"
+- name: "\U0001F1E8\U0001F1F3 CN 130"
   server: 111.45.22.170
   type: ssr
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 2701
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2111
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 131"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2108
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 174"
+- name: "\U0001F1E8\U0001F1F3 CN 132"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2107
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 133"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2110
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 134"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2112
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 135"
+  server: dgcm.pdjs.top
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 49000
+  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 136"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2111
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 137"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2108
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 138"
   server: 36.138.255.242
   type: ssr
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 2701
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2112
   password: di15PV
-  cipher: aes-256-cfb
+  cipher: chacha20-ietf
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 175"
+- name: "\U0001F1E8\U0001F1F3 CN 139"
   server: 36.139.153.90
   type: ssr
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 2701
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2111
   password: di15PV
-  cipher: aes-256-cfb
+  cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 176"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 2702
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 177"
+- name: "\U0001F1E8\U0001F1F3 CN 140"
   server: 36.139.153.103
   type: ssr
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 2701
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2111
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 141"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2107
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 178"
-  server: IEPL01.mzthcj.cn
-  type: ss
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 20011
-  password: 6b4e840d-d3b6-4157-a4ae-b9cdaf84799a
-  cipher: aes-128-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 179"
+- name: "\U0001F1E8\U0001F1F3 CN 142"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2110
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 143"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2110
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 144"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2104
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 145"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2110
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 146"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2107
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 147"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2110
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 148"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2103
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 149"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2112
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 150"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2103
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 151"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2104
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 152"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2108
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 153"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2104
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 154"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2103
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 155"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2107
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 156"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2103
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 157"
+  server: xi.kanao.xyz
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 58820
+  password: d9db7cd4-8ad4-4f90-972b-512e9d527d54
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 158"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2102
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 159"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2104
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 160"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2102
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 161"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2108
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 162"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2112
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 163"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2103
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 164"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2108
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 165"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2107
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 166"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2111
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 167"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2102
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 168"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2112
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 169"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2104
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 170"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2102
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 171"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 2102
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 172"
   server: dgcm.pdjs.top
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
   port: 49001
-  password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e
+  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 180"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 2702
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 181"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 2701
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 182"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 2702
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 183"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 2702
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 184"
+- name: "\U0001F1EE\U0001F1EA IE 173"
+  server: 34.248.69.233
+  type: trojan
+  country: "\U0001F1EE\U0001F1EA IE"
+  port: 443
+  password: xxoo
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 174"
   server: dgcm.pdjs.top
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -2036,11 +1933,117 @@ proxies:
   password: 0f3abc1b-5443-4edd-a012-886bf1a43898
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 185"
+- name: "\U0001F1E8\U0001F1F3 CN 175"
+  server: IEPL01.mzthcj.cn
+  type: ss
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 20011
+  password: 6b4e840d-d3b6-4157-a4ae-b9cdaf84799a
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 176"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 2602
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 177"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 2601
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 178"
   server: 36.138.255.242
   type: ssr
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 2702
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 2602
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 179"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 2602
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 180"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 2603
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 181"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 2602
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 182"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 2604
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 183"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 2603
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 184"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 2604
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 185"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 2602
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -2051,7 +2054,7 @@ proxies:
   server: 36.138.255.223
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2602
+  port: 2604
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -2069,22 +2072,19 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 188"
+- name: "\U0001F1EE\U0001F1E9 ID 188"
+  server: 41.216.177.41
+  type: trojan
+  country: "\U0001F1EE\U0001F1E9 ID"
+  port: 443
+  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 189"
   server: 111.45.22.170
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
   port: 2604
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 189"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2602
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -2103,10 +2103,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 191"
-  server: 111.45.22.170
+  server: 36.138.255.223
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2605
+  port: 2601
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -2114,32 +2114,32 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 192"
-  server: 36.138.255.242
+  server: 36.139.153.103
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
-  port: 1097
+  port: 2601
   password: di15PV
-  cipher: rc4-md5
+  cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 193"
-  server: 36.138.255.223
+  server: 111.45.22.170
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
-  port: 1097
+  port: 2601
   password: di15PV
-  cipher: rc4-md5
+  cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 194"
-  server: 36.139.153.103
+  server: 36.139.153.90
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2605
+  port: 2603
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
@@ -2147,7 +2147,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 195"
-  server: 36.139.153.90
+  server: 36.138.255.242
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
   port: 2601
@@ -2161,80 +2161,77 @@ proxies:
   server: 36.139.153.103
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2602
+  port: 2603
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 197"
-  server: 36.139.153.90
-  type: ssr
+- name: "\U0001F1EF\U0001F1F5 JP 197"
+  server: 18.179.205.215
+  type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
-  port: 1097
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 198"
+  server: dgcm.pdjs.top
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 49006
+  password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 199"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1EE\U0001F1F3 IN"
+  port: 2702
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 200"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2301
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 198"
-  server: 36.138.255.242
+- name: "\U0001F1E8\U0001F1F3 CN 201"
+  server: 36.138.255.223
   type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2605
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2303
   password: di15PV
-  cipher: aes-256-cfb
+  cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 HK 199"
-  server: nf.755657.xyz
+- name: "\U0001F1E8\U0001F1F3 CN 202"
+  server: dgcm.pdjs.top
   type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 2083
-  password: 11b8206c-8ae2-4ab3-a92c-208cdb8cc73d
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 49007
+  password: 0f3abc1b-5443-4edd-a012-886bf1a43898
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 200"
+- name: "\U0001F1E8\U0001F1F3 CN 203"
   server: 36.139.153.90
   type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2605
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2301
   password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1EE\U0001F1E9 ID 201"
-  server: 41.216.177.41
-  type: trojan
-  country: "\U0001F1EE\U0001F1E9 ID"
-  port: 443
-  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 202"
-  server: cmrelay01.newcome.xyz
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 3700
-  password: jFa4F1
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 80441:YsBCJt
-  obfs: plain
-  obfs-param: YjdhODk4MDQ0MS5taWNyb3NvZnQuY29t
-- name: "\U0001F1E8\U0001F1F3 CN 203"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2603
-  password: di15PV
-  cipher: aes-256-cfb
+  cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
@@ -2242,10 +2239,10 @@ proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 204"
   server: 36.139.153.103
   type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2604
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2302
   password: di15PV
-  cipher: aes-256-cfb
+  cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
@@ -2253,10 +2250,10 @@ proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 205"
   server: 36.139.153.103
   type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2601
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2301
   password: di15PV
-  cipher: aes-256-cfb
+  cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
@@ -2264,21 +2261,21 @@ proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 206"
   server: 111.45.22.170
   type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2602
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2303
   password: di15PV
-  cipher: aes-256-cfb
+  cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 207"
-  server: 36.138.255.242
+  server: 36.138.255.223
   type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2604
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2301
   password: di15PV
-  cipher: aes-256-cfb
+  cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
@@ -2286,19 +2283,19 @@ proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 208"
   server: 36.139.153.103
   type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 1097
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2507
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
+  obfs: plain
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 209"
-  server: 111.45.22.170
+  server: 36.138.255.242
   type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 1097
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2301
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -2306,58 +2303,248 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 210"
-  server: 36.138.255.223
+  server: 36.139.153.90
   type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2604
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2302
   password: di15PV
-  cipher: aes-256-cfb
+  cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 211"
-  server: 36.139.153.90
+  server: 36.139.153.103
   type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2603
+  country: "\U0001F1EE\U0001F1F3 IN"
+  port: 2701
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1EF\U0001F1F5 JP 212"
-  server: jgwdj3.gaox.ml
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 213"
-  server: 36.138.255.242
+- name: "\U0001F1E8\U0001F1F3 CN 212"
+  server: 36.138.255.223
   type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2603
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2302
   password: di15PV
-  cipher: aes-256-cfb
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 213"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2302
+  password: di15PV
+  cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 214"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2303
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 215"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2302
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 216"
   server: 36.138.255.223
   type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2601
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2507
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 217"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1EE\U0001F1F3 IN"
+  port: 2701
   password: di15PV
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 215"
+- name: "\U0001F1E8\U0001F1F3 CN 218"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2507
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 219"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2507
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 220"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2507
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 221"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2303
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 222"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2303
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 223"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2506
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 224"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1F5\U0001F1ED PH"
+  port: 1105
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 225"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2506
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 226"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2506
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 227"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2506
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 228"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1F5\U0001F1ED PH"
+  port: 1105
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 229"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1F5\U0001F1ED PH"
+  port: 1105
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 230"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 2506
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 231"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1F5\U0001F1ED PH"
+  port: 1105
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 232"
   server: 36.138.255.223
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -2368,399 +2555,7 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 216"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2603
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 217"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 49006
-  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 218"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 2602
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 219"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2506
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 220"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2506
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 221"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2507
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 222"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2506
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 223"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2303
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 224"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2303
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 225"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2507
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 226"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2507
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1EF\U0001F1F5 JP 227"
-  server: 99jp.tfzhc.top
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 44311
-  password: a48338e4-9585-470a-ad09-7600a05b2c5e
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 228"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2301
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 229"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2302
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 230"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2302
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 231"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2302
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 232"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2302
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 233"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2507
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 234"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 49007
-  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 235"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2303
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 236"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2301
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 237"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2303
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 238"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2506
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 239"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2303
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 240"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2506
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 241"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2507
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 242"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2301
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 243"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2302
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 244"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2301
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1F0\U0001F1F7 KR 245"
-  server: kr1.api-aws.com
-  type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 443
-  password: ec129ab2-3c89-4e25-8b97-aee479ac06f1
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 246"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 2301
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 247"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1F5\U0001F1ED PH"
-  port: 1105
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 248"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1F5\U0001F1ED PH"
-  port: 1105
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 249"
-  server: xi.kanao.xyz
-  type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 58810
-  password: d9db7cd4-8ad4-4f90-972b-512e9d527d54
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 250"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1F5\U0001F1ED PH"
-  port: 1105
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 251"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1F5\U0001F1ED PH"
-  port: 1105
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 252"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1F5\U0001F1ED PH"
-  port: 1105
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 253"
   server: da.kanao.xyz
   type: trojan
   country: "\U0001F1F7\U0001F1F4 RO"
@@ -2768,25 +2563,62 @@ proxies:
   password: d9db7cd4-8ad4-4f90-972b-512e9d527d54
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 254"
-  server: IEPL01.mzthcj.cn
-  type: ss
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 20025
-  password: 6b4e840d-d3b6-4157-a4ae-b9cdaf84799a
-  cipher: aes-128-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 255"
-  server: 36.139.153.90
+- name: "\U0001F1E8\U0001F1F3 CN 234"
+  server: 36.138.255.242
   type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2002
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 1097
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
-  obfs: plain
+  obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 256"
+- name: "\U0001F1E8\U0001F1F3 CN 235"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 1097
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 236"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 1097
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 237"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 2605
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 238"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 2605
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 239"
   server: xi.kanao.xyz
   type: trojan
   country: "\U0001F1F7\U0001F1F4 RO"
@@ -2794,7 +2626,77 @@ proxies:
   password: d9db7cd4-8ad4-4f90-972b-512e9d527d54
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 257"
+- name: "\U0001F1E8\U0001F1F3 CN 240"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 1097
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 241"
+  server: xi.kanao.xyz
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 58810
+  password: d9db7cd4-8ad4-4f90-972b-512e9d527d54
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 242"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1F5\U0001F1ED PH"
+  port: 1105
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 243"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 2605
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 244"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 2605
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 245"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 1097
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 246"
+  server: IEPL01.mzthcj.cn
+  type: ss
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 20025
+  password: 6b4e840d-d3b6-4157-a4ae-b9cdaf84799a
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 247"
   server: 36.139.153.103
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
@@ -2805,7 +2707,51 @@ proxies:
   protocol-param: 172181:895013
   obfs: plain
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 258"
+- name: "\U0001F1E8\U0001F1F3 CN 248"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 2203
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 249"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 2201
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 250"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 2003
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 251"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 2203
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 252"
   server: 111.45.22.170
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
@@ -2816,7 +2762,51 @@ proxies:
   protocol-param: 172181:895013
   obfs: plain
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 259"
+- name: "\U0001F1E8\U0001F1F3 CN 253"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 2201
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 254"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1F7\U0001F1FA RU"
+  port: 1104
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 255"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 2203
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 256"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1F7\U0001F1FA RU"
+  port: 1104
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 257"
   server: 36.139.153.90
   type: ssr
   country: "\U0001F1F7\U0001F1FA RU"
@@ -2827,18 +2817,7 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 260"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2002
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 261"
+- name: "\U0001F1E8\U0001F1F3 CN 258"
   server: 36.138.255.223
   type: ssr
   country: "\U0001F1F7\U0001F1FA RU"
@@ -2849,7 +2828,7 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 262"
+- name: "\U0001F1E8\U0001F1F3 CN 259"
   server: cmjm.julvab.com
   type: ssr
   country: "\U0001F1F7\U0001F1FA RU"
@@ -2860,18 +2839,7 @@ proxies:
   protocol-param: 10649:4miZdg
   obfs: http_simple
   obfs-param: 9c69010649.download.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 263"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2002
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 264"
+- name: "\U0001F1E8\U0001F1F3 CN 260"
   server: 111.45.22.170
   type: ssr
   country: "\U0001F1F7\U0001F1FA RU"
@@ -2882,60 +2850,107 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 265"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1F1\U0001F1FA LU"
-  port: 49010
-  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 266"
-  server: 36.138.255.242
+- name: "\U0001F1E8\U0001F1F3 CN 261"
+  server: 111.45.22.170
   type: ssr
-  country: "\U0001F1F7\U0001F1FA RU"
-  port: 1104
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 2203
   password: di15PV
-  cipher: aes-256-cfb
+  cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 267"
-  server: guangzhouddns.xyz
+- name: "\U0001F1E8\U0001F1F3 CN 262"
+  server: xmsj-vip1.omo-m0m.com
+  type: trojan
+  country: "\U0001F1F7\U0001F1FA RU"
+  port: 55004
+  password: e1b932a7-b178-3e77-b1b8-0bb0ae03a6c1
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 263"
+  server: 36.138.255.223
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
-  port: 11807
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
+  port: 2002
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 264"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 2002
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 265"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 2003
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 266"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 2003
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 267"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 2201
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 268"
   server: 36.139.153.103
   type: ssr
-  country: "\U0001F1F7\U0001F1FA RU"
-  port: 1104
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 2201
   password: di15PV
-  cipher: aes-256-cfb
+  cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 TW 269"
-  server: 99tw02.tfzhc.top
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 443
-  password: a48338e4-9585-470a-ad09-7600a05b2c5e
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 270"
-  server: guangzhouddns.xyz
+- name: "\U0001F1E8\U0001F1F3 CN 269"
+  server: 36.139.153.90
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
-  port: 11851
+  port: 2201
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 270"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 11429
   password: Fhbe0z
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
@@ -2946,7 +2961,7 @@ proxies:
   server: liaoningddns.xyz
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
-  port: 11429
+  port: 11422
   password: Fhbe0z
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
@@ -2961,210 +2976,42 @@ proxies:
   password: a48338e4-9585-470a-ad09-7600a05b2c5e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 273"
-  server: 150.230.249.42
+- name: "\U0001F1E8\U0001F1F3 CN 273"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1EE\U0001F1F3 IN"
+  port: 2702
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 274"
+  server: dgcm.pdjs.top
+  type: trojan
+  country: "\U0001F1F1\U0001F1FA LU"
+  port: 49010
+  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 275"
+  server: kr1.api-aws.com
   type: trojan
   country: "\U0001F1F0\U0001F1F7 KR"
   port: 443
-  password: 0Y9gOHSdRt
+  password: d30afdba-ca55-463a-b26e-27080698a2a6
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 274"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2003
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 275"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2003
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 276"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2003
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 277"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2201
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 278"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2203
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 279"
-  server: liaoningddns.xyz
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 11422
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 280"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2201
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 281"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2201
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 282"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2003
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 283"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2201
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 284"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2203
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 285"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2203
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 286"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2201
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 287"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2003
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 288"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2203
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1F8\U0001F1EC SG 289"
-  server: awssg1.yiyuanyun.xyz
+- name: "\U0001F1E8\U0001F1F3 TW 276"
+  server: 99tw02.tfzhc.top
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
-  port: 39990
-  password: 57dec1b6-08b4-492a-a535-a17968ae9c10
+  port: 443
+  password: a48338e4-9585-470a-ad09-7600a05b2c5e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 290"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 2203
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 291"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1150
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1F8\U0001F1EC SG 292"
+- name: "\U0001F1F8\U0001F1EC SG 277"
   server: 911hk01.tfzhc.top
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -3172,7 +3019,81 @@ proxies:
   password: a48338e4-9585-470a-ad09-7600a05b2c5e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 293"
+- name: "\U0001F1F8\U0001F1EC SG 278"
+  server: awssg1.yiyuanyun.xyz
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 39990
+  password: 57dec1b6-08b4-492a-a535-a17968ae9c10
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 279"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1156
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 280"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1151
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 281"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1157
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 282"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1157
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 283"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1158
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 284"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1156
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 285"
   server: 36.139.153.90
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -3183,30 +3104,8 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 294"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1155
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 295"
+- name: "\U0001F1E8\U0001F1F3 CN 286"
   server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1158
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 296"
-  server: 36.139.153.103
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
   port: 874
@@ -3216,7 +3115,40 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 297"
+- name: "\U0001F1E8\U0001F1F3 CN 287"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1159
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 288"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 874
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 289"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1154
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 290"
   server: 36.139.153.103
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -3227,8 +3159,19 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 298"
-  server: 36.138.255.223
+- name: "\U0001F1E8\U0001F1F3 CN 291"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 874
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 292"
+  server: 36.138.255.242
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
   port: 1151
@@ -3238,18 +3181,29 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 299"
-  server: 36.138.255.242
+- name: "\U0001F1E8\U0001F1F3 CN 293"
+  server: 36.138.255.223
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1153
+  port: 1154
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 300"
+- name: "\U0001F1E8\U0001F1F3 CN 294"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1157
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 295"
   server: 36.139.153.90
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -3260,51 +3214,40 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 301"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 874
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 302"
+- name: "\U0001F1E8\U0001F1F3 CN 296"
   server: 36.138.255.223
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1156
+  port: 1152
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 303"
-  server: 36.139.153.103
+- name: "\U0001F1E8\U0001F1F3 CN 297"
+  server: 111.45.22.170
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1158
+  port: 1154
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 304"
+- name: "\U0001F1E8\U0001F1F3 CN 298"
   server: 36.138.255.242
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1151
+  port: 1152
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 305"
+- name: "\U0001F1E8\U0001F1F3 CN 299"
   server: 36.138.255.242
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -3315,8 +3258,74 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 306"
+- name: "\U0001F1E8\U0001F1F3 CN 300"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1158
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 301"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1159
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 302"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1151
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 303"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1152
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 304"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 11423
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 305"
   server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1152
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 306"
+  server: 36.138.255.242
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
   port: 1159
@@ -3329,19 +3338,19 @@ proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 307"
   server: 36.139.153.103
   type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1150
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 2003
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
+  obfs: plain
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 308"
   server: 36.138.255.242
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1159
+  port: 1156
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -3352,7 +3361,7 @@ proxies:
   server: 111.45.22.170
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1152
+  port: 1156
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -3360,62 +3369,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 310"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1152
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 311"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 874
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 312"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1154
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 313"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1157
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 314"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1159
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 315"
-  server: 36.138.255.242
+  server: 111.45.22.170
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
   port: 1158
@@ -3425,40 +3379,62 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 311"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 2203
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 312"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 2002
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 313"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 2003
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 314"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 874
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 315"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 874
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 316"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1159
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 317"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1157
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 318"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1152
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 319"
   server: 36.139.153.90
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -3469,7 +3445,62 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 317"
+  server: 111.45.22.170
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1153
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 318"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1150
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 319"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1150
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 320"
+  server: 36.139.153.103
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1153
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 321"
+  server: 36.138.255.242
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1153
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 322"
   server: 36.138.255.223
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -3480,33 +3511,11 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 321"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1150
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 322"
-  server: 36.139.153.103
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1156
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 323"
-  server: 36.139.153.103
+  server: 111.45.22.170
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1154
+  port: 1155
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -3514,7 +3523,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 324"
-  server: 36.138.255.242
+  server: 36.138.255.223
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
   port: 1150
@@ -3525,10 +3534,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 325"
-  server: 36.138.255.223
+  server: 36.139.153.103
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 874
+  port: 1155
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -3539,17 +3548,6 @@ proxies:
   server: 36.139.153.90
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1153
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 327"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
   port: 1155
   password: di15PV
   cipher: rc4-md5
@@ -3557,11 +3555,22 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 328"
-  server: 111.45.22.170
+- name: "\U0001F1E8\U0001F1F3 CN 327"
+  server: 36.138.255.223
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1156
+  port: 1153
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 328"
+  server: 36.139.153.90
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1153
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -3569,10 +3578,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 329"
-  server: 36.139.153.103
+  server: 36.138.255.223
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1151
+  port: 1159
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -3580,10 +3589,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 330"
-  server: 111.45.22.170
+  server: 36.138.255.242
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1157
+  port: 1155
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -3594,7 +3603,7 @@ proxies:
   server: 111.45.22.170
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1154
+  port: 1150
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -3602,10 +3611,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 332"
-  server: 111.45.22.170
+  server: 36.139.153.90
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 874
+  port: 1154
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -3613,10 +3622,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 333"
-  server: 36.139.153.90
+  server: 36.138.255.242
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1155
+  port: 1150
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -3627,7 +3636,7 @@ proxies:
   server: 36.138.255.242
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1155
+  port: 1158
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -3635,17 +3644,6 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 335"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1159
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 336"
   server: 36.138.255.242
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -3656,28 +3654,33 @@ proxies:
   protocol-param: 172181:895013
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
+- name: "\U0001F1E8\U0001F1F3 CN 336"
+  server: 36.138.255.223
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1151
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 172181:895013
+  obfs: tls1.2_ticket_auth
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 337"
-  server: 111.45.22.170
-  type: ssr
+  server: dgcm.pdjs.top
+  type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1153
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+  port: 49002
+  password: 0f3abc1b-5443-4edd-a012-886bf1a43898
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 338"
-  server: 36.139.153.103
-  type: ssr
+  server: dgcm.pdjs.top
+  type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 1153
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+  port: 49004
+  password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 339"
   server: 36.139.153.90
   type: ssr
@@ -3690,104 +3693,30 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ZEM1dFpTOTJjRzVvWVhR
 - name: "\U0001F1E8\U0001F1F3 CN 340"
-  server: 36.139.153.90
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1152
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 341"
-  server: liaoningddns.xyz
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 11423
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 342"
-  server: 111.45.22.170
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1150
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 343"
-  server: 36.138.255.242
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1156
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 344"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1158
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 345"
-  server: 36.138.255.223
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1153
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 172181:895013
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 346"
-  server: dgcm.pdjs.top
+  server: xmsj-vip1.omo-m0m.com
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 49002
-  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
+  port: 55003
+  password: e1b932a7-b178-3e77-b1b8-0bb0ae03a6c1
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 347"
+- name: "\U0001F1FA\U0001F1F8 US 341"
+  server: 54.70.120.130
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 342"
   server: dgcm.pdjs.top
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
   port: 49005
-  password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e
+  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 348"
-  server: s3.hass.win
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 349"
-  server: 138.124.183.222
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 350"
+- name: "\U0001F1FA\U0001F1F8 US 343"
   server: s1.hazz.win
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -3795,23 +3724,7 @@ proxies:
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 351"
-  server: 23.94.103.146
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: 8c836caa-3d53-4829-bcfb-cbe0aa453a57
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 352"
-  server: scus1.ddns-pop.cyou
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 24567
-  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 353"
+- name: "\U0001F1E8\U0001F1F3 CN 344"
   server: dgcm.pdjs.top
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -3819,15 +3732,7 @@ proxies:
   password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 354"
-  server: 194.156.99.39
-  type: trojan
-  country: "\U0001F3C1 ZZ"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 355"
+- name: "\U0001F1E8\U0001F1F3 CN 345"
   server: liaoningddns.xyz
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -3838,14 +3743,6 @@ proxies:
   protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
   obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 356"
-  server: dgcm.pdjs.top
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 49004
-  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
-  skip-cert-verify: true
-  udp: true
 proxy-groups:
 - name: automatic
   type: url-test
@@ -3858,11 +3755,11 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 6"
   - "\U0001F1E8\U0001F1F3 CN 7"
   - "\U0001F1E8\U0001F1F3 CN 8"
-  - "\U0001F1E8\U0001F1E6 CA 9"
+  - "\U0001F1E8\U0001F1F3 CN 9"
   - "\U0001F1E8\U0001F1F3 CN 10"
   - "\U0001F1E8\U0001F1F3 CN 11"
   - "\U0001F1E8\U0001F1F3 CN 12"
-  - "\U0001F1E8\U0001F1F3 CN 13"
+  - "\U0001F1E8\U0001F1E6 CA 13"
   - "\U0001F1E8\U0001F1F3 CN 14"
   - "\U0001F1E8\U0001F1F3 CN 15"
   - "\U0001F1E8\U0001F1F3 CN 16"
@@ -3917,9 +3814,9 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 65"
   - "\U0001F1E8\U0001F1F3 CN 66"
   - "\U0001F1E8\U0001F1F3 CN 67"
-  - "\U0001F1E8\U0001F1F3 CN 68"
-  - "\U0001F1EB\U0001F1F7 FR 69"
-  - "\U0001F1EB\U0001F1F7 FR 70"
+  - "\U0001F1EB\U0001F1F7 FR 68"
+  - "\U0001F1E8\U0001F1F3 CN 69"
+  - "\U0001F1E8\U0001F1F3 CN 70"
   - "\U0001F1E8\U0001F1F3 CN 71"
   - "\U0001F1E8\U0001F1F3 CN 72"
   - "\U0001F1E8\U0001F1F3 CN 73"
@@ -3950,11 +3847,11 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 98"
   - "\U0001F1E8\U0001F1F3 CN 99"
   - "\U0001F1E8\U0001F1F3 CN 100"
-  - "\U0001F1E8\U0001F1F3 CN 101"
+  - "\U0001F1EC\U0001F1E7 GB 101"
   - "\U0001F1E8\U0001F1F3 CN 102"
-  - "\U0001F1E8\U0001F1F3 CN 103"
-  - "\U0001F1E8\U0001F1F3 CN 104"
-  - "\U0001F1E8\U0001F1F3 CN 105"
+  - "\U0001F1EC\U0001F1E7 GB 103"
+  - "\U0001F1EC\U0001F1E7 GB 104"
+  - "\U0001F1EC\U0001F1E7 GB 105"
   - "\U0001F1E8\U0001F1F3 CN 106"
   - "\U0001F1E8\U0001F1F3 CN 107"
   - "\U0001F1E8\U0001F1F3 CN 108"
@@ -4013,7 +3910,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 161"
   - "\U0001F1E8\U0001F1F3 CN 162"
   - "\U0001F1E8\U0001F1F3 CN 163"
-  - "\U0001F1EC\U0001F1E7 GB 164"
+  - "\U0001F1E8\U0001F1F3 CN 164"
   - "\U0001F1E8\U0001F1F3 CN 165"
   - "\U0001F1E8\U0001F1F3 CN 166"
   - "\U0001F1E8\U0001F1F3 CN 167"
@@ -4022,7 +3919,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 170"
   - "\U0001F1E8\U0001F1F3 CN 171"
   - "\U0001F1E8\U0001F1F3 CN 172"
-  - "\U0001F1E8\U0001F1F3 CN 173"
+  - "\U0001F1EE\U0001F1EA IE 173"
   - "\U0001F1E8\U0001F1F3 CN 174"
   - "\U0001F1E8\U0001F1F3 CN 175"
   - "\U0001F1E8\U0001F1F3 CN 176"
@@ -4037,7 +3934,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 185"
   - "\U0001F1E8\U0001F1F3 CN 186"
   - "\U0001F1E8\U0001F1F3 CN 187"
-  - "\U0001F1E8\U0001F1F3 CN 188"
+  - "\U0001F1EE\U0001F1E9 ID 188"
   - "\U0001F1E8\U0001F1F3 CN 189"
   - "\U0001F1E8\U0001F1F3 CN 190"
   - "\U0001F1E8\U0001F1F3 CN 191"
@@ -4046,11 +3943,11 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 194"
   - "\U0001F1E8\U0001F1F3 CN 195"
   - "\U0001F1E8\U0001F1F3 CN 196"
-  - "\U0001F1E8\U0001F1F3 CN 197"
+  - "\U0001F1EF\U0001F1F5 JP 197"
   - "\U0001F1E8\U0001F1F3 CN 198"
-  - "\U0001F1E8\U0001F1F3 HK 199"
+  - "\U0001F1E8\U0001F1F3 CN 199"
   - "\U0001F1E8\U0001F1F3 CN 200"
-  - "\U0001F1EE\U0001F1E9 ID 201"
+  - "\U0001F1E8\U0001F1F3 CN 201"
   - "\U0001F1E8\U0001F1F3 CN 202"
   - "\U0001F1E8\U0001F1F3 CN 203"
   - "\U0001F1E8\U0001F1F3 CN 204"
@@ -4061,7 +3958,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 209"
   - "\U0001F1E8\U0001F1F3 CN 210"
   - "\U0001F1E8\U0001F1F3 CN 211"
-  - "\U0001F1EF\U0001F1F5 JP 212"
+  - "\U0001F1E8\U0001F1F3 CN 212"
   - "\U0001F1E8\U0001F1F3 CN 213"
   - "\U0001F1E8\U0001F1F3 CN 214"
   - "\U0001F1E8\U0001F1F3 CN 215"
@@ -4076,7 +3973,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 224"
   - "\U0001F1E8\U0001F1F3 CN 225"
   - "\U0001F1E8\U0001F1F3 CN 226"
-  - "\U0001F1EF\U0001F1F5 JP 227"
+  - "\U0001F1E8\U0001F1F3 CN 227"
   - "\U0001F1E8\U0001F1F3 CN 228"
   - "\U0001F1E8\U0001F1F3 CN 229"
   - "\U0001F1E8\U0001F1F3 CN 230"
@@ -4094,7 +3991,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 242"
   - "\U0001F1E8\U0001F1F3 CN 243"
   - "\U0001F1E8\U0001F1F3 CN 244"
-  - "\U0001F1F0\U0001F1F7 KR 245"
+  - "\U0001F1E8\U0001F1F3 CN 245"
   - "\U0001F1E8\U0001F1F3 CN 246"
   - "\U0001F1E8\U0001F1F3 CN 247"
   - "\U0001F1E8\U0001F1F3 CN 248"
@@ -4118,16 +4015,16 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 266"
   - "\U0001F1E8\U0001F1F3 CN 267"
   - "\U0001F1E8\U0001F1F3 CN 268"
-  - "\U0001F1E8\U0001F1F3 TW 269"
+  - "\U0001F1E8\U0001F1F3 CN 269"
   - "\U0001F1E8\U0001F1F3 CN 270"
   - "\U0001F1E8\U0001F1F3 CN 271"
   - "\U0001F1E8\U0001F1F3 TW 272"
-  - "\U0001F1F0\U0001F1F7 KR 273"
+  - "\U0001F1E8\U0001F1F3 CN 273"
   - "\U0001F1E8\U0001F1F3 CN 274"
-  - "\U0001F1E8\U0001F1F3 CN 275"
-  - "\U0001F1E8\U0001F1F3 CN 276"
-  - "\U0001F1E8\U0001F1F3 CN 277"
-  - "\U0001F1E8\U0001F1F3 CN 278"
+  - "\U0001F1F0\U0001F1F7 KR 275"
+  - "\U0001F1E8\U0001F1F3 TW 276"
+  - "\U0001F1F8\U0001F1EC SG 277"
+  - "\U0001F1F8\U0001F1EC SG 278"
   - "\U0001F1E8\U0001F1F3 CN 279"
   - "\U0001F1E8\U0001F1F3 CN 280"
   - "\U0001F1E8\U0001F1F3 CN 281"
@@ -4138,10 +4035,10 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 286"
   - "\U0001F1E8\U0001F1F3 CN 287"
   - "\U0001F1E8\U0001F1F3 CN 288"
-  - "\U0001F1F8\U0001F1EC SG 289"
+  - "\U0001F1E8\U0001F1F3 CN 289"
   - "\U0001F1E8\U0001F1F3 CN 290"
   - "\U0001F1E8\U0001F1F3 CN 291"
-  - "\U0001F1F8\U0001F1EC SG 292"
+  - "\U0001F1E8\U0001F1F3 CN 292"
   - "\U0001F1E8\U0001F1F3 CN 293"
   - "\U0001F1E8\U0001F1F3 CN 294"
   - "\U0001F1E8\U0001F1F3 CN 295"
@@ -4190,22 +4087,11 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 338"
   - "\U0001F1E8\U0001F1F3 CN 339"
   - "\U0001F1E8\U0001F1F3 CN 340"
-  - "\U0001F1E8\U0001F1F3 CN 341"
+  - "\U0001F1FA\U0001F1F8 US 341"
   - "\U0001F1E8\U0001F1F3 CN 342"
-  - "\U0001F1E8\U0001F1F3 CN 343"
+  - "\U0001F1FA\U0001F1F8 US 343"
   - "\U0001F1E8\U0001F1F3 CN 344"
   - "\U0001F1E8\U0001F1F3 CN 345"
-  - "\U0001F1E8\U0001F1F3 CN 346"
-  - "\U0001F1E8\U0001F1F3 CN 347"
-  - "\U0001F1FA\U0001F1F8 US 348"
-  - "\U0001F1FA\U0001F1F8 US 349"
-  - "\U0001F1FA\U0001F1F8 US 350"
-  - "\U0001F1FA\U0001F1F8 US 351"
-  - "\U0001F1FA\U0001F1F8 US 352"
-  - "\U0001F1E8\U0001F1F3 CN 353"
-  - "\U0001F1E8\U0001F1F3 HK 354"
-  - "\U0001F1E8\U0001F1F3 CN 355"
-  - "\U0001F1E8\U0001F1F3 CN 356"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
@@ -4220,11 +4106,11 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 6"
   - "\U0001F1E8\U0001F1F3 CN 7"
   - "\U0001F1E8\U0001F1F3 CN 8"
-  - "\U0001F1E8\U0001F1E6 CA 9"
+  - "\U0001F1E8\U0001F1F3 CN 9"
   - "\U0001F1E8\U0001F1F3 CN 10"
   - "\U0001F1E8\U0001F1F3 CN 11"
   - "\U0001F1E8\U0001F1F3 CN 12"
-  - "\U0001F1E8\U0001F1F3 CN 13"
+  - "\U0001F1E8\U0001F1E6 CA 13"
   - "\U0001F1E8\U0001F1F3 CN 14"
   - "\U0001F1E8\U0001F1F3 CN 15"
   - "\U0001F1E8\U0001F1F3 CN 16"
@@ -4279,9 +4165,9 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 65"
   - "\U0001F1E8\U0001F1F3 CN 66"
   - "\U0001F1E8\U0001F1F3 CN 67"
-  - "\U0001F1E8\U0001F1F3 CN 68"
-  - "\U0001F1EB\U0001F1F7 FR 69"
-  - "\U0001F1EB\U0001F1F7 FR 70"
+  - "\U0001F1EB\U0001F1F7 FR 68"
+  - "\U0001F1E8\U0001F1F3 CN 69"
+  - "\U0001F1E8\U0001F1F3 CN 70"
   - "\U0001F1E8\U0001F1F3 CN 71"
   - "\U0001F1E8\U0001F1F3 CN 72"
   - "\U0001F1E8\U0001F1F3 CN 73"
@@ -4312,11 +4198,11 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 98"
   - "\U0001F1E8\U0001F1F3 CN 99"
   - "\U0001F1E8\U0001F1F3 CN 100"
-  - "\U0001F1E8\U0001F1F3 CN 101"
+  - "\U0001F1EC\U0001F1E7 GB 101"
   - "\U0001F1E8\U0001F1F3 CN 102"
-  - "\U0001F1E8\U0001F1F3 CN 103"
-  - "\U0001F1E8\U0001F1F3 CN 104"
-  - "\U0001F1E8\U0001F1F3 CN 105"
+  - "\U0001F1EC\U0001F1E7 GB 103"
+  - "\U0001F1EC\U0001F1E7 GB 104"
+  - "\U0001F1EC\U0001F1E7 GB 105"
   - "\U0001F1E8\U0001F1F3 CN 106"
   - "\U0001F1E8\U0001F1F3 CN 107"
   - "\U0001F1E8\U0001F1F3 CN 108"
@@ -4375,7 +4261,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 161"
   - "\U0001F1E8\U0001F1F3 CN 162"
   - "\U0001F1E8\U0001F1F3 CN 163"
-  - "\U0001F1EC\U0001F1E7 GB 164"
+  - "\U0001F1E8\U0001F1F3 CN 164"
   - "\U0001F1E8\U0001F1F3 CN 165"
   - "\U0001F1E8\U0001F1F3 CN 166"
   - "\U0001F1E8\U0001F1F3 CN 167"
@@ -4384,7 +4270,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 170"
   - "\U0001F1E8\U0001F1F3 CN 171"
   - "\U0001F1E8\U0001F1F3 CN 172"
-  - "\U0001F1E8\U0001F1F3 CN 173"
+  - "\U0001F1EE\U0001F1EA IE 173"
   - "\U0001F1E8\U0001F1F3 CN 174"
   - "\U0001F1E8\U0001F1F3 CN 175"
   - "\U0001F1E8\U0001F1F3 CN 176"
@@ -4399,7 +4285,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 185"
   - "\U0001F1E8\U0001F1F3 CN 186"
   - "\U0001F1E8\U0001F1F3 CN 187"
-  - "\U0001F1E8\U0001F1F3 CN 188"
+  - "\U0001F1EE\U0001F1E9 ID 188"
   - "\U0001F1E8\U0001F1F3 CN 189"
   - "\U0001F1E8\U0001F1F3 CN 190"
   - "\U0001F1E8\U0001F1F3 CN 191"
@@ -4408,11 +4294,11 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 194"
   - "\U0001F1E8\U0001F1F3 CN 195"
   - "\U0001F1E8\U0001F1F3 CN 196"
-  - "\U0001F1E8\U0001F1F3 CN 197"
+  - "\U0001F1EF\U0001F1F5 JP 197"
   - "\U0001F1E8\U0001F1F3 CN 198"
-  - "\U0001F1E8\U0001F1F3 HK 199"
+  - "\U0001F1E8\U0001F1F3 CN 199"
   - "\U0001F1E8\U0001F1F3 CN 200"
-  - "\U0001F1EE\U0001F1E9 ID 201"
+  - "\U0001F1E8\U0001F1F3 CN 201"
   - "\U0001F1E8\U0001F1F3 CN 202"
   - "\U0001F1E8\U0001F1F3 CN 203"
   - "\U0001F1E8\U0001F1F3 CN 204"
@@ -4423,7 +4309,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 209"
   - "\U0001F1E8\U0001F1F3 CN 210"
   - "\U0001F1E8\U0001F1F3 CN 211"
-  - "\U0001F1EF\U0001F1F5 JP 212"
+  - "\U0001F1E8\U0001F1F3 CN 212"
   - "\U0001F1E8\U0001F1F3 CN 213"
   - "\U0001F1E8\U0001F1F3 CN 214"
   - "\U0001F1E8\U0001F1F3 CN 215"
@@ -4438,7 +4324,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 224"
   - "\U0001F1E8\U0001F1F3 CN 225"
   - "\U0001F1E8\U0001F1F3 CN 226"
-  - "\U0001F1EF\U0001F1F5 JP 227"
+  - "\U0001F1E8\U0001F1F3 CN 227"
   - "\U0001F1E8\U0001F1F3 CN 228"
   - "\U0001F1E8\U0001F1F3 CN 229"
   - "\U0001F1E8\U0001F1F3 CN 230"
@@ -4456,7 +4342,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 242"
   - "\U0001F1E8\U0001F1F3 CN 243"
   - "\U0001F1E8\U0001F1F3 CN 244"
-  - "\U0001F1F0\U0001F1F7 KR 245"
+  - "\U0001F1E8\U0001F1F3 CN 245"
   - "\U0001F1E8\U0001F1F3 CN 246"
   - "\U0001F1E8\U0001F1F3 CN 247"
   - "\U0001F1E8\U0001F1F3 CN 248"
@@ -4480,16 +4366,16 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 266"
   - "\U0001F1E8\U0001F1F3 CN 267"
   - "\U0001F1E8\U0001F1F3 CN 268"
-  - "\U0001F1E8\U0001F1F3 TW 269"
+  - "\U0001F1E8\U0001F1F3 CN 269"
   - "\U0001F1E8\U0001F1F3 CN 270"
   - "\U0001F1E8\U0001F1F3 CN 271"
   - "\U0001F1E8\U0001F1F3 TW 272"
-  - "\U0001F1F0\U0001F1F7 KR 273"
+  - "\U0001F1E8\U0001F1F3 CN 273"
   - "\U0001F1E8\U0001F1F3 CN 274"
-  - "\U0001F1E8\U0001F1F3 CN 275"
-  - "\U0001F1E8\U0001F1F3 CN 276"
-  - "\U0001F1E8\U0001F1F3 CN 277"
-  - "\U0001F1E8\U0001F1F3 CN 278"
+  - "\U0001F1F0\U0001F1F7 KR 275"
+  - "\U0001F1E8\U0001F1F3 TW 276"
+  - "\U0001F1F8\U0001F1EC SG 277"
+  - "\U0001F1F8\U0001F1EC SG 278"
   - "\U0001F1E8\U0001F1F3 CN 279"
   - "\U0001F1E8\U0001F1F3 CN 280"
   - "\U0001F1E8\U0001F1F3 CN 281"
@@ -4500,10 +4386,10 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 286"
   - "\U0001F1E8\U0001F1F3 CN 287"
   - "\U0001F1E8\U0001F1F3 CN 288"
-  - "\U0001F1F8\U0001F1EC SG 289"
+  - "\U0001F1E8\U0001F1F3 CN 289"
   - "\U0001F1E8\U0001F1F3 CN 290"
   - "\U0001F1E8\U0001F1F3 CN 291"
-  - "\U0001F1F8\U0001F1EC SG 292"
+  - "\U0001F1E8\U0001F1F3 CN 292"
   - "\U0001F1E8\U0001F1F3 CN 293"
   - "\U0001F1E8\U0001F1F3 CN 294"
   - "\U0001F1E8\U0001F1F3 CN 295"
@@ -4552,22 +4438,11 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 338"
   - "\U0001F1E8\U0001F1F3 CN 339"
   - "\U0001F1E8\U0001F1F3 CN 340"
-  - "\U0001F1E8\U0001F1F3 CN 341"
+  - "\U0001F1FA\U0001F1F8 US 341"
   - "\U0001F1E8\U0001F1F3 CN 342"
-  - "\U0001F1E8\U0001F1F3 CN 343"
+  - "\U0001F1FA\U0001F1F8 US 343"
   - "\U0001F1E8\U0001F1F3 CN 344"
   - "\U0001F1E8\U0001F1F3 CN 345"
-  - "\U0001F1E8\U0001F1F3 CN 346"
-  - "\U0001F1E8\U0001F1F3 CN 347"
-  - "\U0001F1FA\U0001F1F8 US 348"
-  - "\U0001F1FA\U0001F1F8 US 349"
-  - "\U0001F1FA\U0001F1F8 US 350"
-  - "\U0001F1FA\U0001F1F8 US 351"
-  - "\U0001F1FA\U0001F1F8 US 352"
-  - "\U0001F1E8\U0001F1F3 CN 353"
-  - "\U0001F1E8\U0001F1F3 HK 354"
-  - "\U0001F1E8\U0001F1F3 CN 355"
-  - "\U0001F1E8\U0001F1F3 CN 356"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
