@@ -79,15 +79,23 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: "\U0001F1E6\U0001F1F7 AR 1"
-  server: agt-zf.jiashumao.net
+- name: "\U0001F1E8\U0001F1F3 CN 1"
+  server: traar1.bitznet.one
   type: trojan
   country: "\U0001F1E6\U0001F1F7 AR"
-  port: 24540
-  password: a20f9db9-4cf2-3652-adb2-9e39d31df821
+  port: 32015
+  password: e6867140-31cf-48ed-8633-121d8978480c
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 2"
+- name: "\U0001F1E8\U0001F1F3 CN 2"
+  server: trabr1.bitznet.one
+  type: trojan
+  country: "\U0001F1E7\U0001F1F7 BR"
+  port: 32016
+  password: e6867140-31cf-48ed-8633-121d8978480c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 3"
   server: 165.154.246.195
   type: trojan
   country: "\U0001F1E8\U0001F1F3 TW"
@@ -95,15 +103,30 @@ proxies:
   password: c56e5075-d71e-4059-bbc9-ef5032ea3fc5
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 3"
-  server: bj.daozun.cc
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: relay.wl-node1.com
+  type: ss
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 39002
+  password: c0940ac9-df14-4d76-95c9-3380bd60280a
+  cipher: aes-128-gcm
+- name: "\U0001F1EC\U0001F1E7 GB 5"
+  server: nice-uk01.tiktokcdn.buzz
   type: trojan
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 18768
-  password: cc25d59f-acfb-4da7-a11f-37e0961f08ca
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 25874
+  password: RFcWGOaSXo
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 4"
+- name: "\U0001F1EC\U0001F1E7 GB 6"
+  server: nice-uk02.tiktokcdn.buzz
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 53659
+  password: yaNBfZZXna
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 7"
   server: hkc-zf.jiashumao.net
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -111,7 +134,15 @@ proxies:
   password: 00972a94-b14d-3516-a07b-341640a2da71
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 5"
+- name: "\U0001F1E8\U0001F1F3 CN 8"
+  server: dtde1.bitznet.one
+  type: trojan
+  country: "\U0001F1E9\U0001F1EA DE"
+  port: 33011
+  password: e6867140-31cf-48ed-8633-121d8978480c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 9"
   server: hkf-zf.jiashumao.net
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -119,7 +150,23 @@ proxies:
   password: 00972a94-b14d-3516-a07b-341640a2da71
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 6"
+- name: "\U0001F1E8\U0001F1F3 HK 10"
+  server: sky998dmit3.xyz
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 443
+  password: RRy34GGwsPt47SuC
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 11"
+  server: hke-zf.jiashumao.net
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 35401
+  password: 00972a94-b14d-3516-a07b-341640a2da71
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 12"
   server: 165.154.246.195
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -127,38 +174,22 @@ proxies:
   password: c56e5075-d71e-4059-bbc9-ef5032ea3fc5
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 7"
-  server: nice-jp02.tiktokcdn.buzz
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: JmcedGAn
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 8"
+- name: "\U0001F1E8\U0001F1F3 CN 13"
   server: gyjp3.333003.xyz
   type: ss
   country: "\U0001F1EF\U0001F1F5 JP"
   port: 16914
   password: 6367e137-7366-44e4-a7a1-eba23a6d1e93
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1EF\U0001F1F5 JP 9"
-  server: 138.2.45.243
+- name: "\U0001F1E8\U0001F1F3 CN 14"
+  server: gyjp1.333003.xyz
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  port: 19324
+  password: 6367e137-7366-44e4-a7a1-eba23a6d1e93
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 10"
-  server: 99jp.tfzhc.top
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 44311
-  password: 469bd26e-cbaa-4367-8087-13a7bf24d873
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 11"
+- name: "\U0001F1E8\U0001F1F3 HK 15"
   server: 165.154.246.195
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -166,23 +197,7 @@ proxies:
   password: c56e5075-d71e-4059-bbc9-ef5032ea3fc5
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 12"
-  server: ffr6.awscn.buzz
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 44651
-  password: JmcedGAn
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 13"
-  server: ffr1.awscn.buzz
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 35377
-  password: BXE9notY
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 14"
+- name: "\U0001F1EE\U0001F1F3 IN 16"
   server: 152.67.162.166
   type: trojan
   country: "\U0001F1EE\U0001F1F3 IN"
@@ -190,87 +205,23 @@ proxies:
   password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 15"
-  server: 152.67.160.174
-  type: trojan
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 443
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 16"
-  server: pull-cache-lu01.xyx-xylo.com
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 19701
-  password: 79745894-044c-3298-a893-bbfcb6b24a2c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 17"
-  server: 138.2.113.84
-  type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 443
-  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 18"
-  server: 144.24.72.126
-  type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 443
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 TW 19"
-  server: 927tw01.tfzhc.top
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 44319
-  password: 469bd26e-cbaa-4367-8087-13a7bf24d873
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 20"
-  server: 159.223.89.239
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 443
-  password: bb5b1337-fa9e-4e00-b8c6-1110e626171d
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 21"
-  server: xjpb-zf.jiashumao.net
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 29465
-  password: 00972a94-b14d-3516-a07b-341640a2da71
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 22"
-  server: 924hk.tfzhc.top
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 44399
-  password: 469bd26e-cbaa-4367-8087-13a7bf24d873
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 23"
-  server: jpb-zf.jiashumao.net
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 20479
-  password: a20f9db9-4cf2-3652-adb2-9e39d31df821
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 24"
-  server: 168.138.44.176
+- name: "\U0001F1EF\U0001F1F5 JP 17"
+  server: nice-jp02.tiktokcdn.buzz
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
   port: 443
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  password: JmcedGAn
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 25"
+- name: "\U0001F1E8\U0001F1F3 CN 18"
+  server: ffr6.awscn.buzz
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 44651
+  password: JmcedGAn
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 19"
   server: 31.72img.xyz
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -278,12 +229,59 @@ proxies:
   password: 423b4a2b-987f-46a7-9222-776839117b3a
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 26"
-  server: ma-zf.jiashumao.net
-  type: trojan
+- name: "\U0001F1E8\U0001F1F3 CN 20"
+  server: 14.29.124.168
+  type: ss
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 22983
-  password: a20f9db9-4cf2-3652-adb2-9e39d31df821
+  port: 24002
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1F8\U0001F1EC SG 21"
+  server: 5.44.249.155
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 3389
+  password: d02058f4f819dced
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 22"
+  server: sg-01.tiktokcdn.top
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: bb5b1337-fa9e-4e00-b8c6-1110e626171d
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 TW 23"
+  server: 927tw01.tfzhc.top
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 44319
+  password: 469bd26e-cbaa-4367-8087-13a7bf24d873
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 24"
+  server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 27387
+  password: bb5b1337-fa9e-4e00-b8c6-1110e626171d
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 25"
+  server: xjpb-zf.jiashumao.net
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 29465
+  password: 00972a94-b14d-3516-a07b-341640a2da71
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 26"
+  server: 924hk.tfzhc.top
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 44399
+  password: 469bd26e-cbaa-4367-8087-13a7bf24d873
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 27"
@@ -294,71 +292,7 @@ proxies:
   password: c15dae5a-7537-4818-8a98-397bae86299c
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 28"
-  server: jjkk.usdeth.top
-  type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 443
-  password: 71354f48-e8c8-4c4c-a967-47d7ac5e953c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 29"
-  server: 5.44.249.155
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 3389
-  password: d02058f4f819dced
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 30"
-  server: nice-jp01.tiktokcdn.buzz
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: BXE9notY
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EA SE 31"
-  server: nice-se01.tiktokcdn.buzz
-  type: trojan
-  country: "\U0001F1F8\U0001F1EA SE"
-  port: 8443
-  password: ab1e9bdd-6f92-42b7-b4ac-f476802a2aa1
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 32"
-  server: xjpb-zf.jiashumao.net
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 29465
-  password: a20f9db9-4cf2-3652-adb2-9e39d31df821
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 33"
-  server: tg-zf.jiashumao.net
-  type: trojan
-  country: "\U0001F1F9\U0001F1ED TH"
-  port: 28879
-  password: a20f9db9-4cf2-3652-adb2-9e39d31df821
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 34"
-  server: 146.56.189.146
-  type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 443
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 35"
-  server: 98.126.214.30
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 19234
-  password: 012fc57b-69e5-3924-9da4-d6ac132c5fc9
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 36"
+- name: "\U0001F1E8\U0001F1F3 CN 28"
   server: huus.fdhsujj.xyz
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -369,54 +303,7 @@ proxies:
   protocol-param: 286652:Ky6KOw
   obfs: http_simple
   obfs-param: Vm0xd1MwMUhSWGhVV0d4VVlURndVVlp0ZUdGWFZsbDNXa1JTVmxac1dubFdNalZMWWtaYWMxTnVjRmRXTTFJeldWUkdXbVF5VGtkaVJuQm9UV3hKZWxkV1kzaFRNVnBZVTJ0V1dHSklRbTlaVkU1RFlqRmFSMVpzWkU5U01VcElWbGMxVjFkSFNsaGxSbVJYVm10Vg
-- name: "\U0001F1E8\U0001F1F3 CN 37"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24005
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1FA\U0001F1F8 US 38"
-  server: 144.126.211.35
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 39"
-  server: 129.146.242.130
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 40"
-  server: 5.180.76.172
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 28443
-  password: 3b3431ac-05bf-44fd-b93c-10db87d4ff5c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FB\U0001F1F3 VN 41"
-  server: 103.173.155.72
-  type: trojan
-  country: "\U0001F1FB\U0001F1F3 VN"
-  port: 28443
-  password: 3b3431ac-05bf-44fd-b93c-10db87d4ff5c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 42"
-  server: 168.138.43.89
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 43"
+- name: "\U0001F1E8\U0001F1F3 HK 29"
   server: 165.154.246.195
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -424,132 +311,114 @@ proxies:
   password: c56e5075-d71e-4059-bbc9-ef5032ea3fc5
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 44"
-  server: 129.146.190.42
+- name: "\U0001F1FA\U0001F1F8 US 30"
+  server: s3.hazz.win
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 45"
-  server: sky998dmit3.xyz
+- name: "\U0001F1E8\U0001F1F3 CN 31"
+  server: ffr1.awscn.buzz
   type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 443
-  password: RRy34GGwsPt47SuC
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 35377
+  password: BXE9notY
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 46"
-  server: trqb-zf.jiashumao.net
+- name: "\U0001F1EF\U0001F1F5 JP 32"
+  server: nice-jp01.tiktokcdn.buzz
   type: trojan
-  country: "\U0001F1F9\U0001F1F7 TR"
-  port: 31606
-  password: a20f9db9-4cf2-3652-adb2-9e39d31df821
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: BXE9notY
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 33"
+  server: dtus1.bitznet.one
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 33001
+  password: e6867140-31cf-48ed-8633-121d8978480c
   skip-cert-verify: true
   udp: true
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1E6\U0001F1F7 AR 1"
-  - "\U0001F1E8\U0001F1F3 HK 2"
-  - "\U0001F1E8\U0001F1F3 CN 3"
+  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1E8\U0001F1F3 CN 2"
+  - "\U0001F1E8\U0001F1F3 HK 3"
   - "\U0001F1E8\U0001F1F3 CN 4"
-  - "\U0001F1E8\U0001F1F3 CN 5"
-  - "\U0001F1E8\U0001F1F3 HK 6"
-  - "\U0001F1EF\U0001F1F5 JP 7"
+  - "\U0001F1EC\U0001F1E7 GB 5"
+  - "\U0001F1EC\U0001F1E7 GB 6"
+  - "\U0001F1E8\U0001F1F3 CN 7"
   - "\U0001F1E8\U0001F1F3 CN 8"
-  - "\U0001F1EF\U0001F1F5 JP 9"
-  - "\U0001F1EF\U0001F1F5 JP 10"
-  - "\U0001F1E8\U0001F1F3 HK 11"
-  - "\U0001F1E8\U0001F1F3 CN 12"
+  - "\U0001F1E8\U0001F1F3 CN 9"
+  - "\U0001F1E8\U0001F1F3 HK 10"
+  - "\U0001F1E8\U0001F1F3 CN 11"
+  - "\U0001F1E8\U0001F1F3 HK 12"
   - "\U0001F1E8\U0001F1F3 CN 13"
-  - "\U0001F1EE\U0001F1F3 IN 14"
-  - "\U0001F1EE\U0001F1F3 IN 15"
-  - "\U0001F1E8\U0001F1F3 CN 16"
-  - "\U0001F1F0\U0001F1F7 KR 17"
-  - "\U0001F1F0\U0001F1F7 KR 18"
-  - "\U0001F1E8\U0001F1F3 TW 19"
-  - "\U0001F1F8\U0001F1EC SG 20"
-  - "\U0001F1E8\U0001F1F3 CN 21"
+  - "\U0001F1E8\U0001F1F3 CN 14"
+  - "\U0001F1E8\U0001F1F3 HK 15"
+  - "\U0001F1EE\U0001F1F3 IN 16"
+  - "\U0001F1EF\U0001F1F5 JP 17"
+  - "\U0001F1E8\U0001F1F3 CN 18"
+  - "\U0001F1F8\U0001F1EC SG 19"
+  - "\U0001F1E8\U0001F1F3 CN 20"
+  - "\U0001F1F8\U0001F1EC SG 21"
   - "\U0001F1F8\U0001F1EC SG 22"
-  - "\U0001F1E8\U0001F1F3 CN 23"
-  - "\U0001F1EF\U0001F1F5 JP 24"
-  - "\U0001F1F8\U0001F1EC SG 25"
-  - "\U0001F1E8\U0001F1F3 CN 26"
+  - "\U0001F1E8\U0001F1F3 TW 23"
+  - "\U0001F1E8\U0001F1F3 CN 24"
+  - "\U0001F1E8\U0001F1F3 CN 25"
+  - "\U0001F1F8\U0001F1EC SG 26"
   - "\U0001F1E8\U0001F1F3 CN 27"
-  - "\U0001F1F0\U0001F1F7 KR 28"
-  - "\U0001F1F8\U0001F1EC SG 29"
-  - "\U0001F1EF\U0001F1F5 JP 30"
-  - "\U0001F1F8\U0001F1EA SE 31"
-  - "\U0001F1E8\U0001F1F3 CN 32"
+  - "\U0001F1E8\U0001F1F3 CN 28"
+  - "\U0001F1E8\U0001F1F3 HK 29"
+  - "\U0001F1FA\U0001F1F8 US 30"
+  - "\U0001F1E8\U0001F1F3 CN 31"
+  - "\U0001F1EF\U0001F1F5 JP 32"
   - "\U0001F1E8\U0001F1F3 CN 33"
-  - "\U0001F1F0\U0001F1F7 KR 34"
-  - "\U0001F1FA\U0001F1F8 US 35"
-  - "\U0001F1E8\U0001F1F3 CN 36"
-  - "\U0001F1E8\U0001F1F3 CN 37"
-  - "\U0001F1FA\U0001F1F8 US 38"
-  - "\U0001F1FA\U0001F1F8 US 39"
-  - "\U0001F1EF\U0001F1F5 JP 40"
-  - "\U0001F1FB\U0001F1F3 VN 41"
-  - "\U0001F1EF\U0001F1F5 JP 42"
-  - "\U0001F1E8\U0001F1F3 HK 43"
-  - "\U0001F1FA\U0001F1F8 US 44"
-  - "\U0001F1E8\U0001F1F3 HK 45"
-  - "\U0001F1E8\U0001F1F3 CN 46"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
   type: select
   proxies:
   - automatic
-  - "\U0001F1E6\U0001F1F7 AR 1"
-  - "\U0001F1E8\U0001F1F3 HK 2"
-  - "\U0001F1E8\U0001F1F3 CN 3"
+  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1E8\U0001F1F3 CN 2"
+  - "\U0001F1E8\U0001F1F3 HK 3"
   - "\U0001F1E8\U0001F1F3 CN 4"
-  - "\U0001F1E8\U0001F1F3 CN 5"
-  - "\U0001F1E8\U0001F1F3 HK 6"
-  - "\U0001F1EF\U0001F1F5 JP 7"
+  - "\U0001F1EC\U0001F1E7 GB 5"
+  - "\U0001F1EC\U0001F1E7 GB 6"
+  - "\U0001F1E8\U0001F1F3 CN 7"
   - "\U0001F1E8\U0001F1F3 CN 8"
-  - "\U0001F1EF\U0001F1F5 JP 9"
-  - "\U0001F1EF\U0001F1F5 JP 10"
-  - "\U0001F1E8\U0001F1F3 HK 11"
-  - "\U0001F1E8\U0001F1F3 CN 12"
+  - "\U0001F1E8\U0001F1F3 CN 9"
+  - "\U0001F1E8\U0001F1F3 HK 10"
+  - "\U0001F1E8\U0001F1F3 CN 11"
+  - "\U0001F1E8\U0001F1F3 HK 12"
   - "\U0001F1E8\U0001F1F3 CN 13"
-  - "\U0001F1EE\U0001F1F3 IN 14"
-  - "\U0001F1EE\U0001F1F3 IN 15"
-  - "\U0001F1E8\U0001F1F3 CN 16"
-  - "\U0001F1F0\U0001F1F7 KR 17"
-  - "\U0001F1F0\U0001F1F7 KR 18"
-  - "\U0001F1E8\U0001F1F3 TW 19"
-  - "\U0001F1F8\U0001F1EC SG 20"
-  - "\U0001F1E8\U0001F1F3 CN 21"
+  - "\U0001F1E8\U0001F1F3 CN 14"
+  - "\U0001F1E8\U0001F1F3 HK 15"
+  - "\U0001F1EE\U0001F1F3 IN 16"
+  - "\U0001F1EF\U0001F1F5 JP 17"
+  - "\U0001F1E8\U0001F1F3 CN 18"
+  - "\U0001F1F8\U0001F1EC SG 19"
+  - "\U0001F1E8\U0001F1F3 CN 20"
+  - "\U0001F1F8\U0001F1EC SG 21"
   - "\U0001F1F8\U0001F1EC SG 22"
-  - "\U0001F1E8\U0001F1F3 CN 23"
-  - "\U0001F1EF\U0001F1F5 JP 24"
-  - "\U0001F1F8\U0001F1EC SG 25"
-  - "\U0001F1E8\U0001F1F3 CN 26"
+  - "\U0001F1E8\U0001F1F3 TW 23"
+  - "\U0001F1E8\U0001F1F3 CN 24"
+  - "\U0001F1E8\U0001F1F3 CN 25"
+  - "\U0001F1F8\U0001F1EC SG 26"
   - "\U0001F1E8\U0001F1F3 CN 27"
-  - "\U0001F1F0\U0001F1F7 KR 28"
-  - "\U0001F1F8\U0001F1EC SG 29"
-  - "\U0001F1EF\U0001F1F5 JP 30"
-  - "\U0001F1F8\U0001F1EA SE 31"
-  - "\U0001F1E8\U0001F1F3 CN 32"
+  - "\U0001F1E8\U0001F1F3 CN 28"
+  - "\U0001F1E8\U0001F1F3 HK 29"
+  - "\U0001F1FA\U0001F1F8 US 30"
+  - "\U0001F1E8\U0001F1F3 CN 31"
+  - "\U0001F1EF\U0001F1F5 JP 32"
   - "\U0001F1E8\U0001F1F3 CN 33"
-  - "\U0001F1F0\U0001F1F7 KR 34"
-  - "\U0001F1FA\U0001F1F8 US 35"
-  - "\U0001F1E8\U0001F1F3 CN 36"
-  - "\U0001F1E8\U0001F1F3 CN 37"
-  - "\U0001F1FA\U0001F1F8 US 38"
-  - "\U0001F1FA\U0001F1F8 US 39"
-  - "\U0001F1EF\U0001F1F5 JP 40"
-  - "\U0001F1FB\U0001F1F3 VN 41"
-  - "\U0001F1EF\U0001F1F5 JP 42"
-  - "\U0001F1E8\U0001F1F3 HK 43"
-  - "\U0001F1FA\U0001F1F8 US 44"
-  - "\U0001F1E8\U0001F1F3 HK 45"
-  - "\U0001F1E8\U0001F1F3 CN 46"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
