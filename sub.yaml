@@ -80,31 +80,64 @@ dns:
     - 0.0.0.0/32
 proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 1"
-  server: mjk6.cdn.node.a.ddns-ounk.com
+  server: guangzhouddns.xyz
   type: ssr
   country: "\U0001F1E8\U0001F1F3 CN"
-  port: 13301
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
+  port: 11805
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 2"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24002
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1E6 CA 2"
+  server: cat1.sshocean.net
+  type: trojan
+  country: "\U0001F1E8\U0001F1E6 CA"
+  port: 443
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 3"
-  server: 14.29.124.168
+  server: gy.teacat2.xyz
+  type: ss
+  country: "\U0001F1E7\U0001F1F7 BR"
+  port: 50081
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 11423
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 5"
+  server: gy.teacat2.xyz
+  type: ss
+  country: "\U0001F1E6\U0001F1F7 AR"
+  port: 50063
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 6"
+  server: tw1.teacat2.xyz
   type: ss
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24007
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 4"
+  port: 50003
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 7"
+  server: tw2.teacat2.xyz
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 50068
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 8"
   server: lld9k6.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
@@ -115,18 +148,7 @@ proxies:
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 5"
-  server: lld9k6.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 12948
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 6"
+- name: "\U0001F1E8\U0001F1F3 CN 9"
   server: lld9k6.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
@@ -137,14 +159,57 @@ proxies:
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 7"
-  server: 14.29.124.168
-  type: ss
+- name: "\U0001F1E8\U0001F1F3 CN 10"
+  server: lld9k6.cdn.node.a.ddns-ounk.com
+  type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24001
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 8"
+  port: 12948
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 11"
+  server: mjk6.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 13301
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 12"
+  server: iepl.teacat2.xyz
+  type: ss
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 49991
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 13"
+  server: hk2.teacat2.xyz
+  type: ss
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 50002
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 14"
+  server: hk3.teacat2.xyz
+  type: ss
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 50001
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 15"
+  server: uk1.teacat2.xyz
+  type: ss
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 50062
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 16"
   server: 14.29.230.228
   type: trojan
   country: "\U0001F1EB\U0001F1F7 FR"
@@ -152,7 +217,14 @@ proxies:
   password: M0ef2eef
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 9"
+- name: "\U0001F1E8\U0001F1F3 CN 17"
+  server: hk1.teacat2.xyz
+  type: ss
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 50067
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1EC\U0001F1E7 GB 18"
   server: nice-uk01.tiktokcdn.buzz
   type: trojan
   country: "\U0001F1EC\U0001F1E7 GB"
@@ -160,15 +232,7 @@ proxies:
   password: ItqczFJHHy
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 10"
-  server: 146.19.230.241
-  type: trojan
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 11"
+- name: "\U0001F1EC\U0001F1E7 GB 19"
   server: nice-uk02.tiktokcdn.buzz
   type: trojan
   country: "\U0001F1EC\U0001F1E7 GB"
@@ -176,40 +240,22 @@ proxies:
   password: FW6UhJipL9
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 12"
-  server: x321.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13543
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 13"
-  server: aaf8.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13534
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 14"
-  server: meq886.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13451
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 15"
+- name: "\U0001F1EC\U0001F1E7 GB 20"
+  server: 146.19.230.241
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 443
+  password: xxoo
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 21"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24001
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 22"
   server: x321.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -220,88 +266,11 @@ proxies:
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 16"
-  server: guangzhouddns.xyz
-  type: ssr
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 11005
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 17"
-  server: tata12.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13488
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 18"
-  server: aaf8.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13422
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 19"
-  server: z5is.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13181
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 20"
-  server: meq886.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13495
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 21"
-  server: liaoningddns.xyz
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 11420
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: TURFNFlXSXhNakF5TXk1dGFXTnliM052Wm5RdVkyOXQ
-- name: "\U0001F1E8\U0001F1F3 CN 22"
-  server: meq886.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13497
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
 - name: "\U0001F1E8\U0001F1F3 CN 23"
-  server: tata12.cdn.node.a.ddns-ounk.com
+  server: x321.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13545
+  port: 13543
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -309,28 +278,6 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
 - name: "\U0001F1E8\U0001F1F3 CN 24"
-  server: bbq886.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13261
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 25"
-  server: meq886.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13494
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 26"
   server: z5is.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -341,11 +288,30 @@ proxies:
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 27"
-  server: z5sa6is.cdn.node.a.ddns-ounk.com
+- name: "\U0001F1E8\U0001F1FF CZ 25"
+  server: 185.253.47.79
+  type: trojan
+  country: "\U0001F1E8\U0001F1FF CZ"
+  port: 443
+  password: ZD4dLSBXiMrmzdLd
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 26"
+  server: meq886.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13681
+  port: 13495
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 27"
+  server: cd69.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13640
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -364,32 +330,32 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
 - name: "\U0001F1E8\U0001F1F3 CN 29"
-  server: z5sa6is.cdn.node.a.ddns-ounk.com
+  server: guangzhouddns.xyz
   type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13680
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 11005
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+  obfs-param: 018ab12023.microsoft.com
 - name: "\U0001F1E8\U0001F1F3 CN 30"
-  server: tata12.cdn.node.a.ddns-ounk.com
+  server: liaoningddns.xyz
   type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13267
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 11501
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+  obfs-param: 018ab12023.microsoft.com
 - name: "\U0001F1E8\U0001F1F3 CN 31"
   server: z5is.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13183
+  port: 13181
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -397,17 +363,6 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
 - name: "\U0001F1E8\U0001F1F3 CN 32"
-  server: z5is.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13184
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 33"
   server: meq886.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -418,48 +373,18 @@ proxies:
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 33"
+  server: z5is.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13183
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
 - name: "\U0001F1E8\U0001F1F3 CN 34"
-  server: liaoningddns.xyz
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 11421
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1F7\U0001F1F4 RO 35"
-  server: hk-1.tiktokcdn.sbs
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 12288
-  password: OsFEF0P0ia
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 36"
-  server: aaf8.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13263
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 37"
-  server: tata12.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13642
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 38"
   server: z5is.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -470,18 +395,51 @@ proxies:
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 39"
+- name: "\U0001F1E8\U0001F1F3 CN 35"
   server: tata12.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13501
+  port: 13488
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 40"
+- name: "\U0001F1E8\U0001F1F3 CN 36"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 11421
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 37"
+  server: bbq886.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13261
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 38"
+  server: z5is.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13184
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 39"
   server: cd69.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -492,11 +450,22 @@ proxies:
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 41"
-  server: cd69.cdn.node.a.ddns-ounk.com
+- name: "\U0001F1E8\U0001F1F3 CN 40"
+  server: meq886.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13640
+  port: 13451
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 41"
+  server: tata12.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13642
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -504,14 +473,39 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
 - name: "\U0001F1E8\U0001F1F3 CN 42"
-  server: pull-cache-lu01.xyx-xylo.com
-  type: trojan
+  server: aaf8.cdn.node.a.ddns-ounk.com
+  type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 19701
-  password: 79745894-044c-3298-a893-bbfcb6b24a2c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 43"
+  port: 13422
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 43"
+  server: tata12.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13501
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 44"
+  server: aaf8.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13263
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 HK 45"
   server: hk-3.tiktokcdn.sbs
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -519,41 +513,22 @@ proxies:
   password: FgnHZ6k9qg
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 44"
-  server: q8eq.cdn.node.a.ddns-ounk.com
+- name: "\U0001F1E8\U0001F1F3 CN 46"
+  server: meq886.cdn.node.a.ddns-ounk.com
   type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 13594
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 45"
-  server: q8eq.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 13589
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 HK 46"
-  server: 1002hk1326.tfzhc.top
-  type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 443
-  password: 2be3639a-f4cd-4161-ba78-49842b2269f6
-  skip-cert-verify: true
-  udp: true
+  port: 13494
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
 - name: "\U0001F1E8\U0001F1F3 CN 47"
-  server: q8eq.cdn.node.a.ddns-ounk.com
+  server: tata12.cdn.node.a.ddns-ounk.com
   type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 13593
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13545
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -561,10 +536,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
 - name: "\U0001F1E8\U0001F1F3 CN 48"
-  server: q8eq.cdn.node.a.ddns-ounk.com
+  server: meq886.cdn.node.a.ddns-ounk.com
   type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 13592
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13497
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -572,6 +547,98 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
 - name: "\U0001F1E8\U0001F1F3 CN 49"
+  server: z5sa6is.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13680
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 50"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 11420
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: TURFNFlXSXhNakF5TXk1dGFXTnliM052Wm5RdVkyOXQ
+- name: "\U0001F1E8\U0001F1F3 CN 51"
+  server: tata12.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13267
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1F7\U0001F1F4 RO 52"
+  server: hk-1.tiktokcdn.sbs
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 56563
+  password: R8HpRZUAfK
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 53"
+  server: z5sa6is.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13681
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 54"
+  server: cd69.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13489
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1F8\U0001F1EC SG 55"
+  server: 924hk02.tfzhc.top
+  type: trojan
+  country: "\U0001F1EE\U0001F1F9 IT"
+  port: 44388
+  password: 2be3639a-f4cd-4161-ba78-49842b2269f6
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 56"
+  server: iepl.teacat2.xyz
+  type: ss
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 49993
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 57"
+  server: jp2.teacat2.xyz
+  type: ss
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 50061
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 58"
+  server: jp1.teacat2.xyz
+  type: ss
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 50060
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 59"
   server: q8eq.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -582,108 +649,22 @@ proxies:
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1EF\U0001F1F5 JP 50"
-  server: 212.50.246.229
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 50404
-  password: 00de03f4-8d4a-4694-a292-1c68afe9e1e9
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 51"
-  server: 152.67.162.166
-  type: trojan
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 443
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 52"
-  server: 14.215.107.23
-  type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 28157
-  password: M7fe5bed
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 53"
-  server: 152.67.160.174
-  type: trojan
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 443
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 54"
-  server: liaoningddns.xyz
+- name: "\U0001F1E8\U0001F1F3 CN 60"
+  server: q8eq.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
-  port: 11424
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1EF\U0001F1F5 JP 55"
-  server: 212.50.246.229
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 50500
-  password: 025e0bd5-0136-467a-8120-4a8c656a23bd
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 56"
-  server: 146.56.189.146
-  type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 443
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 57"
-  server: tgx.usdeth.top
-  type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 443
-  password: 71354f48-e8c8-4c4c-a967-47d7ac5e953c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 58"
-  server: ngs9.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13438
+  port: 13592
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 59"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13576
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1EF\U0001F1F5 JP 60"
-  server: 138.2.45.243
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  skip-cert-verify: true
-  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 61"
-  server: ngs9.cdn.node.a.ddns-ounk.com
+  server: q8eq.cdn.node.a.ddns-ounk.com
   type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13439
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 13589
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -691,10 +672,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
 - name: "\U0001F1E8\U0001F1F3 CN 62"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
+  server: q8eq.cdn.node.a.ddns-ounk.com
   type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 12983
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 13593
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -702,132 +683,164 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
 - name: "\U0001F1E8\U0001F1F3 CN 63"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13052
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 64"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13578
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 65"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13556
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 66"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13355
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 67"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13350
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1FF CZ 68"
-  server: 185.253.47.79
+  server: pull-cache-lu01.xyx-xylo.com
   type: trojan
-  country: "\U0001F1E8\U0001F1FF CZ"
-  port: 443
-  password: ZD4dLSBXiMrmzdLd
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 19701
+  password: 79745894-044c-3298-a893-bbfcb6b24a2c
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 69"
-  server: 150.230.249.42
+- name: "\U0001F1E8\U0001F1F3 CN 64"
+  server: q8eq.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 13594
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1EE\U0001F1F3 IN 65"
+  server: 152.67.162.166
   type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
+  country: "\U0001F1EE\U0001F1F3 IN"
   port: 443
-  password: 0Y9gOHSdRt
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 66"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 11812
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1EF\U0001F1F5 JP 67"
+  server: 150.230.217.213
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 68"
+  server: iepl.teacat2.xyz
+  type: ss
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 49995
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1EE\U0001F1F3 IN 69"
+  server: 152.67.160.174
+  type: trojan
+  country: "\U0001F1EE\U0001F1F3 IN"
+  port: 443
+  password: 54080134-2cba-4535-8599-95650bd9aa54
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 70"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13371
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 71"
-  server: ngs9.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13042
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+  server: kr1.teacat2.xyz
+  type: ss
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 50058
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1EF\U0001F1F5 JP 71"
+  server: 138.2.45.243
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 72"
-  server: wegm63.cdn.node.a.ddns-ounk.com
-  type: ssr
+  server: 14.29.230.228
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 13324
+  password: M32a0d95
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 73"
+  server: 146.56.189.146
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 443
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 74"
+  server: 138.2.113.84
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 443
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 75"
+  server: tgx.usdeth.top
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 443
+  password: 71354f48-e8c8-4c4c-a967-47d7ac5e953c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 76"
+  server: iepl.teacat2.xyz
+  type: ss
   country: "\U0001F1F8\U0001F1EC SG"
-  port: 13582
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 73"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
+  port: 49992
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 77"
+  server: sg1.teacat2.xyz
+  type: ss
   country: "\U0001F1F8\U0001F1EC SG"
-  port: 13566
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 74"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
+  port: 50065
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1F0\U0001F1F7 KR 78"
+  server: 144.24.72.126
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 443
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 79"
+  server: iepl.teacat2.xyz
+  type: ss
   country: "\U0001F1F8\U0001F1EC SG"
-  port: 13373
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 75"
+  port: 49994
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 80"
+  server: sg2.teacat2.xyz
+  type: ss
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 50004
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 81"
+  server: gy.teacat2.xyz
+  type: ss
+  country: "\U0001F1F2\U0001F1FD MX"
+  port: 50075
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 82"
+  server: gy.teacat2.xyz
+  type: ss
+  country: "\U0001F1F2\U0001F1FE MY"
+  port: 50070
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 83"
   server: gf6s.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
@@ -838,201 +851,14 @@ proxies:
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 76"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 12938
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 77"
-  server: wegm63.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13584
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 78"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13354
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 79"
-  server: ngs9.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13044
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 80"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13357
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 81"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 12984
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 82"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13568
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 83"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13053
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
 - name: "\U0001F1E8\U0001F1F3 CN 84"
-  server: 14.29.124.168
+  server: gy.teacat2.xyz
   type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24006
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
+  country: "\U0001F1F5\U0001F1F1 PL"
+  port: 50078
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 85"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 12981
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 86"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 12939
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 87"
-  server: ngs9.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13440
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 88"
-  server: guangzhouddns.xyz
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 11807
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 89"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13574
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 90"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13370
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 91"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13054
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 92"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13050
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 93"
-  server: wegm63.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13580
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 94"
   server: wegm63.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
@@ -1043,7 +869,18 @@ proxies:
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 95"
+- name: "\U0001F1E8\U0001F1F3 CN 86"
+  server: ngs9.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13044
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 87"
   server: gf6s.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
@@ -1054,40 +891,14 @@ proxies:
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 96"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13560
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 97"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13352
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 98"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13358
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 99"
+- name: "\U0001F1E8\U0001F1F3 CN 88"
+  server: gy.teacat2.xyz
+  type: ss
+  country: "\U0001F1F3\U0001F1F1 NL"
+  port: 50076
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 89"
   server: gf6s.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
@@ -1098,70 +909,51 @@ proxies:
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 100"
-  server: r97q.cdn.node.a.ddns-ounk.com
+- name: "\U0001F1E8\U0001F1F3 CN 90"
+  server: guangzhouddns.xyz
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
-  port: 13351
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 101"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 12980
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 102"
-  server: liaoningddns.xyz
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 11422
+  port: 11807
   password: Fhbe0z
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
   protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
-  obfs-param: TURFNFlXSXhNakF5TXk1dGFXTnliM052Wm5RdVkyOXQ
-- name: "\U0001F1E8\U0001F1F3 CN 103"
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 91"
   server: gf6s.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
-  port: 13374
+  port: 13371
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 104"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
+- name: "\U0001F1E8\U0001F1F3 CN 92"
+  server: gf6s.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
-  port: 13564
+  port: 13578
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1F8\U0001F1EC SG 105"
-  server: 1002sg.tfzhc.top
-  type: trojan
+- name: "\U0001F1E8\U0001F1F3 CN 93"
+  server: ngs9.cdn.node.a.ddns-ounk.com
+  type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
-  port: 443
-  password: 2be3639a-f4cd-4161-ba78-49842b2269f6
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 106"
+  port: 13439
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 94"
   server: gf6s.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
@@ -1172,11 +964,143 @@ proxies:
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 95"
+  server: ngs9.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13438
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 96"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 12983
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 97"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13358
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 98"
+  server: ngs9.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13042
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 99"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 11429
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: TURFNFlXSXhNakF5TXk1dGFXTnliM052Wm5RdVkyOXQ
+- name: "\U0001F1E8\U0001F1F3 CN 100"
+  server: gf6s.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13053
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 101"
+  server: gf6s.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 12939
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 102"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13357
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 103"
+  server: wegm63.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13580
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 104"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13354
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 105"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 12981
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 106"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 12980
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
 - name: "\U0001F1E8\U0001F1F3 CN 107"
   server: eqwr51.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
-  port: 12985
+  port: 12984
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -1187,7 +1111,7 @@ proxies:
   server: eqwr51.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
-  port: 13558
+  port: 13564
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
@@ -1195,6 +1119,276 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
 - name: "\U0001F1E8\U0001F1F3 CN 109"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13352
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 110"
+  server: wegm63.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13584
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 111"
+  server: gf6s.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13576
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 112"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13556
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 113"
+  server: wegm63.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13582
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 114"
+  server: ngs9.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13440
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 115"
+  server: gf6s.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13050
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1F7\U0001F1F4 RO 116"
+  server: hk-1.tiktokcdn.sbs
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 12288
+  password: OsFEF0P0ia
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 117"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13350
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 118"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13568
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 119"
+  server: gf6s.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13370
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 120"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 11422
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: TURFNFlXSXhNakF5TXk1dGFXTnliM052Wm5RdVkyOXQ
+- name: "\U0001F1E8\U0001F1F3 CN 121"
+  server: gf6s.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13052
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 122"
+  server: r97q.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13351
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 123"
+  server: gf6s.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 12938
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 124"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 12985
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 125"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24002
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 126"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13558
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 127"
+  server: gf6s.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13373
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1F8\U0001F1EC SG 128"
+  server: 159.223.89.239
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: bb5b1337-fa9e-4e00-b8c6-1110e626171d
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 129"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13355
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 130"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13566
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 131"
+  server: gf6s.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13574
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 132"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13560
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 TW 133"
+  server: 1002tw.tfzhc.top
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: 2be3639a-f4cd-4161-ba78-49842b2269f6
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 134"
+  server: nice-jp01.tiktokcdn.buzz
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: BXE9notY
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 135"
   server: 14.29.230.228
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -1202,15 +1396,47 @@ proxies:
   password: M07fa472
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 110"
-  server: sg-01.tiktokcdn.top
+- name: "\U0001F1E8\U0001F1F3 CN 136"
+  server: iepl.teacat2.xyz
+  type: ss
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 49996
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 137"
+  server: gy.teacat2.xyz
+  type: ss
+  country: "\U0001F1F9\U0001F1F7 TR"
+  port: 50069
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 138"
+  server: gy.teacat2.xyz
+  type: ss
+  country: "\U0001F1FA\U0001F1E6 UA"
+  port: 50080
+  password: 9fee9441-c4a2-4712-bb40-393e940ffef5
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 139"
+  server: bb29cs.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 13629
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 140"
+  server: 14.29.230.228
   type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 443
-  password: bb5b1337-fa9e-4e00-b8c6-1110e626171d
+  country: "\U0001F1F9\U0001F1F7 TR"
+  port: 13331
+  password: M861a23a
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 111"
+- name: "\U0001F1E8\U0001F1F3 CN 141"
   server: bb29cs.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -1221,45 +1447,7 @@ proxies:
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1FA\U0001F1F8 US 112"
-  server: spotted.bigkangaroo.net
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: ZCESAylB2u5jga736e8CTN3DcFCAOYz0DlDyx9F3ZpXnSp3IYRa4RwOSqe8Kax
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 113"
-  server: bb29cs.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 13638
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 114"
-  server: 14.29.230.228
-  type: trojan
-  country: "\U0001F1F9\U0001F1F7 TR"
-  port: 13331
-  password: M861a23a
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 115"
-  server: bb29cs.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 13628
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 205889:AHjsJP
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1E8\U0001F1F3 CN 116"
+- name: "\U0001F1E8\U0001F1F3 CN 142"
   server: bb29cs.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -1270,38 +1458,41 @@ proxies:
   protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
   obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
-- name: "\U0001F1FA\U0001F1F8 US 117"
-  server: fhcarm2.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 118"
-  server: 194.156.99.39
-  type: trojan
-  country: "\U0001F3C1 ZZ"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 119"
-  server: guangzhouddns.xyz
+- name: "\U0001F1E8\U0001F1F3 CN 143"
+  server: bb29cs.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 11805
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
+  port: 13638
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
   obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 120"
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 144"
+  server: bb29cs.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 13628
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 205889:AHjsJP
+  obfs: tls1.2_ticket_auth
+  obfs-param: NzQzNmYyMDU4ODkubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1FA\U0001F1F8 US 145"
+  server: spotted.bigkangaroo.net
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: ZCESAylB2u5jga736e8CTN3DcFCAOYz0DlDyx9F3ZpXnSp3IYRa4RwOSqe8Kax
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 146"
   server: liaoningddns.xyz
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 11423
+  port: 11427
   password: Fhbe0z
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
@@ -1313,30 +1504,30 @@ proxy-groups:
   type: url-test
   proxies:
   - "\U0001F1E8\U0001F1F3 CN 1"
-  - "\U0001F1E8\U0001F1F3 CN 2"
+  - "\U0001F1E8\U0001F1E6 CA 2"
   - "\U0001F1E8\U0001F1F3 CN 3"
   - "\U0001F1E8\U0001F1F3 CN 4"
   - "\U0001F1E8\U0001F1F3 CN 5"
   - "\U0001F1E8\U0001F1F3 CN 6"
   - "\U0001F1E8\U0001F1F3 CN 7"
   - "\U0001F1E8\U0001F1F3 CN 8"
-  - "\U0001F1EC\U0001F1E7 GB 9"
-  - "\U0001F1EC\U0001F1E7 GB 10"
-  - "\U0001F1EC\U0001F1E7 GB 11"
+  - "\U0001F1E8\U0001F1F3 CN 9"
+  - "\U0001F1E8\U0001F1F3 CN 10"
+  - "\U0001F1E8\U0001F1F3 CN 11"
   - "\U0001F1E8\U0001F1F3 CN 12"
   - "\U0001F1E8\U0001F1F3 CN 13"
   - "\U0001F1E8\U0001F1F3 CN 14"
   - "\U0001F1E8\U0001F1F3 CN 15"
   - "\U0001F1E8\U0001F1F3 CN 16"
   - "\U0001F1E8\U0001F1F3 CN 17"
-  - "\U0001F1E8\U0001F1F3 CN 18"
-  - "\U0001F1E8\U0001F1F3 CN 19"
-  - "\U0001F1E8\U0001F1F3 CN 20"
+  - "\U0001F1EC\U0001F1E7 GB 18"
+  - "\U0001F1EC\U0001F1E7 GB 19"
+  - "\U0001F1EC\U0001F1E7 GB 20"
   - "\U0001F1E8\U0001F1F3 CN 21"
   - "\U0001F1E8\U0001F1F3 CN 22"
   - "\U0001F1E8\U0001F1F3 CN 23"
   - "\U0001F1E8\U0001F1F3 CN 24"
-  - "\U0001F1E8\U0001F1F3 CN 25"
+  - "\U0001F1E8\U0001F1FF CZ 25"
   - "\U0001F1E8\U0001F1F3 CN 26"
   - "\U0001F1E8\U0001F1F3 CN 27"
   - "\U0001F1E8\U0001F1F3 CN 28"
@@ -1346,7 +1537,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 32"
   - "\U0001F1E8\U0001F1F3 CN 33"
   - "\U0001F1E8\U0001F1F3 CN 34"
-  - "\U0001F1F7\U0001F1F4 RO 35"
+  - "\U0001F1E8\U0001F1F3 CN 35"
   - "\U0001F1E8\U0001F1F3 CN 36"
   - "\U0001F1E8\U0001F1F3 CN 37"
   - "\U0001F1E8\U0001F1F3 CN 38"
@@ -1354,42 +1545,42 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 40"
   - "\U0001F1E8\U0001F1F3 CN 41"
   - "\U0001F1E8\U0001F1F3 CN 42"
-  - "\U0001F1E8\U0001F1F3 HK 43"
+  - "\U0001F1E8\U0001F1F3 CN 43"
   - "\U0001F1E8\U0001F1F3 CN 44"
-  - "\U0001F1E8\U0001F1F3 CN 45"
-  - "\U0001F1E8\U0001F1F3 HK 46"
+  - "\U0001F1E8\U0001F1F3 HK 45"
+  - "\U0001F1E8\U0001F1F3 CN 46"
   - "\U0001F1E8\U0001F1F3 CN 47"
   - "\U0001F1E8\U0001F1F3 CN 48"
   - "\U0001F1E8\U0001F1F3 CN 49"
-  - "\U0001F1EF\U0001F1F5 JP 50"
-  - "\U0001F1EE\U0001F1F3 IN 51"
-  - "\U0001F1E8\U0001F1F3 CN 52"
-  - "\U0001F1EE\U0001F1F3 IN 53"
+  - "\U0001F1E8\U0001F1F3 CN 50"
+  - "\U0001F1E8\U0001F1F3 CN 51"
+  - "\U0001F1F7\U0001F1F4 RO 52"
+  - "\U0001F1E8\U0001F1F3 CN 53"
   - "\U0001F1E8\U0001F1F3 CN 54"
-  - "\U0001F1EF\U0001F1F5 JP 55"
-  - "\U0001F1F0\U0001F1F7 KR 56"
-  - "\U0001F1FA\U0001F1F8 US 57"
+  - "\U0001F1F8\U0001F1EC SG 55"
+  - "\U0001F1E8\U0001F1F3 CN 56"
+  - "\U0001F1E8\U0001F1F3 CN 57"
   - "\U0001F1E8\U0001F1F3 CN 58"
   - "\U0001F1E8\U0001F1F3 CN 59"
-  - "\U0001F1EF\U0001F1F5 JP 60"
+  - "\U0001F1E8\U0001F1F3 CN 60"
   - "\U0001F1E8\U0001F1F3 CN 61"
   - "\U0001F1E8\U0001F1F3 CN 62"
   - "\U0001F1E8\U0001F1F3 CN 63"
   - "\U0001F1E8\U0001F1F3 CN 64"
-  - "\U0001F1E8\U0001F1F3 CN 65"
+  - "\U0001F1EE\U0001F1F3 IN 65"
   - "\U0001F1E8\U0001F1F3 CN 66"
-  - "\U0001F1E8\U0001F1F3 CN 67"
-  - "\U0001F1E8\U0001F1FF CZ 68"
-  - "\U0001F1F0\U0001F1F7 KR 69"
+  - "\U0001F1EF\U0001F1F5 JP 67"
+  - "\U0001F1E8\U0001F1F3 CN 68"
+  - "\U0001F1EE\U0001F1F3 IN 69"
   - "\U0001F1E8\U0001F1F3 CN 70"
-  - "\U0001F1E8\U0001F1F3 CN 71"
+  - "\U0001F1EF\U0001F1F5 JP 71"
   - "\U0001F1E8\U0001F1F3 CN 72"
-  - "\U0001F1E8\U0001F1F3 CN 73"
-  - "\U0001F1E8\U0001F1F3 CN 74"
-  - "\U0001F1E8\U0001F1F3 CN 75"
+  - "\U0001F1F0\U0001F1F7 KR 73"
+  - "\U0001F1F0\U0001F1F7 KR 74"
+  - "\U0001F1FA\U0001F1F8 US 75"
   - "\U0001F1E8\U0001F1F3 CN 76"
   - "\U0001F1E8\U0001F1F3 CN 77"
-  - "\U0001F1E8\U0001F1F3 CN 78"
+  - "\U0001F1F0\U0001F1F7 KR 78"
   - "\U0001F1E8\U0001F1F3 CN 79"
   - "\U0001F1E8\U0001F1F3 CN 80"
   - "\U0001F1E8\U0001F1F3 CN 81"
@@ -1416,22 +1607,48 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 102"
   - "\U0001F1E8\U0001F1F3 CN 103"
   - "\U0001F1E8\U0001F1F3 CN 104"
-  - "\U0001F1F8\U0001F1EC SG 105"
+  - "\U0001F1E8\U0001F1F3 CN 105"
   - "\U0001F1E8\U0001F1F3 CN 106"
   - "\U0001F1E8\U0001F1F3 CN 107"
   - "\U0001F1E8\U0001F1F3 CN 108"
   - "\U0001F1E8\U0001F1F3 CN 109"
-  - "\U0001F1F8\U0001F1EC SG 110"
+  - "\U0001F1E8\U0001F1F3 CN 110"
   - "\U0001F1E8\U0001F1F3 CN 111"
-  - "\U0001F1FA\U0001F1F8 US 112"
+  - "\U0001F1E8\U0001F1F3 CN 112"
   - "\U0001F1E8\U0001F1F3 CN 113"
   - "\U0001F1E8\U0001F1F3 CN 114"
   - "\U0001F1E8\U0001F1F3 CN 115"
-  - "\U0001F1E8\U0001F1F3 CN 116"
-  - "\U0001F1FA\U0001F1F8 US 117"
-  - "\U0001F1E8\U0001F1F3 HK 118"
+  - "\U0001F1F7\U0001F1F4 RO 116"
+  - "\U0001F1E8\U0001F1F3 CN 117"
+  - "\U0001F1E8\U0001F1F3 CN 118"
   - "\U0001F1E8\U0001F1F3 CN 119"
   - "\U0001F1E8\U0001F1F3 CN 120"
+  - "\U0001F1E8\U0001F1F3 CN 121"
+  - "\U0001F1E8\U0001F1F3 CN 122"
+  - "\U0001F1E8\U0001F1F3 CN 123"
+  - "\U0001F1E8\U0001F1F3 CN 124"
+  - "\U0001F1E8\U0001F1F3 CN 125"
+  - "\U0001F1E8\U0001F1F3 CN 126"
+  - "\U0001F1E8\U0001F1F3 CN 127"
+  - "\U0001F1F8\U0001F1EC SG 128"
+  - "\U0001F1E8\U0001F1F3 CN 129"
+  - "\U0001F1E8\U0001F1F3 CN 130"
+  - "\U0001F1E8\U0001F1F3 CN 131"
+  - "\U0001F1E8\U0001F1F3 CN 132"
+  - "\U0001F1E8\U0001F1F3 TW 133"
+  - "\U0001F1EF\U0001F1F5 JP 134"
+  - "\U0001F1E8\U0001F1F3 CN 135"
+  - "\U0001F1E8\U0001F1F3 CN 136"
+  - "\U0001F1E8\U0001F1F3 CN 137"
+  - "\U0001F1E8\U0001F1F3 CN 138"
+  - "\U0001F1E8\U0001F1F3 CN 139"
+  - "\U0001F1E8\U0001F1F3 CN 140"
+  - "\U0001F1E8\U0001F1F3 CN 141"
+  - "\U0001F1E8\U0001F1F3 CN 142"
+  - "\U0001F1E8\U0001F1F3 CN 143"
+  - "\U0001F1E8\U0001F1F3 CN 144"
+  - "\U0001F1FA\U0001F1F8 US 145"
+  - "\U0001F1E8\U0001F1F3 CN 146"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
@@ -1439,30 +1656,30 @@ proxy-groups:
   proxies:
   - automatic
   - "\U0001F1E8\U0001F1F3 CN 1"
-  - "\U0001F1E8\U0001F1F3 CN 2"
+  - "\U0001F1E8\U0001F1E6 CA 2"
   - "\U0001F1E8\U0001F1F3 CN 3"
   - "\U0001F1E8\U0001F1F3 CN 4"
   - "\U0001F1E8\U0001F1F3 CN 5"
   - "\U0001F1E8\U0001F1F3 CN 6"
   - "\U0001F1E8\U0001F1F3 CN 7"
   - "\U0001F1E8\U0001F1F3 CN 8"
-  - "\U0001F1EC\U0001F1E7 GB 9"
-  - "\U0001F1EC\U0001F1E7 GB 10"
-  - "\U0001F1EC\U0001F1E7 GB 11"
+  - "\U0001F1E8\U0001F1F3 CN 9"
+  - "\U0001F1E8\U0001F1F3 CN 10"
+  - "\U0001F1E8\U0001F1F3 CN 11"
   - "\U0001F1E8\U0001F1F3 CN 12"
   - "\U0001F1E8\U0001F1F3 CN 13"
   - "\U0001F1E8\U0001F1F3 CN 14"
   - "\U0001F1E8\U0001F1F3 CN 15"
   - "\U0001F1E8\U0001F1F3 CN 16"
   - "\U0001F1E8\U0001F1F3 CN 17"
-  - "\U0001F1E8\U0001F1F3 CN 18"
-  - "\U0001F1E8\U0001F1F3 CN 19"
-  - "\U0001F1E8\U0001F1F3 CN 20"
+  - "\U0001F1EC\U0001F1E7 GB 18"
+  - "\U0001F1EC\U0001F1E7 GB 19"
+  - "\U0001F1EC\U0001F1E7 GB 20"
   - "\U0001F1E8\U0001F1F3 CN 21"
   - "\U0001F1E8\U0001F1F3 CN 22"
   - "\U0001F1E8\U0001F1F3 CN 23"
   - "\U0001F1E8\U0001F1F3 CN 24"
-  - "\U0001F1E8\U0001F1F3 CN 25"
+  - "\U0001F1E8\U0001F1FF CZ 25"
   - "\U0001F1E8\U0001F1F3 CN 26"
   - "\U0001F1E8\U0001F1F3 CN 27"
   - "\U0001F1E8\U0001F1F3 CN 28"
@@ -1472,7 +1689,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 32"
   - "\U0001F1E8\U0001F1F3 CN 33"
   - "\U0001F1E8\U0001F1F3 CN 34"
-  - "\U0001F1F7\U0001F1F4 RO 35"
+  - "\U0001F1E8\U0001F1F3 CN 35"
   - "\U0001F1E8\U0001F1F3 CN 36"
   - "\U0001F1E8\U0001F1F3 CN 37"
   - "\U0001F1E8\U0001F1F3 CN 38"
@@ -1480,42 +1697,42 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 40"
   - "\U0001F1E8\U0001F1F3 CN 41"
   - "\U0001F1E8\U0001F1F3 CN 42"
-  - "\U0001F1E8\U0001F1F3 HK 43"
+  - "\U0001F1E8\U0001F1F3 CN 43"
   - "\U0001F1E8\U0001F1F3 CN 44"
-  - "\U0001F1E8\U0001F1F3 CN 45"
-  - "\U0001F1E8\U0001F1F3 HK 46"
+  - "\U0001F1E8\U0001F1F3 HK 45"
+  - "\U0001F1E8\U0001F1F3 CN 46"
   - "\U0001F1E8\U0001F1F3 CN 47"
   - "\U0001F1E8\U0001F1F3 CN 48"
   - "\U0001F1E8\U0001F1F3 CN 49"
-  - "\U0001F1EF\U0001F1F5 JP 50"
-  - "\U0001F1EE\U0001F1F3 IN 51"
-  - "\U0001F1E8\U0001F1F3 CN 52"
-  - "\U0001F1EE\U0001F1F3 IN 53"
+  - "\U0001F1E8\U0001F1F3 CN 50"
+  - "\U0001F1E8\U0001F1F3 CN 51"
+  - "\U0001F1F7\U0001F1F4 RO 52"
+  - "\U0001F1E8\U0001F1F3 CN 53"
   - "\U0001F1E8\U0001F1F3 CN 54"
-  - "\U0001F1EF\U0001F1F5 JP 55"
-  - "\U0001F1F0\U0001F1F7 KR 56"
-  - "\U0001F1FA\U0001F1F8 US 57"
+  - "\U0001F1F8\U0001F1EC SG 55"
+  - "\U0001F1E8\U0001F1F3 CN 56"
+  - "\U0001F1E8\U0001F1F3 CN 57"
   - "\U0001F1E8\U0001F1F3 CN 58"
   - "\U0001F1E8\U0001F1F3 CN 59"
-  - "\U0001F1EF\U0001F1F5 JP 60"
+  - "\U0001F1E8\U0001F1F3 CN 60"
   - "\U0001F1E8\U0001F1F3 CN 61"
   - "\U0001F1E8\U0001F1F3 CN 62"
   - "\U0001F1E8\U0001F1F3 CN 63"
   - "\U0001F1E8\U0001F1F3 CN 64"
-  - "\U0001F1E8\U0001F1F3 CN 65"
+  - "\U0001F1EE\U0001F1F3 IN 65"
   - "\U0001F1E8\U0001F1F3 CN 66"
-  - "\U0001F1E8\U0001F1F3 CN 67"
-  - "\U0001F1E8\U0001F1FF CZ 68"
-  - "\U0001F1F0\U0001F1F7 KR 69"
+  - "\U0001F1EF\U0001F1F5 JP 67"
+  - "\U0001F1E8\U0001F1F3 CN 68"
+  - "\U0001F1EE\U0001F1F3 IN 69"
   - "\U0001F1E8\U0001F1F3 CN 70"
-  - "\U0001F1E8\U0001F1F3 CN 71"
+  - "\U0001F1EF\U0001F1F5 JP 71"
   - "\U0001F1E8\U0001F1F3 CN 72"
-  - "\U0001F1E8\U0001F1F3 CN 73"
-  - "\U0001F1E8\U0001F1F3 CN 74"
-  - "\U0001F1E8\U0001F1F3 CN 75"
+  - "\U0001F1F0\U0001F1F7 KR 73"
+  - "\U0001F1F0\U0001F1F7 KR 74"
+  - "\U0001F1FA\U0001F1F8 US 75"
   - "\U0001F1E8\U0001F1F3 CN 76"
   - "\U0001F1E8\U0001F1F3 CN 77"
-  - "\U0001F1E8\U0001F1F3 CN 78"
+  - "\U0001F1F0\U0001F1F7 KR 78"
   - "\U0001F1E8\U0001F1F3 CN 79"
   - "\U0001F1E8\U0001F1F3 CN 80"
   - "\U0001F1E8\U0001F1F3 CN 81"
@@ -1542,22 +1759,48 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 102"
   - "\U0001F1E8\U0001F1F3 CN 103"
   - "\U0001F1E8\U0001F1F3 CN 104"
-  - "\U0001F1F8\U0001F1EC SG 105"
+  - "\U0001F1E8\U0001F1F3 CN 105"
   - "\U0001F1E8\U0001F1F3 CN 106"
   - "\U0001F1E8\U0001F1F3 CN 107"
   - "\U0001F1E8\U0001F1F3 CN 108"
   - "\U0001F1E8\U0001F1F3 CN 109"
-  - "\U0001F1F8\U0001F1EC SG 110"
+  - "\U0001F1E8\U0001F1F3 CN 110"
   - "\U0001F1E8\U0001F1F3 CN 111"
-  - "\U0001F1FA\U0001F1F8 US 112"
+  - "\U0001F1E8\U0001F1F3 CN 112"
   - "\U0001F1E8\U0001F1F3 CN 113"
   - "\U0001F1E8\U0001F1F3 CN 114"
   - "\U0001F1E8\U0001F1F3 CN 115"
-  - "\U0001F1E8\U0001F1F3 CN 116"
-  - "\U0001F1FA\U0001F1F8 US 117"
-  - "\U0001F1E8\U0001F1F3 HK 118"
+  - "\U0001F1F7\U0001F1F4 RO 116"
+  - "\U0001F1E8\U0001F1F3 CN 117"
+  - "\U0001F1E8\U0001F1F3 CN 118"
   - "\U0001F1E8\U0001F1F3 CN 119"
   - "\U0001F1E8\U0001F1F3 CN 120"
+  - "\U0001F1E8\U0001F1F3 CN 121"
+  - "\U0001F1E8\U0001F1F3 CN 122"
+  - "\U0001F1E8\U0001F1F3 CN 123"
+  - "\U0001F1E8\U0001F1F3 CN 124"
+  - "\U0001F1E8\U0001F1F3 CN 125"
+  - "\U0001F1E8\U0001F1F3 CN 126"
+  - "\U0001F1E8\U0001F1F3 CN 127"
+  - "\U0001F1F8\U0001F1EC SG 128"
+  - "\U0001F1E8\U0001F1F3 CN 129"
+  - "\U0001F1E8\U0001F1F3 CN 130"
+  - "\U0001F1E8\U0001F1F3 CN 131"
+  - "\U0001F1E8\U0001F1F3 CN 132"
+  - "\U0001F1E8\U0001F1F3 TW 133"
+  - "\U0001F1EF\U0001F1F5 JP 134"
+  - "\U0001F1E8\U0001F1F3 CN 135"
+  - "\U0001F1E8\U0001F1F3 CN 136"
+  - "\U0001F1E8\U0001F1F3 CN 137"
+  - "\U0001F1E8\U0001F1F3 CN 138"
+  - "\U0001F1E8\U0001F1F3 CN 139"
+  - "\U0001F1E8\U0001F1F3 CN 140"
+  - "\U0001F1E8\U0001F1F3 CN 141"
+  - "\U0001F1E8\U0001F1F3 CN 142"
+  - "\U0001F1E8\U0001F1F3 CN 143"
+  - "\U0001F1E8\U0001F1F3 CN 144"
+  - "\U0001F1FA\U0001F1F8 US 145"
+  - "\U0001F1E8\U0001F1F3 CN 146"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
