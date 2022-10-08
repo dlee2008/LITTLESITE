@@ -79,7 +79,15 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: "\U0001F1FA\U0001F1F8 US 1"
+- name: "\U0001F1E8\U0001F1F3 CN 1"
+  server: 139.227.182.124
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 12851
+  password: yQAgQC
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 2"
   server: de.p1.gay
   type: trojan
   country: "\U0001F1E9\U0001F1EA DE"
@@ -87,27 +95,19 @@ proxies:
   password: 69a019dd-617b-449f-9af0-57762a476530
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1FF CZ 2"
-  server: 185.253.46.40
+- name: "\U0001F1F0\U0001F1F7 KR 3"
+  server: 146.56.189.146
   type: trojan
-  country: "\U0001F1E8\U0001F1FF CZ"
+  country: "\U0001F1F0\U0001F1F7 KR"
   port: 443
-  password: vGWCNNfBHwSY6m6M
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 3"
+- name: "\U0001F1F3\U0001F1F1 NL 4"
   server: he.p1.gay
   type: trojan
   country: "\U0001F1F3\U0001F1F1 NL"
   port: 25113
-  password: 69a019dd-617b-449f-9af0-57762a476530
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F7\U0001F1FA RU 4"
-  server: ru.p1.gay
-  type: trojan
-  country: "\U0001F1F7\U0001F1FA RU"
-  port: 24114
   password: 69a019dd-617b-449f-9af0-57762a476530
   skip-cert-verify: true
   udp: true
@@ -118,121 +118,26 @@ proxies:
   port: 57124
   password: Lxjc2FLT5XXbt
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 6"
-  server: 116.162.120.23
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 610
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53923:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: VjJ0V1RrMVhVa2RqUmxKUVZrVndjVlZ1Y0Zka2JHUlhZVVpK
-- name: "\U0001F1E8\U0001F1F3 CN 7"
-  server: 221.131.165.89
-  type: ss
-  country: "\U0001F3C1 ZZ"
-  port: 57362
-  password: kL9OzMCvMXuRI
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 8"
-  server: 116.162.120.23
-  type: ssr
-  country: "\U0001F1F7\U0001F1FA RU"
-  port: 560
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53923:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: ZEM1dFpTOTJjRzVvWVhR
-- name: "\U0001F1E8\U0001F1F3 CN 9"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24001
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 10"
-  server: 221.131.165.89
-  type: ss
-  country: "\U0001F3C1 ZZ"
-  port: 51872
-  password: JbCHRtQy82qvQ
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1FF CZ 11"
-  server: 185.253.47.79
-  type: trojan
-  country: "\U0001F1E8\U0001F1FF CZ"
-  port: 443
-  password: ZD4dLSBXiMrmzdLd
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 12"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24008
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 13"
-  server: pull-cache-lu01.xyx-xylo.com
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 19701
-  password: 79745894-044c-3298-a893-bbfcb6b24a2c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 14"
-  server: liaoningddns.xyz
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 11427
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1FA\U0001F1F8 US 1"
-  - "\U0001F1E8\U0001F1FF CZ 2"
-  - "\U0001F1F3\U0001F1F1 NL 3"
-  - "\U0001F1F7\U0001F1FA RU 4"
+  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1FA\U0001F1F8 US 2"
+  - "\U0001F1F0\U0001F1F7 KR 3"
+  - "\U0001F1F3\U0001F1F1 NL 4"
   - "\U0001F1E8\U0001F1F3 CN 5"
-  - "\U0001F1E8\U0001F1F3 CN 6"
-  - "\U0001F1E8\U0001F1F3 CN 7"
-  - "\U0001F1E8\U0001F1F3 CN 8"
-  - "\U0001F1E8\U0001F1F3 CN 9"
-  - "\U0001F1E8\U0001F1F3 CN 10"
-  - "\U0001F1E8\U0001F1FF CZ 11"
-  - "\U0001F1E8\U0001F1F3 CN 12"
-  - "\U0001F1E8\U0001F1F3 CN 13"
-  - "\U0001F1E8\U0001F1F3 CN 14"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
   type: select
   proxies:
   - automatic
-  - "\U0001F1FA\U0001F1F8 US 1"
-  - "\U0001F1E8\U0001F1FF CZ 2"
-  - "\U0001F1F3\U0001F1F1 NL 3"
-  - "\U0001F1F7\U0001F1FA RU 4"
+  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1FA\U0001F1F8 US 2"
+  - "\U0001F1F0\U0001F1F7 KR 3"
+  - "\U0001F1F3\U0001F1F1 NL 4"
   - "\U0001F1E8\U0001F1F3 CN 5"
-  - "\U0001F1E8\U0001F1F3 CN 6"
-  - "\U0001F1E8\U0001F1F3 CN 7"
-  - "\U0001F1E8\U0001F1F3 CN 8"
-  - "\U0001F1E8\U0001F1F3 CN 9"
-  - "\U0001F1E8\U0001F1F3 CN 10"
-  - "\U0001F1E8\U0001F1FF CZ 11"
-  - "\U0001F1E8\U0001F1F3 CN 12"
-  - "\U0001F1E8\U0001F1F3 CN 13"
-  - "\U0001F1E8\U0001F1F3 CN 14"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
