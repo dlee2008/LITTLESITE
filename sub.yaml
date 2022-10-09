@@ -90,7 +90,7 @@ proxies:
   server: kqs-moble.gatknqh.cn
   type: ss
   country: "\U0001F1E8\U0001F1F3 CN"
-  port: 45001
+  port: 53305
   password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
   cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 3"
@@ -101,105 +101,79 @@ proxies:
   password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
   cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 4"
-  server: guangzhouddns.xyz
+  server: kqs-moble.gatknqh.cn
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 45001
+  password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 5"
+  server: zj.ecvvvw.cn
+  type: trojan
+  country: "\U0001F1E8\U0001F1E6 CA"
+  port: 47004
+  password: c00d4818-febd-3d95-839a-f4ea6355463f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 6"
+  server: yd-07.paofunlink.com
   type: ssr
   country: "\U0001F1E8\U0001F1F3 CN"
-  port: 11804
-  password: Fhbe0z
+  port: 5956
+  password: bxsnucrgk6hfish
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 5"
+  protocol-param: 117088:qxSQhL
+  obfs: plain
+  obfs-param: 9b364117088.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 7"
+  server: 116.129.254.29
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 3381
+  password: d4e41ff772c7fd45
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 8"
   server: kqs-moble.gatknqh.cn
   type: ss
   country: "\U0001F1E8\U0001F1F3 TW"
   port: 49325
   password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
   cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 6"
-  server: 116.162.120.25
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 568
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53925:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ
-- name: "\U0001F1E8\U0001F1F3 CN 7"
-  server: 116.162.120.25
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 565
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53925:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ
-- name: "\U0001F1E8\U0001F1F3 CN 8"
-  server: 116.162.120.25
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 564
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53925:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ
 - name: "\U0001F1E8\U0001F1F3 CN 9"
-  server: 116.162.120.25
-  type: ssr
+  server: kqs-moble.gatknqh.cn
+  type: ss
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 560
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53925:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ
+  port: 51875
+  password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
+  cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 10"
-  server: zj.ecvvvw.cn
-  type: trojan
+  server: liaoningddns.xyz
+  type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 49001
-  password: c00d4818-febd-3d95-839a-f4ea6355463f
-  skip-cert-verify: true
-  udp: true
+  port: 11428
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
 - name: "\U0001F1E8\U0001F1F3 CN 11"
-  server: 116.162.120.25
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 563
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53925:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ
-- name: "\U0001F1E8\U0001F1F3 CN 12"
-  server: 116.162.120.25
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 561
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53925:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ
-- name: "\U0001F1E8\U0001F1F3 CN 13"
   server: kqs-moble.gatknqh.cn
   type: ss
   country: "\U0001F1EC\U0001F1E7 GB"
-  port: 23166
+  port: 49971
   password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
   cipher: aes-256-gcm
-- name: "\U0001F1EF\U0001F1F5 JP 14"
+- name: "\U0001F1E8\U0001F1F3 CN 12"
+  server: kqs-moble.gatknqh.cn
+  type: ss
+  country: "\U0001F1E9\U0001F1EA DE"
+  port: 10781
+  password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
+  cipher: aes-256-gcm
+- name: "\U0001F1F8\U0001F1EC SG 13"
   server: de.iamnotagoodman.com
   type: trojan
   country: "\U0001F1EB\U0001F1F7 FR"
@@ -207,67 +181,33 @@ proxies:
   password: e4ae0d84-6162-4620-8cf8-15222d32203e
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 14"
+  server: nice-uk01.tiktokcdn.buzz
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 18271
+  password: ItqczFJHHy
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 15"
-  server: 183.232.141.107
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 560
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53925:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ
+  server: kqs-moble.gatknqh.cn
+  type: ss
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 23166
+  password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
+  cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 16"
-  server: 183.232.141.119
+  server: guangzhouddns.xyz
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 561
-  password: mblank1port
+  port: 11810
+  password: Fhbe0z
   cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53925:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
 - name: "\U0001F1E8\U0001F1F3 CN 17"
-  server: 116.162.120.24
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 560
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53925:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ
-- name: "\U0001F1E8\U0001F1F3 CN 18"
-  server: zj.ecvvvw.cn
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 45002
-  password: c00d4818-febd-3d95-839a-f4ea6355463f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 19"
-  server: 116.162.120.24
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 562
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53925:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ
-- name: "\U0001F1F8\U0001F1EC SG 20"
-  server: hgc.iamnotagoodman.com
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 443
-  password: 2ac7fc8a-68b5-4809-8bd2-73a593bae292
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 21"
   server: zj.ecvvvw.cn
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -275,29 +215,31 @@ proxies:
   password: c00d4818-febd-3d95-839a-f4ea6355463f
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 22"
-  server: kqs-moble.gatknqh.cn
-  type: ss
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 20670
-  password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
-  cipher: aes-256-gcm
-- name: "\U0001F1EF\U0001F1F5 JP 23"
-  server: jp2-5s4d-sjf9-xaf1-sl99.paolu.pics
+- name: "\U0001F1F8\U0001F1EC SG 18"
+  server: hgc.iamnotagoodman.com
   type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 22031
-  password: 2a2a22a7-2a33-4681-ab55-d27d8e2a1117
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 443
+  password: e4ae0d84-6162-4620-8cf8-15222d32203e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 24"
-  server: kqs-moble.gatknqh.cn
-  type: ss
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 42375
-  password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
-  cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 25"
+- name: "\U0001F1E8\U0001F1F3 CN 19"
+  server: zj.ecvvvw.cn
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 45003
+  password: c00d4818-febd-3d95-839a-f4ea6355463f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 20"
+  server: zj.ecvvvw.cn
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 45001
+  password: c00d4818-febd-3d95-839a-f4ea6355463f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 21"
   server: liaoningddns.xyz
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -308,7 +250,61 @@ proxies:
   protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
   obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 22"
+  server: kqs-moble.gatknqh.cn
+  type: ss
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 45010
+  password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 23"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 11005
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 24"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24006
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 25"
+  server: kqs-moble.gatknqh.cn
+  type: ss
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 35380
+  password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
+  cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 26"
+  server: kqs-moble.gatknqh.cn
+  type: ss
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 20670
+  password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 27"
+  server: kqs-moble.gatknqh.cn
+  type: ss
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 42375
+  password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 28"
+  server: zj.ecvvvw.cn
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 45002
+  password: c00d4818-febd-3d95-839a-f4ea6355463f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 29"
   server: zj.ecvvvw.cn
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -316,23 +312,26 @@ proxies:
   password: c00d4818-febd-3d95-839a-f4ea6355463f
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 27"
-  server: trs02.bolab.net
-  type: trojan
+- name: "\U0001F1E8\U0001F1F3 CN 30"
+  server: guangzhouddns.xyz
+  type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 7a566d21dfcd0f12490275fd3dd3cfc4
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 28"
-  server: 152.67.160.174
+  port: 11842
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E9\U0001F1EA DE 31"
+  server: content-provider28.cdn-delivery.akamaicd.com
   type: trojan
-  country: "\U0001F1EE\U0001F1F3 IN"
+  country: "\U0001F1E9\U0001F1EA DE"
   port: 443
-  password: 54080134-2cba-4535-8599-95650bd9aa54
+  password: origin
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 29"
+- name: "\U0001F1E8\U0001F1F3 CN 32"
   server: zj.ecvvvw.cn
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -340,32 +339,11 @@ proxies:
   password: c00d4818-febd-3d95-839a-f4ea6355463f
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 30"
-  server: kqs-moble.gatknqh.cn
-  type: ss
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 35380
-  password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
-  cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 31"
-  server: kqs-moble.gatknqh.cn
-  type: ss
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 23236
-  password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
-  cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 32"
-  server: kqs-moble.gatknqh.cn
-  type: ss
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 42114
-  password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
-  cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 33"
   server: kqs-moble.gatknqh.cn
   type: ss
-  country: "\U0001F1F5\U0001F1ED PH"
-  port: 45005
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 47147
   password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
   cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 34"
@@ -376,24 +354,19 @@ proxies:
   password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
   cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 35"
-  server: 116.162.120.23
-  type: ssr
-  country: "\U0001F1F7\U0001F1FA RU"
-  port: 562
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53925:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ
-- name: "\U0001F1F0\U0001F1F7 KR 36"
-  server: 138.2.113.84
-  type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 443
-  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-  skip-cert-verify: true
-  udp: true
+  server: kqs-moble.gatknqh.cn
+  type: ss
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 24400
+  password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
+  cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 36"
+  server: kqs-moble.gatknqh.cn
+  type: ss
+  country: "\U0001F1F5\U0001F1ED PH"
+  port: 45005
+  password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
+  cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 37"
   server: kqs-moble.gatknqh.cn
   type: ss
@@ -402,30 +375,32 @@ proxies:
   password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
   cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 38"
-  server: 116.162.120.23
+  server: zj.ecvvvw.cn
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 48002
+  password: c00d4818-febd-3d95-839a-f4ea6355463f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 39"
+  server: liaoningddns.xyz
   type: ssr
-  country: "\U0001F1F3\U0001F1F1 NL"
-  port: 611
-  password: mblank1port
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 11422
+  password: Fhbe0z
   cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53925:hjgjuy6t655jjg
-  obfs: plain
-- name: "\U0001F1F0\U0001F1F7 KR 39"
-  server: 150.230.249.42
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1F0\U0001F1F7 KR 40"
+  server: 138.2.113.84
   type: trojan
   country: "\U0001F1F0\U0001F1F7 KR"
   port: 443
-  password: 0Y9gOHSdRt
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 40"
-  server: kqs-moble.gatknqh.cn
-  type: ss
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 29123
-  password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
-  cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 41"
   server: 223.166.145.153
   type: ssr
@@ -447,51 +422,36 @@ proxies:
   protocol-param: 53925:hjgjuy6t655jjg
   obfs: plain
 - name: "\U0001F1E8\U0001F1F3 CN 43"
-  server: 183.232.141.114
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 565
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53925:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ
-- name: "\U0001F1E8\U0001F1F3 CN 44"
   server: kqs-moble.gatknqh.cn
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   port: 29589
   password: 3c5d72a5-d40d-4b88-ac96-1b5c5d1ac2b6
   cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1FF CZ 44"
+  server: v2cross.com.03.v2ce.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1FF CZ"
+  port: 443
+  password: ZD4dLSBXiMrmzdLd
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 45"
-  server: liaoningddns.xyz
-  type: ssr
+  server: zj.ecvvvw.cn
+  type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 11427
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
+  port: 47000
+  password: c00d4818-febd-3d95-839a-f4ea6355463f
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 46"
-  server: zj.ecvvvw.cn
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 47002
-  password: c00d4818-febd-3d95-839a-f4ea6355463f
-  skip-cert-verify: true
-  udp: true
+  server: 180.101.193.226
+  type: ss
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 10068
+  password: RsDk3peCSuo76B68
+  cipher: aes-256-cfb
 - name: "\U0001F1E8\U0001F1F3 CN 47"
-  server: zj.ecvvvw.cn
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 47001
-  password: c00d4818-febd-3d95-839a-f4ea6355463f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 48"
   server: liaoningddns.xyz
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -502,12 +462,20 @@ proxies:
   protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
   obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 49"
+- name: "\U0001F1E8\U0001F1F3 CN 48"
   server: 116.129.253.134
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
   port: 3381
   password: d02058f4f819dced
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 49"
+  server: fhcamd2.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 50"
@@ -520,39 +488,20 @@ proxies:
   protocol: auth_aes128_md5
   protocol-param: 53925:hjgjuy6t655jjg
   obfs: plain
-- name: "\U0001F1E8\U0001F1F3 CN 51"
-  server: 223.166.145.153
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 569
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53925:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ
-- name: "\U0001F1E8\U0001F1F3 CN 52"
-  server: 116.129.253.134
+- name: "\U0001F1FA\U0001F1F8 US 51"
+  server: 129.146.190.42
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 3381
-  password: 6222266fcd4ed224
+  port: 443
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 53"
+- name: "\U0001F1E8\U0001F1F3 CN 52"
   server: zj.ecvvvw.cn
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
   port: 47003
   password: c00d4818-febd-3d95-839a-f4ea6355463f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 54"
-  server: 116.129.254.29
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 3381
-  password: d4e41ff772c7fd45
   skip-cert-verify: true
   udp: true
 proxy-groups:
@@ -571,48 +520,46 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 10"
   - "\U0001F1E8\U0001F1F3 CN 11"
   - "\U0001F1E8\U0001F1F3 CN 12"
-  - "\U0001F1E8\U0001F1F3 CN 13"
-  - "\U0001F1EF\U0001F1F5 JP 14"
+  - "\U0001F1F8\U0001F1EC SG 13"
+  - "\U0001F1EC\U0001F1E7 GB 14"
   - "\U0001F1E8\U0001F1F3 CN 15"
   - "\U0001F1E8\U0001F1F3 CN 16"
   - "\U0001F1E8\U0001F1F3 CN 17"
-  - "\U0001F1E8\U0001F1F3 CN 18"
+  - "\U0001F1F8\U0001F1EC SG 18"
   - "\U0001F1E8\U0001F1F3 CN 19"
-  - "\U0001F1F8\U0001F1EC SG 20"
+  - "\U0001F1E8\U0001F1F3 CN 20"
   - "\U0001F1E8\U0001F1F3 CN 21"
   - "\U0001F1E8\U0001F1F3 CN 22"
-  - "\U0001F1EF\U0001F1F5 JP 23"
+  - "\U0001F1E8\U0001F1F3 CN 23"
   - "\U0001F1E8\U0001F1F3 CN 24"
   - "\U0001F1E8\U0001F1F3 CN 25"
   - "\U0001F1E8\U0001F1F3 CN 26"
-  - "\U0001F1EF\U0001F1F5 JP 27"
-  - "\U0001F1EE\U0001F1F3 IN 28"
+  - "\U0001F1E8\U0001F1F3 CN 27"
+  - "\U0001F1E8\U0001F1F3 CN 28"
   - "\U0001F1E8\U0001F1F3 CN 29"
   - "\U0001F1E8\U0001F1F3 CN 30"
-  - "\U0001F1E8\U0001F1F3 CN 31"
+  - "\U0001F1E9\U0001F1EA DE 31"
   - "\U0001F1E8\U0001F1F3 CN 32"
   - "\U0001F1E8\U0001F1F3 CN 33"
   - "\U0001F1E8\U0001F1F3 CN 34"
   - "\U0001F1E8\U0001F1F3 CN 35"
-  - "\U0001F1F0\U0001F1F7 KR 36"
+  - "\U0001F1E8\U0001F1F3 CN 36"
   - "\U0001F1E8\U0001F1F3 CN 37"
   - "\U0001F1E8\U0001F1F3 CN 38"
-  - "\U0001F1F0\U0001F1F7 KR 39"
-  - "\U0001F1E8\U0001F1F3 CN 40"
+  - "\U0001F1E8\U0001F1F3 CN 39"
+  - "\U0001F1F0\U0001F1F7 KR 40"
   - "\U0001F1E8\U0001F1F3 CN 41"
   - "\U0001F1E8\U0001F1F3 CN 42"
   - "\U0001F1E8\U0001F1F3 CN 43"
-  - "\U0001F1E8\U0001F1F3 CN 44"
+  - "\U0001F1E8\U0001F1FF CZ 44"
   - "\U0001F1E8\U0001F1F3 CN 45"
   - "\U0001F1E8\U0001F1F3 CN 46"
   - "\U0001F1E8\U0001F1F3 CN 47"
   - "\U0001F1E8\U0001F1F3 CN 48"
-  - "\U0001F1E8\U0001F1F3 CN 49"
+  - "\U0001F1FA\U0001F1F8 US 49"
   - "\U0001F1E8\U0001F1F3 CN 50"
-  - "\U0001F1E8\U0001F1F3 CN 51"
+  - "\U0001F1FA\U0001F1F8 US 51"
   - "\U0001F1E8\U0001F1F3 CN 52"
-  - "\U0001F1E8\U0001F1F3 CN 53"
-  - "\U0001F1E8\U0001F1F3 CN 54"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
@@ -631,48 +578,46 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 10"
   - "\U0001F1E8\U0001F1F3 CN 11"
   - "\U0001F1E8\U0001F1F3 CN 12"
-  - "\U0001F1E8\U0001F1F3 CN 13"
-  - "\U0001F1EF\U0001F1F5 JP 14"
+  - "\U0001F1F8\U0001F1EC SG 13"
+  - "\U0001F1EC\U0001F1E7 GB 14"
   - "\U0001F1E8\U0001F1F3 CN 15"
   - "\U0001F1E8\U0001F1F3 CN 16"
   - "\U0001F1E8\U0001F1F3 CN 17"
-  - "\U0001F1E8\U0001F1F3 CN 18"
+  - "\U0001F1F8\U0001F1EC SG 18"
   - "\U0001F1E8\U0001F1F3 CN 19"
-  - "\U0001F1F8\U0001F1EC SG 20"
+  - "\U0001F1E8\U0001F1F3 CN 20"
   - "\U0001F1E8\U0001F1F3 CN 21"
   - "\U0001F1E8\U0001F1F3 CN 22"
-  - "\U0001F1EF\U0001F1F5 JP 23"
+  - "\U0001F1E8\U0001F1F3 CN 23"
   - "\U0001F1E8\U0001F1F3 CN 24"
   - "\U0001F1E8\U0001F1F3 CN 25"
   - "\U0001F1E8\U0001F1F3 CN 26"
-  - "\U0001F1EF\U0001F1F5 JP 27"
-  - "\U0001F1EE\U0001F1F3 IN 28"
+  - "\U0001F1E8\U0001F1F3 CN 27"
+  - "\U0001F1E8\U0001F1F3 CN 28"
   - "\U0001F1E8\U0001F1F3 CN 29"
   - "\U0001F1E8\U0001F1F3 CN 30"
-  - "\U0001F1E8\U0001F1F3 CN 31"
+  - "\U0001F1E9\U0001F1EA DE 31"
   - "\U0001F1E8\U0001F1F3 CN 32"
   - "\U0001F1E8\U0001F1F3 CN 33"
   - "\U0001F1E8\U0001F1F3 CN 34"
   - "\U0001F1E8\U0001F1F3 CN 35"
-  - "\U0001F1F0\U0001F1F7 KR 36"
+  - "\U0001F1E8\U0001F1F3 CN 36"
   - "\U0001F1E8\U0001F1F3 CN 37"
   - "\U0001F1E8\U0001F1F3 CN 38"
-  - "\U0001F1F0\U0001F1F7 KR 39"
-  - "\U0001F1E8\U0001F1F3 CN 40"
+  - "\U0001F1E8\U0001F1F3 CN 39"
+  - "\U0001F1F0\U0001F1F7 KR 40"
   - "\U0001F1E8\U0001F1F3 CN 41"
   - "\U0001F1E8\U0001F1F3 CN 42"
   - "\U0001F1E8\U0001F1F3 CN 43"
-  - "\U0001F1E8\U0001F1F3 CN 44"
+  - "\U0001F1E8\U0001F1FF CZ 44"
   - "\U0001F1E8\U0001F1F3 CN 45"
   - "\U0001F1E8\U0001F1F3 CN 46"
   - "\U0001F1E8\U0001F1F3 CN 47"
   - "\U0001F1E8\U0001F1F3 CN 48"
-  - "\U0001F1E8\U0001F1F3 CN 49"
+  - "\U0001F1FA\U0001F1F8 US 49"
   - "\U0001F1E8\U0001F1F3 CN 50"
-  - "\U0001F1E8\U0001F1F3 CN 51"
+  - "\U0001F1FA\U0001F1F8 US 51"
   - "\U0001F1E8\U0001F1F3 CN 52"
-  - "\U0001F1E8\U0001F1F3 CN 53"
-  - "\U0001F1E8\U0001F1F3 CN 54"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
