@@ -80,10 +80,10 @@ dns:
     - 0.0.0.0/32
 proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 1"
-  server: liaoningddns.xyz
+  server: guangzhouddns.xyz
   type: ssr
   country: "\U0001F1E8\U0001F1F3 CN"
-  port: 11429
+  port: 35247
   password: Fhbe0z
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
@@ -91,65 +91,6 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: 018ab12023.microsoft.com
 - name: "\U0001F1E8\U0001F1F3 CN 2"
-  server: guangzhouddns.xyz
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 11005
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 3"
-  server: eduall.buzzline.org
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 613
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 48714:NWsm4Mn83YRPHoye
-  obfs: plain
-- name: "\U0001F1E8\U0001F1F3 CN 4"
-  server: cnrefhk2.standurl.xyz
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 561
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 48714:NWsm4Mn83YRPHoye
-  obfs: plain
-- name: "\U0001F1E8\U0001F1F3 CN 5"
-  server: cucshk4.debugex.xyz
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 562
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 48714:NWsm4Mn83YRPHoye
-  obfs: plain
-- name: "\U0001F1EB\U0001F1F7 FR 6"
-  server: 141.94.76.177
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7 FR"
-  port: 443
-  password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 7"
-  server: cucshk4.debugex.xyz
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 560
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 48714:NWsm4Mn83YRPHoye
-  obfs: plain
-- name: "\U0001F1E8\U0001F1F3 CN 8"
   server: cnrefhk01.standurl.xyz
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -159,22 +100,38 @@ proxies:
   protocol: auth_aes128_md5
   protocol-param: 48714:NWsm4Mn83YRPHoye
   obfs: plain
-- name: "\U0001F1E8\U0001F1F3 CN 9"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24009
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1F0\U0001F1F7 KR 10"
-  server: kr1.api-aws.com
-  type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 443
-  password: 545034ab-8179-46ea-a7d4-a5c992cce000
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 11"
+- name: "\U0001F1E8\U0001F1F3 CN 3"
+  server: cucshk4.debugex.xyz
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 562
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 48714:NWsm4Mn83YRPHoye
+  obfs: plain
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: cucshk4.debugex.xyz
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 560
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 48714:NWsm4Mn83YRPHoye
+  obfs: plain
+- name: "\U0001F1E8\U0001F1F3 CN 5"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 11810
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 6"
   server: cmaisallin.debugspace.work
   type: ssr
   country: "\U0001F1F0\U0001F1F7 KR"
@@ -184,7 +141,15 @@ proxies:
   protocol: auth_aes128_md5
   protocol-param: 48714:NWsm4Mn83YRPHoye
   obfs: plain
-- name: "\U0001F1F8\U0001F1EC SG 12"
+- name: "\U0001F1E8\U0001F1F3 CN 7"
+  server: 112.6.212.141
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 49007
+  password: 746b2890-fc2f-48c5-b6fa-6274eed8b153
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 8"
   server: do-sg-01.vvsoga.net
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -192,32 +157,14 @@ proxies:
   password: 469eb2d7-c86c-3484-ba85-4f26f0645b9b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 13"
+- name: "\U0001F1E8\U0001F1F3 CN 9"
   server: 14.29.124.168
   type: ss
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24005
+  port: 24006
   password: QazEdcTgb159@$*
   cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 14"
-  server: eduall.buzzline.org
-  type: ssr
-  country: "\U0001F1F7\U0001F1FA RU"
-  port: 562
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 48714:NWsm4Mn83YRPHoye
-  obfs: plain
-- name: "\U0001F1E8\U0001F1FF CZ 15"
-  server: 185.253.47.79
-  type: trojan
-  country: "\U0001F1E8\U0001F1FF CZ"
-  port: 443
-  password: ZD4dLSBXiMrmzdLd
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 16"
+- name: "\U0001F1E8\U0001F1F3 CN 10"
   server: eduall.buzzline.org
   type: ssr
   country: "\U0001F1F7\U0001F1FA RU"
@@ -227,18 +174,7 @@ proxies:
   protocol: auth_aes128_md5
   protocol-param: 48714:NWsm4Mn83YRPHoye
   obfs: plain
-- name: "\U0001F1E8\U0001F1F3 CN 17"
-  server: guangzhouddns.xyz
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 35247
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 18"
+- name: "\U0001F1E8\U0001F1F3 CN 11"
   server: eduall.buzzline.org
   type: ssr
   country: "\U0001F1F9\U0001F1F7 TR"
@@ -248,24 +184,22 @@ proxies:
   protocol: auth_aes128_md5
   protocol-param: 48714:NWsm4Mn83YRPHoye
   obfs: plain
-- name: "\U0001F1E8\U0001F1F3 CN 19"
+- name: "\U0001F1E8\U0001F1F3 CN 12"
   server: 14.29.124.168
   type: ss
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24006
+  port: 24009
   password: QazEdcTgb159@$*
   cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 20"
-  server: eduall.buzzline.org
-  type: ssr
-  country: "\U0001F1F7\U0001F1FA RU"
-  port: 561
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 48714:NWsm4Mn83YRPHoye
-  obfs: plain
-- name: "\U0001F1E8\U0001F1F3 CN 21"
+- name: "\U0001F1EB\U0001F1F7 FR 13"
+  server: 141.94.76.177
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 443
+  password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 14"
   server: 14.215.107.16
   type: trojan
   country: "\U0001F1F9\U0001F1F7 TR"
@@ -273,13 +207,16 @@ proxies:
   password: m3aIAW
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 22"
-  server: 180.101.193.226
-  type: ss
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 10068
-  password: RsDk3peCSuo76B68
-  cipher: aes-256-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 15"
+  server: eduall.buzzline.org
+  type: ssr
+  country: "\U0001F1EE\U0001F1F9 IT"
+  port: 612
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 48714:NWsm4Mn83YRPHoye
+  obfs: plain
 proxy-groups:
 - name: automatic
   type: url-test
@@ -289,23 +226,16 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 3"
   - "\U0001F1E8\U0001F1F3 CN 4"
   - "\U0001F1E8\U0001F1F3 CN 5"
-  - "\U0001F1EB\U0001F1F7 FR 6"
+  - "\U0001F1E8\U0001F1F3 CN 6"
   - "\U0001F1E8\U0001F1F3 CN 7"
-  - "\U0001F1E8\U0001F1F3 CN 8"
+  - "\U0001F1F8\U0001F1EC SG 8"
   - "\U0001F1E8\U0001F1F3 CN 9"
-  - "\U0001F1F0\U0001F1F7 KR 10"
+  - "\U0001F1E8\U0001F1F3 CN 10"
   - "\U0001F1E8\U0001F1F3 CN 11"
-  - "\U0001F1F8\U0001F1EC SG 12"
-  - "\U0001F1E8\U0001F1F3 CN 13"
+  - "\U0001F1E8\U0001F1F3 CN 12"
+  - "\U0001F1EB\U0001F1F7 FR 13"
   - "\U0001F1E8\U0001F1F3 CN 14"
-  - "\U0001F1E8\U0001F1FF CZ 15"
-  - "\U0001F1E8\U0001F1F3 CN 16"
-  - "\U0001F1E8\U0001F1F3 CN 17"
-  - "\U0001F1E8\U0001F1F3 CN 18"
-  - "\U0001F1E8\U0001F1F3 CN 19"
-  - "\U0001F1E8\U0001F1F3 CN 20"
-  - "\U0001F1E8\U0001F1F3 CN 21"
-  - "\U0001F1E8\U0001F1F3 CN 22"
+  - "\U0001F1E8\U0001F1F3 CN 15"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
@@ -317,23 +247,16 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 3"
   - "\U0001F1E8\U0001F1F3 CN 4"
   - "\U0001F1E8\U0001F1F3 CN 5"
-  - "\U0001F1EB\U0001F1F7 FR 6"
+  - "\U0001F1E8\U0001F1F3 CN 6"
   - "\U0001F1E8\U0001F1F3 CN 7"
-  - "\U0001F1E8\U0001F1F3 CN 8"
+  - "\U0001F1F8\U0001F1EC SG 8"
   - "\U0001F1E8\U0001F1F3 CN 9"
-  - "\U0001F1F0\U0001F1F7 KR 10"
+  - "\U0001F1E8\U0001F1F3 CN 10"
   - "\U0001F1E8\U0001F1F3 CN 11"
-  - "\U0001F1F8\U0001F1EC SG 12"
-  - "\U0001F1E8\U0001F1F3 CN 13"
+  - "\U0001F1E8\U0001F1F3 CN 12"
+  - "\U0001F1EB\U0001F1F7 FR 13"
   - "\U0001F1E8\U0001F1F3 CN 14"
-  - "\U0001F1E8\U0001F1FF CZ 15"
-  - "\U0001F1E8\U0001F1F3 CN 16"
-  - "\U0001F1E8\U0001F1F3 CN 17"
-  - "\U0001F1E8\U0001F1F3 CN 18"
-  - "\U0001F1E8\U0001F1F3 CN 19"
-  - "\U0001F1E8\U0001F1F3 CN 20"
-  - "\U0001F1E8\U0001F1F3 CN 21"
-  - "\U0001F1E8\U0001F1F3 CN 22"
+  - "\U0001F1E8\U0001F1F3 CN 15"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
