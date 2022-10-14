@@ -79,7 +79,14 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: "\U0001F1FA\U0001F1F8 US 1"
+- name: "\U0001F1E8\U0001F1F3 CN 1"
+  server: 180.101.193.226
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 10068
+  password: RsDk3peCSuo76B68
+  cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F8 US 2"
   server: standard.efcloud.cc
   type: trojan
   country: "\U0001F1E8\U0001F1F3 TW"
@@ -87,7 +94,29 @@ proxies:
   password: 2f95d996-e911-4b1b-82b1-1d86bf2c517d
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 2"
+- name: "\U0001F1E8\U0001F1F3 CN 3"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 11845
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 11842
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1EB\U0001F1F7 FR 5"
   server: 141.94.76.177
   type: trojan
   country: "\U0001F1EB\U0001F1F7 FR"
@@ -95,53 +124,81 @@ proxies:
   password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 3"
-  server: basics.efcloud.cc
+- name: "\U0001F1F8\U0001F1EC SG 6"
+  server: do-sg-01.vvsoga.net
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
-  port: 44001
-  password: 2f95d996-e911-4b1b-82b1-1d86bf2c517d
+  port: 1234
+  password: 2fecc75c-3acc-3bb8-b30e-cd1159b4ed15
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 4"
-  server: liaoningddns.xyz
+- name: "\U0001F1E8\U0001F1F3 CN 7"
+  server: guangzhouddns.xyz
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
-  port: 11429
+  port: 11851
   password: Fhbe0z
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
   protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
   obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1EF\U0001F1F5 JP 5"
-  server: 168.138.43.89
+- name: "\U0001F1FA\U0001F1F8 US 8"
+  server: standard.efcloud.cc
   type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 45001
+  password: 2f95d996-e911-4b1b-82b1-1d86bf2c517d
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 9"
+  server: 116.162.120.25
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 561
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 53921:hjgjuy6t655jjg
+  obfs: plain
+- name: "\U0001F1F0\U0001F1F7 KR 10"
+  server: kr1.api-aws.com
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
   port: 443
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  password: aa7d24e0-b60c-44bb-bcd1-8b74a297cdbc
   skip-cert-verify: true
   udp: true
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1FA\U0001F1F8 US 1"
-  - "\U0001F1EB\U0001F1F7 FR 2"
-  - "\U0001F1E8\U0001F1F3 HK 3"
+  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1FA\U0001F1F8 US 2"
+  - "\U0001F1E8\U0001F1F3 CN 3"
   - "\U0001F1E8\U0001F1F3 CN 4"
-  - "\U0001F1EF\U0001F1F5 JP 5"
+  - "\U0001F1EB\U0001F1F7 FR 5"
+  - "\U0001F1F8\U0001F1EC SG 6"
+  - "\U0001F1E8\U0001F1F3 CN 7"
+  - "\U0001F1FA\U0001F1F8 US 8"
+  - "\U0001F1E8\U0001F1F3 CN 9"
+  - "\U0001F1F0\U0001F1F7 KR 10"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
   type: select
   proxies:
   - automatic
-  - "\U0001F1FA\U0001F1F8 US 1"
-  - "\U0001F1EB\U0001F1F7 FR 2"
-  - "\U0001F1E8\U0001F1F3 HK 3"
+  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1FA\U0001F1F8 US 2"
+  - "\U0001F1E8\U0001F1F3 CN 3"
   - "\U0001F1E8\U0001F1F3 CN 4"
-  - "\U0001F1EF\U0001F1F5 JP 5"
+  - "\U0001F1EB\U0001F1F7 FR 5"
+  - "\U0001F1F8\U0001F1EC SG 6"
+  - "\U0001F1E8\U0001F1F3 CN 7"
+  - "\U0001F1FA\U0001F1F8 US 8"
+  - "\U0001F1E8\U0001F1F3 CN 9"
+  - "\U0001F1F0\U0001F1F7 KR 10"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
