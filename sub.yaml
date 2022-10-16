@@ -80,17 +80,9 @@ dns:
     - 0.0.0.0/32
 proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 1"
-  server: zj.ecvvvw.cn
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 45000
-  password: c00d4818-febd-3d95-839a-f4ea6355463f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 2"
-  server: 116.162.120.23
+  server: 183.232.141.87
   type: ssr
-  country: "\U0001F1F7\U0001F1FA RU"
+  country: "\U0001F1ED\U0001F1F0 HK"
   port: 562
   password: mblank1port
   cipher: chacha20-ietf
@@ -98,19 +90,30 @@ proxies:
   protocol-param: 53929:hjgjuy6t655jjg
   obfs: plain
   obfs-param: t.me/vpnhat
-- name: "\U0001F1E8\U0001F1F3 CN 3"
-  server: zj.ecvvvw.cn
+- name: "\U0001F1E8\U0001F1F3 CN 2"
+  server: 112.6.212.141
   type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 48002
-  password: c00d4818-febd-3d95-839a-f4ea6355463f
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 49002
+  password: 83ba4ac8-89c7-45a3-9603-15cb312a50e3
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 4"
-  server: 112.64.53.108
+- name: "\U0001F1E8\U0001F1F3 CN 3"
+  server: 223.166.145.12
   type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 565
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 568
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 53929:hjgjuy6t655jjg
+  obfs: plain
+  obfs-param: t.me/vpnhat
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: 116.162.120.23
+  type: ssr
+  country: "\U0001F1EE\U0001F1F9 IT"
+  port: 612
   password: mblank1port
   cipher: chacha20-ietf
   protocol: auth_aes128_md5
@@ -118,52 +121,35 @@ proxies:
   obfs: plain
   obfs-param: t.me/vpnhat
 - name: "\U0001F1E8\U0001F1F3 CN 5"
-  server: zj.ecvvvw.cn
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 47000
-  password: c00d4818-febd-3d95-839a-f4ea6355463f
-  skip-cert-verify: true
-  udp: true
+  server: 116.162.120.23
+  type: ssr
+  country: "\U0001F1F9\U0001F1F7 TR"
+  port: 620
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 53929:hjgjuy6t655jjg
+  obfs: plain
+  obfs-param: t.me/vpnhat
 - name: "\U0001F1E8\U0001F1F3 CN 6"
   server: zj.ecvvvw.cn
   type: trojan
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 49001
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 47003
   password: c00d4818-febd-3d95-839a-f4ea6355463f
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 7"
-  server: zj.ecvvvw.cn
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 46002
-  password: c00d4818-febd-3d95-839a-f4ea6355463f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 8"
-  server: 112.6.212.141
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 49005
-  password: 2c895be3-4dd2-4443-b586-cce567532660
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 9"
-  server: 112.6.212.141
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 49003
-  password: 2c895be3-4dd2-4443-b586-cce567532660
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 10"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24001
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
+  server: 116.162.120.23
+  type: ssr
+  country: "\U0001F1F7\U0001F1FA RU"
+  port: 560
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 53929:hjgjuy6t655jjg
+  obfs: plain
+  obfs-param: t.me/vpnhat
 proxy-groups:
 - name: automatic
   type: url-test
@@ -175,9 +161,6 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 5"
   - "\U0001F1E8\U0001F1F3 CN 6"
   - "\U0001F1E8\U0001F1F3 CN 7"
-  - "\U0001F1E8\U0001F1F3 CN 8"
-  - "\U0001F1E8\U0001F1F3 CN 9"
-  - "\U0001F1E8\U0001F1F3 CN 10"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
@@ -191,9 +174,6 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 5"
   - "\U0001F1E8\U0001F1F3 CN 6"
   - "\U0001F1E8\U0001F1F3 CN 7"
-  - "\U0001F1E8\U0001F1F3 CN 8"
-  - "\U0001F1E8\U0001F1F3 CN 9"
-  - "\U0001F1E8\U0001F1F3 CN 10"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
