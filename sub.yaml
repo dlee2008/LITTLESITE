@@ -80,7 +80,7 @@ dns:
     - 0.0.0.0/32
 proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 1"
-  server: 183.232.141.87
+  server: 183.232.141.82
   type: ssr
   country: "\U0001F1E8\U0001F1F3 CN"
   port: 561
@@ -91,35 +91,17 @@ proxies:
   obfs: plain
   obfs-param: t.me/vpnhat
 - name: "\U0001F1E8\U0001F1F3 CN 2"
-  server: i1.go001.buzz
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 32201
-  password: bBEXIq
-  cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 3"
-  server: oracle.accessconnect.cc
+  server: 139.227.112.98
   type: ssr
   country: "\U0001F1E8\U0001F1F3 CN"
-  port: 1130
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 244236:kRRY5x
-  obfs: tls1.2_ticket_auth
-  obfs-param: 50bb5244236.www.gov.hk
-- name: "\U0001F1E8\U0001F1F3 CN 4"
-  server: oracle.accessconnect.cc
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 7002
-  password: di15PV
+  port: 561
+  password: mblank1port
   cipher: chacha20-ietf
   protocol: auth_aes128_md5
-  protocol-param: 244236:kRRY5x
-  obfs: tls1.2_ticket_auth
-  obfs-param: 50bb5244236.www.gov.hk
-- name: "\U0001F1E8\U0001F1F3 CN 5"
+  protocol-param: 53929:hjgjuy6t655jjg
+  obfs: plain
+  obfs-param: t.me/vpnhat
+- name: "\U0001F1E8\U0001F1F3 CN 3"
   server: oracle.accessconnect.cc
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -130,82 +112,105 @@ proxies:
   protocol-param: 244236:kRRY5x
   obfs: tls1.2_ticket_auth
   obfs-param: 50bb5244236.www.gov.hk
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: 183.232.141.87
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 562
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 53929:hjgjuy6t655jjg
+  obfs: plain
+- name: "\U0001F1E8\U0001F1F3 CN 5"
+  server: 112.64.53.108
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 566
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 53929:hjgjuy6t655jjg
+  obfs: plain
+  obfs-param: t.me/vpnhat
 - name: "\U0001F1E8\U0001F1F3 CN 6"
   server: oracle.accessconnect.cc
   type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 7001
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 244236:kRRY5x
-  obfs: tls1.2_ticket_auth
-  obfs-param: 50bb5244236.www.gov.hk
-- name: "\U0001F1F8\U0001F1EC SG 7"
-  server: hgc.iamnotagoodman.com
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 443
-  password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 8"
-  server: 1002hk1326.tfzhc.top
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 443
-  password: e1923173-673a-433f-aaed-171cbd083416
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 9"
-  server: note.cdn.002.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 50016
-  password: jL76UJd
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 11281:u6cfkS
-  obfs: tls1.2_ticket_auth
-  obfs-param: 3f1c011281.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 10"
-  server: note.cdn.002.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 50015
-  password: jL76UJd
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 11281:u6cfkS
-  obfs: tls1.2_ticket_auth
-  obfs-param: 3f1c011281.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 11"
-  server: oracle.accessconnect.cc
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 1122
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 1129
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 244236:kRRY5x
-  obfs: plain
+  obfs: tls1.2_ticket_auth
   obfs-param: 50bb5244236.www.gov.hk
-- name: "\U0001F1E8\U0001F1F3 CN 12"
+- name: "\U0001F1E8\U0001F1F3 CN 7"
   server: oracle.accessconnect.cc
   type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 1133
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 1124
   password: di15PV
-  cipher: chacha20-ietf
+  cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 244236:kRRY5x
   obfs: tls1.2_ticket_auth
   obfs-param: 50bb5244236.www.gov.hk
-- name: "\U0001F1E8\U0001F1F3 CN 13"
-  server: 183.232.141.107
+- name: "\U0001F1E8\U0001F1F3 CN 8"
+  server: 223.166.145.12
   type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 560
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 564
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 53929:hjgjuy6t655jjg
+  obfs: plain
+  obfs-param: t.me/vpnhat
+- name: "\U0001F1E8\U0001F1F3 CN 9"
+  server: 223.166.145.12
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 566
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 53929:hjgjuy6t655jjg
+  obfs: plain
+  obfs-param: t.me/vpnhat
+- name: "\U0001F1E8\U0001F1F3 CN 10"
+  server: oracle.accessconnect.cc
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 1132
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 244236:kRRY5x
+  obfs: tls1.2_ticket_auth
+  obfs-param: 50bb5244236.www.gov.hk
+- name: "\U0001F1E8\U0001F1F3 CN 11"
+  server: 116.162.120.23
+  type: ssr
+  country: "\U0001F1F7\U0001F1FA RU"
+  port: 562
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 53929:hjgjuy6t655jjg
+  obfs: plain
+- name: "\U0001F1E8\U0001F1F3 CN 12"
+  server: 43.248.96.185
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 10248
+  password: e4799b20-3315-4b7d-baaa-bd3a6d6e3306
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 13"
+  server: 116.162.120.23
+  type: ssr
+  country: "\U0001F1F7\U0001F1FA RU"
+  port: 561
   password: mblank1port
   cipher: chacha20-ietf
   protocol: auth_aes128_md5
@@ -213,37 +218,16 @@ proxies:
   obfs: plain
   obfs-param: t.me/vpnhat
 - name: "\U0001F1E8\U0001F1F3 CN 14"
-  server: 223.166.145.12
+  server: 223.166.145.108
   type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 565
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53929:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: t.me/vpnhat
-- name: "\U0001F1E8\U0001F1F3 CN 15"
-  server: 116.162.120.25
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 569
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 53929:hjgjuy6t655jjg
-  obfs: plain
-  obfs-param: t.me/vpnhat
-- name: "\U0001F1E8\U0001F1F3 CN 16"
-  server: 223.166.145.12
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
+  country: "\U0001F1ED\U0001F1F0 HK"
   port: 568
   password: mblank1port
   cipher: chacha20-ietf
   protocol: auth_aes128_md5
   protocol-param: 53929:hjgjuy6t655jjg
   obfs: plain
+  obfs-param: t.me/vpnhat
 proxy-groups:
 - name: automatic
   type: url-test
@@ -254,16 +238,14 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 4"
   - "\U0001F1E8\U0001F1F3 CN 5"
   - "\U0001F1E8\U0001F1F3 CN 6"
-  - "\U0001F1F8\U0001F1EC SG 7"
-  - "\U0001F1E8\U0001F1F3 HK 8"
+  - "\U0001F1E8\U0001F1F3 CN 7"
+  - "\U0001F1E8\U0001F1F3 CN 8"
   - "\U0001F1E8\U0001F1F3 CN 9"
   - "\U0001F1E8\U0001F1F3 CN 10"
   - "\U0001F1E8\U0001F1F3 CN 11"
   - "\U0001F1E8\U0001F1F3 CN 12"
   - "\U0001F1E8\U0001F1F3 CN 13"
   - "\U0001F1E8\U0001F1F3 CN 14"
-  - "\U0001F1E8\U0001F1F3 CN 15"
-  - "\U0001F1E8\U0001F1F3 CN 16"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
@@ -276,16 +258,14 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 4"
   - "\U0001F1E8\U0001F1F3 CN 5"
   - "\U0001F1E8\U0001F1F3 CN 6"
-  - "\U0001F1F8\U0001F1EC SG 7"
-  - "\U0001F1E8\U0001F1F3 HK 8"
+  - "\U0001F1E8\U0001F1F3 CN 7"
+  - "\U0001F1E8\U0001F1F3 CN 8"
   - "\U0001F1E8\U0001F1F3 CN 9"
   - "\U0001F1E8\U0001F1F3 CN 10"
   - "\U0001F1E8\U0001F1F3 CN 11"
   - "\U0001F1E8\U0001F1F3 CN 12"
   - "\U0001F1E8\U0001F1F3 CN 13"
   - "\U0001F1E8\U0001F1F3 CN 14"
-  - "\U0001F1E8\U0001F1F3 CN 15"
-  - "\U0001F1E8\U0001F1F3 CN 16"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
