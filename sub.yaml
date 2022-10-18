@@ -79,39 +79,22 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: "\U0001F1E8\U0001F1E6 CA 1"
-  server: cat1.sshocean.net
-  type: trojan
-  country: "\U0001F1E8\U0001F1E6 CA"
-  port: 443
-  password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 2"
+- name: "\U0001F1E8\U0001F1F3 CN 1"
   server: 139.227.182.124
   type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 10443
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 28102
   password: m3aIAW
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 2"
+  server: apollo.cn.v4.hdsky.org
+  type: ss
+  country: "\U0001F1E7\U0001F1F7 BR"
+  port: 39343
+  password: de00f033-0c57-4827-aea3-9393c388a40a
+  cipher: chacha20-ietf-poly1305
 - name: "\U0001F1E8\U0001F1F3 CN 3"
-  server: 223.111.202.183
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 28157
-  password: Mf2159ed
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 4"
-  server: 98.126.215.15
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 19231
-  password: 012fc57b-69e5-3924-9da4-d6ac132c5fc9
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 5"
   server: 180.101.193.226
   type: ss
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -122,22 +105,18 @@ proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1E8\U0001F1E6 CA 1"
+  - "\U0001F1E8\U0001F1F3 CN 1"
   - "\U0001F1E8\U0001F1F3 CN 2"
   - "\U0001F1E8\U0001F1F3 CN 3"
-  - "\U0001F1FA\U0001F1F8 US 4"
-  - "\U0001F1E8\U0001F1F3 CN 5"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
   type: select
   proxies:
   - automatic
-  - "\U0001F1E8\U0001F1E6 CA 1"
+  - "\U0001F1E8\U0001F1F3 CN 1"
   - "\U0001F1E8\U0001F1F3 CN 2"
   - "\U0001F1E8\U0001F1F3 CN 3"
-  - "\U0001F1FA\U0001F1F8 US 4"
-  - "\U0001F1E8\U0001F1F3 CN 5"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
