@@ -78,17 +78,57 @@ dns:
     ipcidr:
     - 240.0.0.0/4
     - 0.0.0.0/32
-proxies: []
+proxies:
+- name: "\U0001F1E8\U0001F1F3 CN 1"
+  server: 139.227.182.124
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 10443
+  password: m3aIAW
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 2"
+  server: 129.146.242.130
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1E6 CA 3"
+  server: cat1.sshocean.net
+  type: trojan
+  country: "\U0001F1E8\U0001F1E6 CA"
+  port: 443
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: 223.111.202.183
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 28157
+  password: Mf2159ed
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: automatic
   type: url-test
-  proxies: []
+  proxies:
+  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1FA\U0001F1F8 US 2"
+  - "\U0001F1E8\U0001F1E6 CA 3"
+  - "\U0001F1E8\U0001F1F3 CN 4"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
   type: select
   proxies:
   - automatic
+  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1FA\U0001F1F8 US 2"
+  - "\U0001F1E8\U0001F1E6 CA 3"
+  - "\U0001F1E8\U0001F1F3 CN 4"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
