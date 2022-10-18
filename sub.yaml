@@ -78,17 +78,86 @@ dns:
     ipcidr:
     - 240.0.0.0/4
     - 0.0.0.0/32
-proxies: []
+proxies:
+- name: "\U0001F1E8\U0001F1F3 CN 1"
+  server: twct07.ptrecord.com
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 6153
+  password: jK5VA0
+  cipher: rc4-md5
+- name: "\U0001F1E8\U0001F1F3 CN 2"
+  server: 112.6.212.141
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 49007
+  password: 2c895be3-4dd2-4443-b586-cce567532660
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 3"
+  server: 112.6.212.141
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 49011
+  password: 2c895be3-4dd2-4443-b586-cce567532660
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: ctw.zeichuan.wiki
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 21000
+  password: e4799b20-3315-4b7d-baaa-bd3a6d6e3306
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 5"
+  server: 112.6.212.141
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 49001
+  password: 2c895be3-4dd2-4443-b586-cce567532660
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 6"
+  server: 139.227.182.124
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 28101
+  password: m3aIAW
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1FF CZ 7"
+  server: rujust2.yinhu.bar
+  type: trojan
+  country: "\U0001F1E8\U0001F1FF CZ"
+  port: 38060
+  password: 9b7c26eb-5406-3c4b-a9af-cdf572416222
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: automatic
   type: url-test
-  proxies: []
+  proxies:
+  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1E8\U0001F1F3 CN 2"
+  - "\U0001F1E8\U0001F1F3 CN 3"
+  - "\U0001F1E8\U0001F1F3 CN 4"
+  - "\U0001F1E8\U0001F1F3 CN 5"
+  - "\U0001F1E8\U0001F1F3 CN 6"
+  - "\U0001F1E8\U0001F1FF CZ 7"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
   type: select
   proxies:
   - automatic
+  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1E8\U0001F1F3 CN 2"
+  - "\U0001F1E8\U0001F1F3 CN 3"
+  - "\U0001F1E8\U0001F1F3 CN 4"
+  - "\U0001F1E8\U0001F1F3 CN 5"
+  - "\U0001F1E8\U0001F1F3 CN 6"
+  - "\U0001F1E8\U0001F1FF CZ 7"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
