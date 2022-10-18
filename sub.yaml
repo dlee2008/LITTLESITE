@@ -80,7 +80,7 @@ dns:
     - 0.0.0.0/32
 proxies:
 - name: "\U0001F1E8\U0001F1E6 CA 1"
-  server: 149.56.141.11
+  server: cat1.sshocean.net
   type: trojan
   country: "\U0001F1E8\U0001F1E6 CA"
   port: 443
@@ -90,88 +90,163 @@ proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 2"
   server: apollo.cn.v4.hdsky.org
   type: ss
+  country: "\U0001F1E8\U0001F1E6 CA"
+  port: 12531
+  password: de00f033-0c57-4827-aea3-9393c388a40a
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 3"
+  server: apollo.cn.v4.hdsky.org
+  type: ss
+  country: "\U0001F1E7\U0001F1F7 BR"
+  port: 39343
+  password: de00f033-0c57-4827-aea3-9393c388a40a
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: apollo.cn.v4.hdsky.org
+  type: ss
   country: "\U0001F1E8\U0001F1F3 TW"
   port: 58031
   password: de00f033-0c57-4827-aea3-9393c388a40a
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 3"
-  server: hnct.cmcc.wiki
+- name: "\U0001F1E8\U0001F1F3 CN 5"
+  server: apollo.cn.v4.hdsky.org
   type: ss
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 10671
-  password: b86bdaee-a65c-4d52-ae25-b7ef3f6e1698
-  cipher: aes-128-gcm
-- name: "\U0001F1E9\U0001F1EA DE 4"
-  server: trafr1.bitznet.one
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 32009
-  password: d91e58e8-0ce1-495d-b7a7-0bb96200884e
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 5"
-  server: i1.go001.buzz
-  type: ss
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 31905
-  password: bBEXIq
-  cipher: aes-256-gcm
+  port: 28000
+  password: de00f033-0c57-4827-aea3-9393c388a40a
+  cipher: chacha20-ietf-poly1305
 - name: "\U0001F1E8\U0001F1F3 CN 6"
   server: apollo.cn.v4.hdsky.org
   type: ss
-  country: "\U0001F1EE\U0001F1F9 IT"
-  port: 19764
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 23201
   password: de00f033-0c57-4827-aea3-9393c388a40a
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 7"
-  server: 139.227.182.124
+- name: "\U0001F1EB\U0001F1F7 FR 7"
+  server: de.tjvpn.org
   type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 28131
-  password: m3aIAW
+  country: "\U0001F1E9\U0001F1EA DE"
+  port: 443
+  password: c60fbf90-4b55-11ed-b935-225401db9d57
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 8"
+  server: 139.227.182.124
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 10443
+  password: m3aIAW
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 9"
+  server: apollo.cn.v4.hdsky.org
+  type: ss
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 29357
+  password: de00f033-0c57-4827-aea3-9393c388a40a
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 10"
+  server: v2hk6.fdhsujj.xyz
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 23545
+  password: J3ITPq
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 286652:Ky6KOw
+  obfs: http_simple
+  obfs-param: ZGJlOTYyODY2NTIubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1E8\U0001F1F3 CN 11"
+  server: apollo.cn.v4.hdsky.org
+  type: ss
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13921
+  password: de00f033-0c57-4827-aea3-9393c388a40a
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 12"
+  server: v2hk5.fdhsujj.xyz
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 23544
+  password: J3ITPq
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 286652:Ky6KOw
+  obfs: http_simple
+  obfs-param: ZGJlOTYyODY2NTIubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1F8\U0001F1EC SG 13"
+  server: digitalocean.kinhproxy.com
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: DigitalOcean
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 14"
+  server: 144.24.72.126
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 443
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 15"
   server: apollo.cn.v4.hdsky.org
   type: ss
   country: "\U0001F1F5\U0001F1ED PH"
   port: 28178
   password: de00f033-0c57-4827-aea3-9393c388a40a
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 9"
+- name: "\U0001F1EE\U0001F1F3 IN 16"
+  server: 152.67.160.174
+  type: trojan
+  country: "\U0001F1EE\U0001F1F3 IN"
+  port: 443
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 17"
   server: apollo.cn.v4.hdsky.org
   type: ss
-  country: "\U0001F1F2\U0001F1FD MX"
-  port: 21131
+  country: "\U0001F1EE\U0001F1F9 IT"
+  port: 19764
   password: de00f033-0c57-4827-aea3-9393c388a40a
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 10"
+- name: "\U0001F1E8\U0001F1F3 CN 18"
   server: apollo.cn.v4.hdsky.org
   type: ss
   country: "\U0001F1F3\U0001F1F1 NL"
   port: 37382
   password: de00f033-0c57-4827-aea3-9393c388a40a
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 11"
+- name: "\U0001F1E8\U0001F1F3 CN 19"
   server: i1.go001.buzz
   type: ss
   country: "\U0001F1F9\U0001F1F7 TR"
   port: 31901
   password: bBEXIq
   cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 12"
+- name: "\U0001F1E8\U0001F1F3 CN 20"
   server: 14.29.124.168
   type: ss
   country: "\U0001F1E8\U0001F1F3 TW"
   port: 24008
   password: QazEdcTgb159@$*
   cipher: aes-128-cfb
-- name: "\U0001F1F0\U0001F1F7 KR 13"
+- name: "\U0001F1FA\U0001F1F8 US 21"
+  server: us.vless.fun
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: password
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 22"
   server: kr1.api-aws.com
   type: trojan
   country: "\U0001F1F0\U0001F1F7 KR"
   port: 443
-  password: 65f7378f-edb8-4f5d-913a-641ecd853cea
+  password: 33073a7c-e6d5-4271-9b19-4416afcc25b5
   skip-cert-verify: true
   udp: true
 proxy-groups:
@@ -181,16 +256,25 @@ proxy-groups:
   - "\U0001F1E8\U0001F1E6 CA 1"
   - "\U0001F1E8\U0001F1F3 CN 2"
   - "\U0001F1E8\U0001F1F3 CN 3"
-  - "\U0001F1E9\U0001F1EA DE 4"
+  - "\U0001F1E8\U0001F1F3 CN 4"
   - "\U0001F1E8\U0001F1F3 CN 5"
   - "\U0001F1E8\U0001F1F3 CN 6"
-  - "\U0001F1E8\U0001F1F3 CN 7"
+  - "\U0001F1EB\U0001F1F7 FR 7"
   - "\U0001F1E8\U0001F1F3 CN 8"
   - "\U0001F1E8\U0001F1F3 CN 9"
   - "\U0001F1E8\U0001F1F3 CN 10"
   - "\U0001F1E8\U0001F1F3 CN 11"
   - "\U0001F1E8\U0001F1F3 CN 12"
-  - "\U0001F1F0\U0001F1F7 KR 13"
+  - "\U0001F1F8\U0001F1EC SG 13"
+  - "\U0001F1F0\U0001F1F7 KR 14"
+  - "\U0001F1E8\U0001F1F3 CN 15"
+  - "\U0001F1EE\U0001F1F3 IN 16"
+  - "\U0001F1E8\U0001F1F3 CN 17"
+  - "\U0001F1E8\U0001F1F3 CN 18"
+  - "\U0001F1E8\U0001F1F3 CN 19"
+  - "\U0001F1E8\U0001F1F3 CN 20"
+  - "\U0001F1FA\U0001F1F8 US 21"
+  - "\U0001F1F0\U0001F1F7 KR 22"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
@@ -200,16 +284,25 @@ proxy-groups:
   - "\U0001F1E8\U0001F1E6 CA 1"
   - "\U0001F1E8\U0001F1F3 CN 2"
   - "\U0001F1E8\U0001F1F3 CN 3"
-  - "\U0001F1E9\U0001F1EA DE 4"
+  - "\U0001F1E8\U0001F1F3 CN 4"
   - "\U0001F1E8\U0001F1F3 CN 5"
   - "\U0001F1E8\U0001F1F3 CN 6"
-  - "\U0001F1E8\U0001F1F3 CN 7"
+  - "\U0001F1EB\U0001F1F7 FR 7"
   - "\U0001F1E8\U0001F1F3 CN 8"
   - "\U0001F1E8\U0001F1F3 CN 9"
   - "\U0001F1E8\U0001F1F3 CN 10"
   - "\U0001F1E8\U0001F1F3 CN 11"
   - "\U0001F1E8\U0001F1F3 CN 12"
-  - "\U0001F1F0\U0001F1F7 KR 13"
+  - "\U0001F1F8\U0001F1EC SG 13"
+  - "\U0001F1F0\U0001F1F7 KR 14"
+  - "\U0001F1E8\U0001F1F3 CN 15"
+  - "\U0001F1EE\U0001F1F3 IN 16"
+  - "\U0001F1E8\U0001F1F3 CN 17"
+  - "\U0001F1E8\U0001F1F3 CN 18"
+  - "\U0001F1E8\U0001F1F3 CN 19"
+  - "\U0001F1E8\U0001F1F3 CN 20"
+  - "\U0001F1FA\U0001F1F8 US 21"
+  - "\U0001F1F0\U0001F1F7 KR 22"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
