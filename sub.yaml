@@ -80,137 +80,93 @@ dns:
     - 0.0.0.0/32
 proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 1"
-  server: iplchk1.bitznet.one
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 34443
-  password: d91e58e8-0ce1-495d-b7a7-0bb96200884e
-  skip-cert-verify: true
-  udp: true
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 24006
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
 - name: "\U0001F1E8\U0001F1F3 CN 2"
-  server: sg08.ptrecord.com
+  server: 14.29.124.168
   type: ss
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 6153
-  password: jK5VA0
-  cipher: rc4-md5
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 24003
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
 - name: "\U0001F1E8\U0001F1F3 CN 3"
-  server: sg18.ptrecord.com
+  server: tw11.ptrecord.com
   type: ss
-  country: "\U0001F1ED\U0001F1F0 HK"
+  country: "\U0001F1E8\U0001F1F3 TW"
   port: 6153
   password: jK5VA0
   cipher: rc4-md5
 - name: "\U0001F1E8\U0001F1F3 CN 4"
-  server: pvcc02.ptrecord.com
+  server: twct06.ptrecord.com
   type: ss
-  country: "\U0001F1ED\U0001F1F0 HK"
+  country: "\U0001F1E8\U0001F1F3 TW"
   port: 6153
   password: jK5VA0
   cipher: rc4-md5
 - name: "\U0001F1E8\U0001F1F3 CN 5"
-  server: hnct.cmcc.wiki
+  server: twct09.ptrecord.com
   type: ss
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 10671
-  password: b86bdaee-a65c-4d52-ae25-b7ef3f6e1698
-  cipher: aes-128-gcm
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 6153
+  password: jK5VA0
+  cipher: rc4-md5
 - name: "\U0001F1E8\U0001F1F3 CN 6"
-  server: sg15.ptrecord.com
+  server: sghk07.ptrecord.com
   type: ss
   country: "\U0001F1ED\U0001F1F0 HK"
   port: 6153
   password: jK5VA0
   cipher: rc4-md5
 - name: "\U0001F1E8\U0001F1F3 CN 7"
-  server: tw02.ptrecord.com
+  server: sg05.ptrecord.com
   type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
+  country: "\U0001F1ED\U0001F1F0 HK"
   port: 6153
   password: jK5VA0
   cipher: rc4-md5
 - name: "\U0001F1E8\U0001F1F3 CN 8"
-  server: tw13.ptrecord.com
+  server: sg12.ptrecord.com
   type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
+  country: "\U0001F1ED\U0001F1F0 HK"
   port: 6153
   password: jK5VA0
   cipher: rc4-md5
 - name: "\U0001F1E8\U0001F1F3 CN 9"
-  server: tw04.ptrecord.com
+  server: sghk12.ptrecord.com
   type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
+  country: "\U0001F1ED\U0001F1F0 HK"
   port: 6153
   password: jK5VA0
   cipher: rc4-md5
 - name: "\U0001F1E8\U0001F1F3 CN 10"
-  server: 221.181.185.118
+  server: tw-b.666687.xyz
+  type: ssr
+  country: "\U0001F3C1 ZZ"
+  port: 26543
+  password: 2b864k
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 14709:t27j2fhwjqf
+  obfs: tls1.2_ticket_auth
+  obfs-param: VmtjMWQxZHRWbkpPV0VaYVRUSm9VRlZyWkU5Tk1WRjRWRlJHYTFJd1dsbFdSelZ6WVZVd2QwNVVTbGhpVkZaVFdrWmFjbVZWT1ZsVlVR
+- name: "\U0001F1EC\U0001F1E7 GB 11"
+  server: 132.145.51.172
   type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 13324
-  password: M67c639c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 11"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24005
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 12"
-  server: 221.181.185.118
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13325
-  password: M0041901
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 13"
-  server: 51.77.71.134
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7 FR"
+  country: "\U0001F1EC\U0001F1E7 GB"
   port: 443
-  password: origin
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 14"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24008
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 HK 15"
-  server: sg.liangyuandian.top
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 443
-  password: 21a387ca-5461-47d5-bf2c-a68bad0ca970
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 16"
-  server: 223.111.202.183
-  type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 28157
-  password: Mf2159ed
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 17"
+- name: "\U0001F1F8\U0001F1EC SG 12"
   server: 139.59.227.109
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
   port: 443
   password: DigitalOcean
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 18"
-  server: polo01.kctr2038.icu
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 443
-  password: 88939272-790a-441f-b12b-8ce531aca810
   skip-cert-verify: true
   udp: true
 proxy-groups:
@@ -227,14 +183,8 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 8"
   - "\U0001F1E8\U0001F1F3 CN 9"
   - "\U0001F1E8\U0001F1F3 CN 10"
-  - "\U0001F1E8\U0001F1F3 CN 11"
-  - "\U0001F1E8\U0001F1F3 CN 12"
-  - "\U0001F1EB\U0001F1F7 FR 13"
-  - "\U0001F1E8\U0001F1F3 CN 14"
-  - "\U0001F1E8\U0001F1F3 HK 15"
-  - "\U0001F1E8\U0001F1F3 CN 16"
-  - "\U0001F1F8\U0001F1EC SG 17"
-  - "\U0001F1E8\U0001F1F3 HK 18"
+  - "\U0001F1EC\U0001F1E7 GB 11"
+  - "\U0001F1F8\U0001F1EC SG 12"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
@@ -251,14 +201,8 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 8"
   - "\U0001F1E8\U0001F1F3 CN 9"
   - "\U0001F1E8\U0001F1F3 CN 10"
-  - "\U0001F1E8\U0001F1F3 CN 11"
-  - "\U0001F1E8\U0001F1F3 CN 12"
-  - "\U0001F1EB\U0001F1F7 FR 13"
-  - "\U0001F1E8\U0001F1F3 CN 14"
-  - "\U0001F1E8\U0001F1F3 HK 15"
-  - "\U0001F1E8\U0001F1F3 CN 16"
-  - "\U0001F1F8\U0001F1EC SG 17"
-  - "\U0001F1E8\U0001F1F3 HK 18"
+  - "\U0001F1EC\U0001F1E7 GB 11"
+  - "\U0001F1F8\U0001F1EC SG 12"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
