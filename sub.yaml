@@ -78,17 +78,142 @@ dns:
     ipcidr:
     - 240.0.0.0/4
     - 0.0.0.0/32
-proxies: []
+proxies:
+- name: "\U0001F1F8\U0001F1EC SG 1"
+  server: sg-aaa-sjf-4555-ass-78xa.jumaonet.com
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 12232
+  password: f2ed3817-26de-4882-a779-66ba624795f6
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 2"
+  server: 146.56.189.146
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 443
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 3"
+  server: hk2.gkdnode.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 23815
+  password: bagz04mllt
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 96118:wMtB0Q5CcNHrpMqY
+  obfs: tls1.2_ticket_auth
+  obfs-param: eb68e96118.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: 221.181.185.118
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13325
+  password: M0041901
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 5"
+  server: kr1.api-aws.com
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 443
+  password: 23103894-eec7-4de1-a05a-c2e11e351287
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 6"
+  server: aahk3.fdhsujj.xyz
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 23550
+  password: J3ITPq
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 286652:Ky6KOw
+  obfs: http_simple
+  obfs-param: Vm1wS01HRXhUWGxUYTFwUVZteGFXVll3WkRSVlZsWnlWMjVLYkZac1NucFdWM1IzWVRGWmQyTkdiRnBoTWxJeldWY3hTMVpYU2tWWGJIQm9ZVE5DYjFaR1ZsZE9SMUpIVlc1V1dHSlhlRmRXVmtV
+- name: "\U0001F1E8\U0001F1F3 HK 7"
+  server: jp.liangyuandian.top
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: 21a387ca-5461-47d5-bf2c-a68bad0ca970
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EB\U0001F1F7 FR 8"
+  server: 51.75.76.22
+  type: trojan
+  country: "\U0001F1E9\U0001F1EA DE"
+  port: 443
+  password: c60fbf90-4b55-11ed-b935-225401db9d57
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EB\U0001F1F7 FR 9"
+  server: content-provider5.cdn-delivery.akamaicd.com
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 443
+  password: Sp3eDVp
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 10"
+  server: hk-sjfx-95s-xjfa-xmasf.jumaonet.com
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13622
+  password: f2ed3817-26de-4882-a779-66ba624795f6
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 11"
+  server: 221.181.185.118
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 13324
+  password: M67c639c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 12"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24006
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
 proxy-groups:
 - name: automatic
   type: url-test
-  proxies: []
+  proxies:
+  - "\U0001F1F8\U0001F1EC SG 1"
+  - "\U0001F1F0\U0001F1F7 KR 2"
+  - "\U0001F1E8\U0001F1F3 CN 3"
+  - "\U0001F1E8\U0001F1F3 CN 4"
+  - "\U0001F1F0\U0001F1F7 KR 5"
+  - "\U0001F1E8\U0001F1F3 CN 6"
+  - "\U0001F1E8\U0001F1F3 HK 7"
+  - "\U0001F1EB\U0001F1F7 FR 8"
+  - "\U0001F1EB\U0001F1F7 FR 9"
+  - "\U0001F1F8\U0001F1EC SG 10"
+  - "\U0001F1E8\U0001F1F3 CN 11"
+  - "\U0001F1E8\U0001F1F3 CN 12"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
   type: select
   proxies:
   - automatic
+  - "\U0001F1F8\U0001F1EC SG 1"
+  - "\U0001F1F0\U0001F1F7 KR 2"
+  - "\U0001F1E8\U0001F1F3 CN 3"
+  - "\U0001F1E8\U0001F1F3 CN 4"
+  - "\U0001F1F0\U0001F1F7 KR 5"
+  - "\U0001F1E8\U0001F1F3 CN 6"
+  - "\U0001F1E8\U0001F1F3 HK 7"
+  - "\U0001F1EB\U0001F1F7 FR 8"
+  - "\U0001F1EB\U0001F1F7 FR 9"
+  - "\U0001F1F8\U0001F1EC SG 10"
+  - "\U0001F1E8\U0001F1F3 CN 11"
+  - "\U0001F1E8\U0001F1F3 CN 12"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
