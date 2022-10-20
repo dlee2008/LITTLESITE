@@ -79,93 +79,45 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: "\U0001F1EF\U0001F1F5 JP 1"
-  server: tr.loveycould.top
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 50777
-  password: hongkongdoll
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 2"
-  server: de.tjvpn.org
-  type: trojan
-  country: "\U0001F1E9\U0001F1EA DE"
-  port: 443
-  password: c60fbf90-4b55-11ed-b935-225401db9d57
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 3"
+- name: "\U0001F1E8\U0001F1F3 CN 1"
   server: 221.181.185.118
   type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 13324
-  password: M67c639c
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13325
+  password: M0041901
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 4"
-  server: content-provider5.cdn-delivery.akamaicd.com
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7 FR"
-  port: 443
-  password: Sp3eDVp
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 5"
-  server: 14.29.124.168
+- name: "\U0001F1E8\U0001F1F3 CN 2"
+  server: iplcdn.in
   type: ss
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 24001
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1F3\U0001F1F1 NL 6"
-  server: content-provider24.cdn-delivery.akamaicd.com
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 8010
+  password: 70906fed-4f59-495e-942a-2cda06391411
+  cipher: aes-128-gcm
+- name: "\U0001F1F3\U0001F1F1 NL 3"
+  server: content-provider2.cdn-delivery.akamaicd.com
   type: trojan
   country: "\U0001F1F3\U0001F1F1 NL"
   port: 443
-  password: Sp3eDVp
+  password: TestingServer@@2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 7"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24004
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 8"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24006
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1EF\U0001F1F5 JP 1"
-  - "\U0001F1EB\U0001F1F7 FR 2"
-  - "\U0001F1E8\U0001F1F3 CN 3"
-  - "\U0001F1EB\U0001F1F7 FR 4"
-  - "\U0001F1E8\U0001F1F3 CN 5"
-  - "\U0001F1F3\U0001F1F1 NL 6"
-  - "\U0001F1E8\U0001F1F3 CN 7"
-  - "\U0001F1E8\U0001F1F3 CN 8"
+  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1E8\U0001F1F3 CN 2"
+  - "\U0001F1F3\U0001F1F1 NL 3"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
   type: select
   proxies:
   - automatic
-  - "\U0001F1EF\U0001F1F5 JP 1"
-  - "\U0001F1EB\U0001F1F7 FR 2"
-  - "\U0001F1E8\U0001F1F3 CN 3"
-  - "\U0001F1EB\U0001F1F7 FR 4"
-  - "\U0001F1E8\U0001F1F3 CN 5"
-  - "\U0001F1F3\U0001F1F1 NL 6"
-  - "\U0001F1E8\U0001F1F3 CN 7"
-  - "\U0001F1E8\U0001F1F3 CN 8"
+  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1E8\U0001F1F3 CN 2"
+  - "\U0001F1F3\U0001F1F1 NL 3"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
