@@ -79,44 +79,84 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: "\U0001F1EF\U0001F1F5 JP 1"
-  server: aewfhe5z1pokrkw8bi9g08.xingbayun.buzz
+- name: "\U0001F1E8\U0001F1F3 CN 1"
+  server: 180.101.193.226
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 10068
+  password: RsDk3peCSuo76B68
+  cipher: aes-256-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 2"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24009
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 HK 3"
+  server: aewfhe5z1pokrkw8bi9g03.xingbayun.buzz
   type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
+  country: "\U0001F1ED\U0001F1F0 HK"
   port: 10001
   password: 862e68d2-05f3-4253-9116-819623bb7335
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 2"
-  server: iplcdn.in
-  type: ss
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 8010
-  password: 70906fed-4f59-495e-942a-2cda06391411
-  cipher: aes-128-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 3"
-  server: 180.101.193.226
-  type: ss
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 10068
-  password: RsDk3peCSuo76B68
-  cipher: aes-256-cfb
+- name: "\U0001F1EB\U0001F1F7 FR 4"
+  server: 51.77.71.131
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 443
+  password: Sp3eDVp
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EB\U0001F1F7 FR 5"
+  server: de.tjvpn.org
+  type: trojan
+  country: "\U0001F1E9\U0001F1EA DE"
+  port: 443
+  password: c60fbf90-4b55-11ed-b935-225401db9d57
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 6"
+  server: 139.227.182.124
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 28158
+  password: M0bbb37b
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F3\U0001F1F1 NL 7"
+  server: 185.212.200.75
+  type: trojan
+  country: "\U0001F1F3\U0001F1F1 NL"
+  port: 443
+  password: Sp3eDVp
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1EF\U0001F1F5 JP 1"
+  - "\U0001F1E8\U0001F1F3 CN 1"
   - "\U0001F1E8\U0001F1F3 CN 2"
-  - "\U0001F1E8\U0001F1F3 CN 3"
+  - "\U0001F1E8\U0001F1F3 HK 3"
+  - "\U0001F1EB\U0001F1F7 FR 4"
+  - "\U0001F1EB\U0001F1F7 FR 5"
+  - "\U0001F1E8\U0001F1F3 CN 6"
+  - "\U0001F1F3\U0001F1F1 NL 7"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
   type: select
   proxies:
   - automatic
-  - "\U0001F1EF\U0001F1F5 JP 1"
+  - "\U0001F1E8\U0001F1F3 CN 1"
   - "\U0001F1E8\U0001F1F3 CN 2"
-  - "\U0001F1E8\U0001F1F3 CN 3"
+  - "\U0001F1E8\U0001F1F3 HK 3"
+  - "\U0001F1EB\U0001F1F7 FR 4"
+  - "\U0001F1EB\U0001F1F7 FR 5"
+  - "\U0001F1E8\U0001F1F3 CN 6"
+  - "\U0001F1F3\U0001F1F1 NL 7"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
