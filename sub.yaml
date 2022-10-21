@@ -90,14 +90,42 @@ proxies:
   obfs: http_simple
   obfs-param: download.windowsupdate.com
 - name: "\U0001F1E8\U0001F1F3 CN 2"
-  server: tratr1.bnnodeservice.com
+  server: hr04.clashcloud.tech
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 3"
+  server: dtau1.bnnodeservice.com
   type: trojan
-  country: "\U0001F1E6\U0001F1EA AE"
-  port: 32014
+  country: "\U0001F1E6\U0001F1FA AU"
+  port: 33012
   password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 3"
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: traau1.bnnodeservice.com
+  type: trojan
+  country: "\U0001F1E6\U0001F1FA AU"
+  port: 32012
+  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 5"
+  server: au01.clashcloud.tech
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 6"
   server: ca01.clashcloud.tech
   type: ssr
   country: "\U0001F1E8\U0001F1E6 CA"
@@ -107,23 +135,23 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 4"
-  server: traar1.bnnodeservice.com
+- name: "\U0001F1E8\U0001F1F3 CN 7"
+  server: dttr1.bnnodeservice.com
   type: trojan
-  country: "\U0001F1E6\U0001F1F7 AR"
-  port: 32015
+  country: "\U0001F1E6\U0001F1EA AE"
+  port: 33014
   password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 5"
-  server: dtar1.bnnodeservice.com
+- name: "\U0001F1E8\U0001F1F3 CN 8"
+  server: tratr1.bnnodeservice.com
   type: trojan
-  country: "\U0001F1E6\U0001F1F7 AR"
-  port: 33015
+  country: "\U0001F1E6\U0001F1EA AE"
+  port: 32014
   password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 6"
+- name: "\U0001F1E8\U0001F1F3 CN 9"
   server: trabr1.bnnodeservice.com
   type: trojan
   country: "\U0001F1E7\U0001F1F7 BR"
@@ -131,7 +159,33 @@ proxies:
   password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 7"
+- name: "\U0001F1E8\U0001F1F3 CN 10"
+  server: dtbr1.bnnodeservice.com
+  type: trojan
+  country: "\U0001F1E7\U0001F1F7 BR"
+  port: 33016
+  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 11"
+  server: 180.101.193.226
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 10068
+  password: RsDk3peCSuo76B68
+  cipher: aes-256-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 12"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 11428
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 13"
   server: tratw1.bnnodeservice.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3 TW"
@@ -139,7 +193,25 @@ proxies:
   password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 8"
+- name: "\U0001F1E8\U0001F1F3 CN 14"
+  server: dttw1.bnnodeservice.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 33003
+  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 15"
+  server: tw02.clashcloud.tech
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 16"
   server: tw01.clashcloud.tech
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
@@ -149,41 +221,17 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1F8\U0001F1EC SG 9"
-  server: 5.44.249.156
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 3389
-  password: d02058f4f819dced
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 10"
-  server: dttw1.bnnodeservice.com
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 33003
-  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 11"
-  server: 5.44.249.157
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 3389
-  password: d02058f4f819dced
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 12"
-  server: hk02.clashcloud.tech
+- name: "\U0001F1E8\U0001F1F3 CN 17"
+  server: ge4.amamya.live
   type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
+  country: "\U0001F1E9\U0001F1EA DE"
   port: 55261
   password: bLWIPj
   cipher: rc4-md5
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 13"
+- name: "\U0001F1E8\U0001F1F3 CN 18"
   server: fr01.clashcloud.tech
   type: ssr
   country: "\U0001F1EB\U0001F1F7 FR"
@@ -193,7 +241,92 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 14"
+- name: "\U0001F1E8\U0001F1F3 CN 19"
+  server: ir01.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 20"
+  server: hk01.clashcloud.tech
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 21"
+  server: hk07.clashcloud.tech
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1EB\U0001F1F7 FR 22"
+  server: 51.77.71.131
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 443
+  password: Sp3eDVp
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 23"
+  server: hk02.clashcloud.tech
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 24"
+  server: hg01.ptrecord.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 25"
+  server: trahk1.bnnodeservice.com
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 32443
+  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 26"
+  server: trade1.bnnodeservice.com
+  type: trojan
+  country: "\U0001F1E9\U0001F1EA DE"
+  port: 32011
+  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 27"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 11005
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 28"
   server: trahk5.bnnodeservice.com
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -201,27 +334,23 @@ proxies:
   password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 15"
-  server: hr02.clashcloud.tech
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 16"
-  server: hr01.clashcloud.tech
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 17"
+- name: "\U0001F1E8\U0001F1F3 CN 29"
+  server: dtde1.bnnodeservice.com
+  type: trojan
+  country: "\U0001F1E9\U0001F1EA DE"
+  port: 33011
+  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 30"
+  server: trafr1.bnnodeservice.com
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 32009
+  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 31"
   server: hr12.clashcloud.tech
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -231,15 +360,37 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 18"
-  server: train1.bnnodeservice.com
-  type: trojan
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 32017
-  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 19"
+- name: "\U0001F1E8\U0001F1F3 CN 32"
+  server: hr01.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 33"
+  server: hr03.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 34"
+  server: hr08.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 35"
   server: dtin1.bnnodeservice.com
   type: trojan
   country: "\U0001F1EE\U0001F1F3 IN"
@@ -247,38 +398,79 @@ proxies:
   password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 20"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24001
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1EB\U0001F1F7 FR 21"
-  server: content-provider5.cdn-delivery.akamaicd.com
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7 FR"
-  port: 443
-  password: Sp3eDVp
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 22"
-  server: dtfr1.bnnodeservice.com
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7 FR"
-  port: 33009
-  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 23"
-  server: trajp1.bnnodeservice.com
-  type: trojan
+- name: "\U0001F1E8\U0001F1F3 CN 36"
+  server: jp02.clashcloud.tech
+  type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
-  port: 32004
-  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 24"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 37"
+  server: hr02.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 38"
+  server: jp08.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 39"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 11421
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 40"
+  server: jp09.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 41"
+  server: in02.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EE\U0001F1F3 IN"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 42"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 11812
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 43"
   server: kr01.clashcloud.tech
   type: ssr
   country: "\U0001F1F0\U0001F1F7 KR"
@@ -288,7 +480,22 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 25"
+- name: "\U0001F1E8\U0001F1F3 CN 44"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24006
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 45"
+  server: tratw1.bitznet.one
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 32003
+  password: 697e81b9-48de-4c95-9ebd-3e75702b9292
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 46"
   server: 221.181.185.118
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -296,34 +503,15 @@ proxies:
   password: M1b378d7
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 26"
-  server: 180.101.193.226
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 10068
-  password: RsDk3peCSuo76B68
-  cipher: aes-256-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 27"
-  server: sgp05.clashcloud.tech
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 28"
-  server: sgp02.clashcloud.tech
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 29"
+- name: "\U0001F1E8\U0001F1F3 CN 47"
+  server: trajp1.bnnodeservice.com
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 32004
+  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 48"
   server: sgp03.clashcloud.tech
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
@@ -333,7 +521,45 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 30"
+- name: "\U0001F1E8\U0001F1F3 CN 49"
+  server: sgp05.clashcloud.tech
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 50"
+  server: trask1.bnnodeservice.com
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 32005
+  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 51"
+  server: sgp01.clashcloud.tech
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 52"
+  server: sgp02.clashcloud.tech
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 53"
   server: trasg1.bnnodeservice.com
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -341,15 +567,81 @@ proxies:
   password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 31"
-  server: traus1.bnnodeservice.com
-  type: trojan
+- name: "\U0001F1E8\U0001F1F3 CN 54"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 11429
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 55"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 11806
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 56"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 11851
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 57"
+  server: us03.clashcloud.tech
+  type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 32001
-  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 32"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 58"
+  server: us02.clashcloud.tech
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 59"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 11804
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 60"
+  server: us04.clashcloud.tech
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 61"
   server: guangzhouddns.xyz
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -360,31 +652,23 @@ proxies:
   protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
   obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 33"
-  server: traua1.bnnodeservice.com
+- name: "\U0001F1E8\U0001F1F3 CN 62"
+  server: dtus1.bnnodeservice.com
   type: trojan
-  country: "\U0001F1FA\U0001F1E6 UA"
-  port: 32019
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 33001
   password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 34"
-  server: dtph1.bnnodeservice.com
+- name: "\U0001F1E8\U0001F1F3 CN 63"
+  server: traus1.bnnodeservice.com
   type: trojan
-  country: "\U0001F1F5\U0001F1ED PH"
-  port: 33013
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 32001
   password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 35"
-  server: 132.145.51.172
-  type: trojan
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 443
-  password: 02e653c9-7c93-46a9-999d-11834bd0c577
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 36"
+- name: "\U0001F1EB\U0001F1F7 FR 64"
   server: 51.75.76.22
   type: trojan
   country: "\U0001F1E9\U0001F1EA DE"
@@ -392,25 +676,59 @@ proxies:
   password: c60fbf90-4b55-11ed-b935-225401db9d57
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 37"
-  server: 168.138.44.176
+- name: "\U0001F1E8\U0001F1F3 CN 65"
+  server: traph1.bnnodeservice.com
   type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  country: "\U0001F1F5\U0001F1ED PH"
+  port: 32013
+  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 38"
-  server: liaoningddns.xyz
+- name: "\U0001F1E8\U0001F1F3 CN 66"
+  server: guangzhouddns.xyz
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 11427
+  port: 11805
   password: Fhbe0z
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
   protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
   obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 67"
+  server: us01.clashcloud.tech
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 68"
+  server: traua1.bnnodeservice.com
+  type: trojan
+  country: "\U0001F1FA\U0001F1E6 UA"
+  port: 32019
+  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 69"
+  server: dtua1.bnnodeservice.com
+  type: trojan
+  country: "\U0001F1FA\U0001F1E6 UA"
+  port: 33019
+  password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 70"
+  server: kr1.api-aws.com
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 443
+  password: 7c953fab-2d79-4320-b208-59e07b6033fd
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: automatic
   type: url-test
@@ -423,9 +741,9 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 6"
   - "\U0001F1E8\U0001F1F3 CN 7"
   - "\U0001F1E8\U0001F1F3 CN 8"
-  - "\U0001F1F8\U0001F1EC SG 9"
+  - "\U0001F1E8\U0001F1F3 CN 9"
   - "\U0001F1E8\U0001F1F3 CN 10"
-  - "\U0001F1F8\U0001F1EC SG 11"
+  - "\U0001F1E8\U0001F1F3 CN 11"
   - "\U0001F1E8\U0001F1F3 CN 12"
   - "\U0001F1E8\U0001F1F3 CN 13"
   - "\U0001F1E8\U0001F1F3 CN 14"
@@ -435,8 +753,8 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 18"
   - "\U0001F1E8\U0001F1F3 CN 19"
   - "\U0001F1E8\U0001F1F3 CN 20"
-  - "\U0001F1EB\U0001F1F7 FR 21"
-  - "\U0001F1E8\U0001F1F3 CN 22"
+  - "\U0001F1E8\U0001F1F3 CN 21"
+  - "\U0001F1EB\U0001F1F7 FR 22"
   - "\U0001F1E8\U0001F1F3 CN 23"
   - "\U0001F1E8\U0001F1F3 CN 24"
   - "\U0001F1E8\U0001F1F3 CN 25"
@@ -449,10 +767,42 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 32"
   - "\U0001F1E8\U0001F1F3 CN 33"
   - "\U0001F1E8\U0001F1F3 CN 34"
-  - "\U0001F1EC\U0001F1E7 GB 35"
-  - "\U0001F1EB\U0001F1F7 FR 36"
-  - "\U0001F1EF\U0001F1F5 JP 37"
+  - "\U0001F1E8\U0001F1F3 CN 35"
+  - "\U0001F1E8\U0001F1F3 CN 36"
+  - "\U0001F1E8\U0001F1F3 CN 37"
   - "\U0001F1E8\U0001F1F3 CN 38"
+  - "\U0001F1E8\U0001F1F3 CN 39"
+  - "\U0001F1E8\U0001F1F3 CN 40"
+  - "\U0001F1E8\U0001F1F3 CN 41"
+  - "\U0001F1E8\U0001F1F3 CN 42"
+  - "\U0001F1E8\U0001F1F3 CN 43"
+  - "\U0001F1E8\U0001F1F3 CN 44"
+  - "\U0001F1E8\U0001F1F3 CN 45"
+  - "\U0001F1E8\U0001F1F3 CN 46"
+  - "\U0001F1E8\U0001F1F3 CN 47"
+  - "\U0001F1E8\U0001F1F3 CN 48"
+  - "\U0001F1E8\U0001F1F3 CN 49"
+  - "\U0001F1E8\U0001F1F3 CN 50"
+  - "\U0001F1E8\U0001F1F3 CN 51"
+  - "\U0001F1E8\U0001F1F3 CN 52"
+  - "\U0001F1E8\U0001F1F3 CN 53"
+  - "\U0001F1E8\U0001F1F3 CN 54"
+  - "\U0001F1E8\U0001F1F3 CN 55"
+  - "\U0001F1E8\U0001F1F3 CN 56"
+  - "\U0001F1E8\U0001F1F3 CN 57"
+  - "\U0001F1E8\U0001F1F3 CN 58"
+  - "\U0001F1E8\U0001F1F3 CN 59"
+  - "\U0001F1E8\U0001F1F3 CN 60"
+  - "\U0001F1E8\U0001F1F3 CN 61"
+  - "\U0001F1E8\U0001F1F3 CN 62"
+  - "\U0001F1E8\U0001F1F3 CN 63"
+  - "\U0001F1EB\U0001F1F7 FR 64"
+  - "\U0001F1E8\U0001F1F3 CN 65"
+  - "\U0001F1E8\U0001F1F3 CN 66"
+  - "\U0001F1E8\U0001F1F3 CN 67"
+  - "\U0001F1E8\U0001F1F3 CN 68"
+  - "\U0001F1E8\U0001F1F3 CN 69"
+  - "\U0001F1F0\U0001F1F7 KR 70"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
@@ -467,9 +817,9 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 6"
   - "\U0001F1E8\U0001F1F3 CN 7"
   - "\U0001F1E8\U0001F1F3 CN 8"
-  - "\U0001F1F8\U0001F1EC SG 9"
+  - "\U0001F1E8\U0001F1F3 CN 9"
   - "\U0001F1E8\U0001F1F3 CN 10"
-  - "\U0001F1F8\U0001F1EC SG 11"
+  - "\U0001F1E8\U0001F1F3 CN 11"
   - "\U0001F1E8\U0001F1F3 CN 12"
   - "\U0001F1E8\U0001F1F3 CN 13"
   - "\U0001F1E8\U0001F1F3 CN 14"
@@ -479,8 +829,8 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 18"
   - "\U0001F1E8\U0001F1F3 CN 19"
   - "\U0001F1E8\U0001F1F3 CN 20"
-  - "\U0001F1EB\U0001F1F7 FR 21"
-  - "\U0001F1E8\U0001F1F3 CN 22"
+  - "\U0001F1E8\U0001F1F3 CN 21"
+  - "\U0001F1EB\U0001F1F7 FR 22"
   - "\U0001F1E8\U0001F1F3 CN 23"
   - "\U0001F1E8\U0001F1F3 CN 24"
   - "\U0001F1E8\U0001F1F3 CN 25"
@@ -493,10 +843,42 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 32"
   - "\U0001F1E8\U0001F1F3 CN 33"
   - "\U0001F1E8\U0001F1F3 CN 34"
-  - "\U0001F1EC\U0001F1E7 GB 35"
-  - "\U0001F1EB\U0001F1F7 FR 36"
-  - "\U0001F1EF\U0001F1F5 JP 37"
+  - "\U0001F1E8\U0001F1F3 CN 35"
+  - "\U0001F1E8\U0001F1F3 CN 36"
+  - "\U0001F1E8\U0001F1F3 CN 37"
   - "\U0001F1E8\U0001F1F3 CN 38"
+  - "\U0001F1E8\U0001F1F3 CN 39"
+  - "\U0001F1E8\U0001F1F3 CN 40"
+  - "\U0001F1E8\U0001F1F3 CN 41"
+  - "\U0001F1E8\U0001F1F3 CN 42"
+  - "\U0001F1E8\U0001F1F3 CN 43"
+  - "\U0001F1E8\U0001F1F3 CN 44"
+  - "\U0001F1E8\U0001F1F3 CN 45"
+  - "\U0001F1E8\U0001F1F3 CN 46"
+  - "\U0001F1E8\U0001F1F3 CN 47"
+  - "\U0001F1E8\U0001F1F3 CN 48"
+  - "\U0001F1E8\U0001F1F3 CN 49"
+  - "\U0001F1E8\U0001F1F3 CN 50"
+  - "\U0001F1E8\U0001F1F3 CN 51"
+  - "\U0001F1E8\U0001F1F3 CN 52"
+  - "\U0001F1E8\U0001F1F3 CN 53"
+  - "\U0001F1E8\U0001F1F3 CN 54"
+  - "\U0001F1E8\U0001F1F3 CN 55"
+  - "\U0001F1E8\U0001F1F3 CN 56"
+  - "\U0001F1E8\U0001F1F3 CN 57"
+  - "\U0001F1E8\U0001F1F3 CN 58"
+  - "\U0001F1E8\U0001F1F3 CN 59"
+  - "\U0001F1E8\U0001F1F3 CN 60"
+  - "\U0001F1E8\U0001F1F3 CN 61"
+  - "\U0001F1E8\U0001F1F3 CN 62"
+  - "\U0001F1E8\U0001F1F3 CN 63"
+  - "\U0001F1EB\U0001F1F7 FR 64"
+  - "\U0001F1E8\U0001F1F3 CN 65"
+  - "\U0001F1E8\U0001F1F3 CN 66"
+  - "\U0001F1E8\U0001F1F3 CN 67"
+  - "\U0001F1E8\U0001F1F3 CN 68"
+  - "\U0001F1E8\U0001F1F3 CN 69"
+  - "\U0001F1F0\U0001F1F7 KR 70"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
