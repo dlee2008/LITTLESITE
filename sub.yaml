@@ -83,7 +83,7 @@ proxies:
   server: 14.29.124.168
   type: ss
   country: "\U0001F1E8\U0001F1F3 CN"
-  port: 24005
+  port: 24008
   password: QazEdcTgb159@$*
   cipher: aes-128-cfb
 - name: "\U0001F1E8\U0001F1F3 HK 2"
@@ -102,7 +102,15 @@ proxies:
   password: 8800c518-e68a-4441-a45c-cd67855784c8
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 4"
+- name: "\U0001F1EF\U0001F1F5 JP 4"
+  server: jp1.sanfen001.pics
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: 8800c518-e68a-4441-a45c-cd67855784c8
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 5"
   server: iplchk1.bitznet.one
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -110,7 +118,15 @@ proxies:
   password: d91e58e8-0ce1-495d-b7a7-0bb96200884e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 5"
+- name: "\U0001F1F0\U0001F1F7 KR 6"
+  server: kr2.sanfen001.pics
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 443
+  password: 8800c518-e68a-4441-a45c-cd67855784c8
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 7"
   server: sg1.sanfen001.pics
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -118,12 +134,23 @@ proxies:
   password: 8800c518-e68a-4441-a45c-cd67855784c8
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 6"
-  server: us2.sanfen001.pics
+- name: "\U0001F1E8\U0001F1F3 CN 8"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 11429
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1F0\U0001F1F7 KR 9"
+  server: kr1.api-aws.com
   type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
+  country: "\U0001F1F0\U0001F1F7 KR"
   port: 443
-  password: 8800c518-e68a-4441-a45c-cd67855784c8
+  password: 61f6271b-5e65-46b8-bc80-c6468a1f185e
   skip-cert-verify: true
   udp: true
 proxy-groups:
@@ -133,9 +160,12 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1"
   - "\U0001F1E8\U0001F1F3 HK 2"
   - "\U0001F1E8\U0001F1F3 HK 3"
-  - "\U0001F1E8\U0001F1F3 CN 4"
-  - "\U0001F1F8\U0001F1EC SG 5"
-  - "\U0001F1FA\U0001F1F8 US 6"
+  - "\U0001F1EF\U0001F1F5 JP 4"
+  - "\U0001F1E8\U0001F1F3 CN 5"
+  - "\U0001F1F0\U0001F1F7 KR 6"
+  - "\U0001F1F8\U0001F1EC SG 7"
+  - "\U0001F1E8\U0001F1F3 CN 8"
+  - "\U0001F1F0\U0001F1F7 KR 9"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
@@ -145,9 +175,12 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1"
   - "\U0001F1E8\U0001F1F3 HK 2"
   - "\U0001F1E8\U0001F1F3 HK 3"
-  - "\U0001F1E8\U0001F1F3 CN 4"
-  - "\U0001F1F8\U0001F1EC SG 5"
-  - "\U0001F1FA\U0001F1F8 US 6"
+  - "\U0001F1EF\U0001F1F5 JP 4"
+  - "\U0001F1E8\U0001F1F3 CN 5"
+  - "\U0001F1F0\U0001F1F7 KR 6"
+  - "\U0001F1F8\U0001F1EC SG 7"
+  - "\U0001F1E8\U0001F1F3 CN 8"
+  - "\U0001F1F0\U0001F1F7 KR 9"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
