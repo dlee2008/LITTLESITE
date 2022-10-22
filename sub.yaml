@@ -80,17 +80,14 @@ dns:
     - 0.0.0.0/32
 proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 1"
-  server: hg01.ptrecord.com
-  type: ssr
+  server: 180.101.193.226
+  type: ss
   country: "\U0001F1E8\U0001F1F3 CN"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
+  port: 10068
+  password: RsDk3peCSuo76B68
+  cipher: aes-256-cfb
 - name: "\U0001F1E8\U0001F1F3 CN 2"
-  server: hr11.clashcloud.tech
+  server: hr10.clashcloud.tech
   type: ssr
   country: "\U0001F1E8\U0001F1F3 CN"
   port: 55261
@@ -100,7 +97,7 @@ proxies:
   obfs: http_simple
   obfs-param: download.windowsupdate.com
 - name: "\U0001F1E8\U0001F1F3 CN 3"
-  server: hr04.clashcloud.tech
+  server: au05.clashcloud.tech
   type: ssr
   country: "\U0001F1E8\U0001F1F3 CN"
   port: 55261
@@ -110,30 +107,30 @@ proxies:
   obfs: http_simple
   obfs-param: download.windowsupdate.com
 - name: "\U0001F1E8\U0001F1F3 CN 4"
-  server: hr12.clashcloud.tech
+  server: meq886.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1E8\U0001F1F3 CN"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 5"
-  server: bb29cs.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 13637
+  port: 13494
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 363707:xfh7OF
   obfs: tls1.2_ticket_auth
   obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 6"
-  server: au01.clashcloud.tech
+- name: "\U0001F1E8\U0001F1F3 CN 5"
+  server: ca04.clashcloud.tech
   type: ssr
-  country: "\U0001F1E8\U0001F1F3 CN"
+  country: "\U0001F1E8\U0001F1E6 CA"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 6"
+  server: ca05.clashcloud.tech
+  type: ssr
+  country: "\U0001F1E8\U0001F1E6 CA"
   port: 55261
   password: bLWIPj
   cipher: rc4-md5
@@ -141,19 +138,17 @@ proxies:
   obfs: http_simple
   obfs-param: download.windowsupdate.com
 - name: "\U0001F1E8\U0001F1F3 CN 7"
-  server: ca03.clashcloud.tech
-  type: ssr
-  country: "\U0001F1E8\U0001F1E6 CA"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
+  server: trabr1.bitznet.one
+  type: trojan
+  country: "\U0001F1E7\U0001F1F7 BR"
+  port: 32016
+  password: d91e58e8-0ce1-495d-b7a7-0bb96200884e
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 8"
-  server: ca02.clashcloud.tech
+  server: tw13.clashcloud.tech
   type: ssr
-  country: "\U0001F1E8\U0001F1E6 CA"
+  country: "\U0001F1E8\U0001F1F3 TW"
   port: 55261
   password: bLWIPj
   cipher: rc4-md5
@@ -161,13 +156,6 @@ proxies:
   obfs: http_simple
   obfs-param: download.windowsupdate.com
 - name: "\U0001F1E8\U0001F1F3 CN 9"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 24006
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 10"
   server: lld9k6.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
@@ -178,8 +166,8 @@ proxies:
   protocol-param: 363707:xfh7OF
   obfs: tls1.2_ticket_auth
   obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 11"
-  server: tw11.clashcloud.tech
+- name: "\U0001F1E8\U0001F1F3 CN 10"
+  server: tw06.clashcloud.tech
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
   port: 55261
@@ -188,6 +176,17 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 11"
+  server: mjk6.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 13298
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
 - name: "\U0001F1E8\U0001F1F3 CN 12"
   server: lld9k6.cdn.node.a.ddns-ounk.com
   type: ssr
@@ -200,6 +199,17 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: bed7c363707.microsoft.com
 - name: "\U0001F1E8\U0001F1F3 CN 13"
+  server: mjk6.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 13303
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 14"
   server: lld9k6.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
@@ -210,61 +220,7 @@ proxies:
   protocol-param: 363707:xfh7OF
   obfs: tls1.2_ticket_auth
   obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 14"
-  server: tw14.clashcloud.tech
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
 - name: "\U0001F1E8\U0001F1F3 CN 15"
-  server: lld9k6.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 13318
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 16"
-  server: mjk6.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 13299
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 17"
-  server: mjk6.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 13304
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 18"
-  server: mjk6.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 13302
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 19"
   server: mjk6.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
@@ -275,19 +231,59 @@ proxies:
   protocol-param: 363707:xfh7OF
   obfs: tls1.2_ticket_auth
   obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 20"
-  server: mjk6.cdn.node.a.ddns-ounk.com
+- name: "\U0001F1E8\U0001F1F3 CN 16"
+  server: ge6.amamya.live
   type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 13298
+  country: "\U0001F1E9\U0001F1EA DE"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 17"
+  server: uk02.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 18"
+  server: fr03.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 19"
+  server: z5is.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13185
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 363707:xfh7OF
   obfs: tls1.2_ticket_auth
   obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 20"
+  server: hk03.clashcloud.tech
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
 - name: "\U0001F1E8\U0001F1F3 CN 21"
-  server: hk02.clashcloud.tech
+  server: hg02.ptrecord.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
   port: 55261
@@ -297,77 +293,6 @@ proxies:
   obfs: http_simple
   obfs-param: download.windowsupdate.com
 - name: "\U0001F1E8\U0001F1F3 CN 22"
-  server: sg05.clashcloud.tech
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 23"
-  server: ge5.amamya.live
-  type: ssr
-  country: "\U0001F1E9\U0001F1EA DE"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 24"
-  server: hkt04.clashcloud.tech
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 25"
-  server: ir01.clashcloud.tech
-  type: ssr
-  country: "\U0001F1EB\U0001F1F7 FR"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 26"
-  server: fr04.clashcloud.tech
-  type: ssr
-  country: "\U0001F1EB\U0001F1F7 FR"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 27"
-  server: z5is.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13183
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 28"
-  server: hkt06.clashcloud.tech
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 29"
   server: z5is.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -378,250 +303,64 @@ proxies:
   protocol-param: 363707:xfh7OF
   obfs: tls1.2_ticket_auth
   obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 30"
+- name: "\U0001F1E8\U0001F1F3 CN 23"
   server: z5is.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13171
+  port: 13181
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 363707:xfh7OF
   obfs: tls1.2_ticket_auth
   obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 31"
-  server: cd69.cdn.node.a.ddns-ounk.com
+- name: "\U0001F1E8\U0001F1F3 CN 24"
+  server: hk02.clashcloud.tech
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13342
-  password: Cskw6d
+  port: 55261
+  password: bLWIPj
   cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 32"
-  server: iplchk1.bitznet.one
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1EB\U0001F1F7 FR 25"
+  server: 51.77.71.134
   type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 34443
-  password: d91e58e8-0ce1-495d-b7a7-0bb96200884e
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 443
+  password: origin
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 33"
-  server: tata12.cdn.node.a.ddns-ounk.com
+- name: "\U0001F1E8\U0001F1F3 CN 26"
+  server: sg03.clashcloud.tech
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13488
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 34"
-  server: jp07.clashcloud.tech
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
   port: 55261
   password: bLWIPj
   cipher: rc4-md5
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 35"
-  server: in02.clashcloud.tech
-  type: ssr
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 36"
-  server: cd69.cdn.node.a.ddns-ounk.com
+- name: "\U0001F1E8\U0001F1F3 CN 27"
+  server: hk07.clashcloud.tech
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13489
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 37"
-  server: hr05.clashcloud.tech
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
   port: 55261
   password: bLWIPj
   cipher: rc4-md5
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 38"
-  server: q8eq.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 13592
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 39"
-  server: hr02.clashcloud.tech
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 40"
-  server: tata12.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13642
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 41"
-  server: q8eq.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 13069
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 42"
-  server: jp08.clashcloud.tech
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 43"
-  server: jp02.clashcloud.tech
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 44"
-  server: liaoningddns.xyz
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 11420
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 45"
-  server: cd69.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13640
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 46"
-  server: q8eq.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 13612
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 47"
-  server: q8eq.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 13593
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 48"
-  server: q8eq.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 13089
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 49"
-  server: q8eq.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 13087
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 50"
-  server: q8eq.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 13615
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 51"
-  server: cd69.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 13639
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 52"
-  server: kr20.clashcloud.tech
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 53"
+- name: "\U0001F1EB\U0001F1F7 FR 28"
+  server: content-provider5.cdn-delivery.akamaicd.com
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 443
+  password: Sp3eDVp
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 29"
   server: cd69.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -632,35 +371,231 @@ proxies:
   protocol-param: 363707:xfh7OF
   obfs: tls1.2_ticket_auth
   obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1F0\U0001F1F7 KR 54"
-  server: kr1.api-aws.com
-  type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 443
-  password: 10f81a15-c7c8-473b-a12a-a09f098b6236
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 55"
-  server: sgp08.clashcloud.tech
+- name: "\U0001F1E8\U0001F1F3 CN 30"
+  server: tata12.cdn.node.a.ddns-ounk.com
   type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13488
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 31"
+  server: meq886.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13498
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 32"
+  server: tata12.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13267
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 33"
+  server: meq886.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13450
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 34"
+  server: cd69.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13489
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 35"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24004
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 36"
+  server: tata12.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13642
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 37"
+  server: meq886.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13497
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 38"
+  server: meq886.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13451
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 39"
+  server: in08.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EE\U0001F1F3 IN"
   port: 55261
   password: bLWIPj
   cipher: rc4-md5
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 56"
-  server: sgp11.clashcloud.tech
+- name: "\U0001F1E8\U0001F1F3 CN 40"
+  server: z5is.cdn.node.a.ddns-ounk.com
   type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13184
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 41"
+  server: hr01.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
   port: 55261
   password: bLWIPj
   cipher: rc4-md5
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 57"
+- name: "\U0001F1E8\U0001F1F3 CN 42"
+  server: q8eq.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 13592
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 43"
+  server: q8eq.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 13090
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 44"
+  server: q8eq.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 13614
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 45"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 11420
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 46"
+  server: q8eq.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 13593
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 47"
+  server: hr08.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 48"
+  server: cd69.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13340
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 49"
+  server: q8eq.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 13591
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 50"
+  server: q8eq.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 13069
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 51"
   server: cd69.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -671,8 +606,141 @@ proxies:
   protocol-param: 363707:xfh7OF
   obfs: tls1.2_ticket_auth
   obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 52"
+  server: q8eq.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 13589
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 53"
+  server: hr03.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 54"
+  server: q8eq.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 13615
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 55"
+  server: jp08.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 56"
+  server: jp03.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 57"
+  server: hr07.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
 - name: "\U0001F1E8\U0001F1F3 CN 58"
-  server: sgp02.clashcloud.tech
+  server: q8eq.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 13087
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 59"
+  server: q8eq.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 13612
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 60"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24008
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 61"
+  server: cd69.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 13641
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 62"
+  server: kr03.clashcloud.tech
+  type: ssr
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 63"
+  server: q8eq.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 12957
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 64"
+  server: ru01.ptrecord.com
+  type: ssr
+  country: "\U0001F1F7\U0001F1FA RU"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 65"
+  server: sgp03.clashcloud.tech
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
   port: 55261
@@ -681,7 +749,17 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 59"
+- name: "\U0001F1E8\U0001F1F3 CN 66"
+  server: sgp06.clashcloud.tech
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 67"
   server: gf6s.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
@@ -692,122 +770,7 @@ proxies:
   protocol-param: 363707:xfh7OF
   obfs: tls1.2_ticket_auth
   obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 60"
-  server: ru05.ptrecord.com
-  type: ssr
-  country: "\U0001F1F7\U0001F1FA RU"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 61"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13374
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 62"
-  server: sgp05.clashcloud.tech
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 63"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 12939
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1F0\U0001F1F7 KR 64"
-  server: jgw2.gaox.ml
-  type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 443
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 65"
-  server: sgp09.clashcloud.tech
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 66"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 12981
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 67"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13371
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
 - name: "\U0001F1E8\U0001F1F3 CN 68"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13052
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 69"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13051
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 70"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13054
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 71"
   server: eqwr51.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
@@ -818,150 +781,26 @@ proxies:
   protocol-param: 363707:xfh7OF
   obfs: tls1.2_ticket_auth
   obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 72"
+- name: "\U0001F1E8\U0001F1F3 CN 69"
   server: eqwr51.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
-  port: 13357
+  port: 13562
   password: Cskw6d
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 363707:xfh7OF
   obfs: tls1.2_ticket_auth
   obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 73"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13570
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 74"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13572
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 75"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13053
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 76"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13576
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 77"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13564
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 78"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 12916
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 79"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13574
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 80"
-  server: r97q.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13351
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 81"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13568
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 82"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13370
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 83"
-  server: gf6s.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13578
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 84"
-  server: eqwr51.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 13560
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 85"
+- name: "\U0001F1F3\U0001F1F1 NL 70"
+  server: content-provider23.cdn-delivery.akamaicd.com
+  type: trojan
+  country: "\U0001F1F3\U0001F1F1 NL"
+  port: 443
+  password: Sp3eDVp
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 71"
   server: eqwr51.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
@@ -972,7 +811,236 @@ proxies:
   protocol-param: 363707:xfh7OF
   obfs: tls1.2_ticket_auth
   obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 72"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 12984
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 73"
+  server: gf6s.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13054
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 74"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13358
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 75"
+  server: sgp08.clashcloud.tech
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 76"
+  server: gf6s.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 12939
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 77"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13355
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 78"
+  server: gf6s.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13371
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 79"
+  server: gf6s.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 12938
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 80"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13564
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 81"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 12985
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 82"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13560
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 83"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13566
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 84"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 12916
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 85"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13556
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
 - name: "\U0001F1E8\U0001F1F3 CN 86"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13354
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 87"
+  server: sgp09.clashcloud.tech
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 88"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13357
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 89"
+  server: gf6s.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13370
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 90"
+  server: gf6s.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13372
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 91"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 11851
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 92"
+  server: eqwr51.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 13558
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 93"
   server: us01.clashcloud.tech
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -982,7 +1050,38 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 87"
+- name: "\U0001F1E8\U0001F1F3 CN 94"
+  server: bb29cs.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 13637
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 95"
+  server: us07.clashcloud.tech
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 96"
+  server: us06.clashcloud.tech
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 97"
   server: bb29cs.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -993,28 +1092,7 @@ proxies:
   protocol-param: 363707:xfh7OF
   obfs: tls1.2_ticket_auth
   obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 88"
-  server: bb29cs.cdn.node.a.ddns-ounk.com
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 13638
-  password: Cskw6d
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 363707:xfh7OF
-  obfs: tls1.2_ticket_auth
-  obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 89"
-  server: us07.clashcloud.tech
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 90"
+- name: "\U0001F1E8\U0001F1F3 CN 98"
   server: bb29cs.cdn.node.a.ddns-ounk.com
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -1025,8 +1103,30 @@ proxies:
   protocol-param: 363707:xfh7OF
   obfs: tls1.2_ticket_auth
   obfs-param: bed7c363707.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 91"
-  server: us04.clashcloud.tech
+- name: "\U0001F1E8\U0001F1F3 CN 99"
+  server: bb29cs.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 13638
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 100"
+  server: bb29cs.cdn.node.a.ddns-ounk.com
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 13633
+  password: Cskw6d
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 363707:xfh7OF
+  obfs: tls1.2_ticket_auth
+  obfs-param: bed7c363707.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 101"
+  server: us10.clashcloud.tech
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
   port: 55261
@@ -1035,19 +1135,34 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 92"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24002
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1EF\U0001F1F5 JP 93"
-  server: jgwdb4.gaox.ml
+- name: "\U0001F1E8\U0001F1F3 CN 102"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 35247
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 103"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 11423
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1EF\U0001F1F5 JP 104"
+  server: 168.138.44.176
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
   port: 443
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
   skip-cert-verify: true
   udp: true
 proxy-groups:
@@ -1078,10 +1193,10 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 22"
   - "\U0001F1E8\U0001F1F3 CN 23"
   - "\U0001F1E8\U0001F1F3 CN 24"
-  - "\U0001F1E8\U0001F1F3 CN 25"
+  - "\U0001F1EB\U0001F1F7 FR 25"
   - "\U0001F1E8\U0001F1F3 CN 26"
   - "\U0001F1E8\U0001F1F3 CN 27"
-  - "\U0001F1E8\U0001F1F3 CN 28"
+  - "\U0001F1EB\U0001F1F7 FR 28"
   - "\U0001F1E8\U0001F1F3 CN 29"
   - "\U0001F1E8\U0001F1F3 CN 30"
   - "\U0001F1E8\U0001F1F3 CN 31"
@@ -1107,7 +1222,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 51"
   - "\U0001F1E8\U0001F1F3 CN 52"
   - "\U0001F1E8\U0001F1F3 CN 53"
-  - "\U0001F1F0\U0001F1F7 KR 54"
+  - "\U0001F1E8\U0001F1F3 CN 54"
   - "\U0001F1E8\U0001F1F3 CN 55"
   - "\U0001F1E8\U0001F1F3 CN 56"
   - "\U0001F1E8\U0001F1F3 CN 57"
@@ -1117,13 +1232,13 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 61"
   - "\U0001F1E8\U0001F1F3 CN 62"
   - "\U0001F1E8\U0001F1F3 CN 63"
-  - "\U0001F1F0\U0001F1F7 KR 64"
+  - "\U0001F1E8\U0001F1F3 CN 64"
   - "\U0001F1E8\U0001F1F3 CN 65"
   - "\U0001F1E8\U0001F1F3 CN 66"
   - "\U0001F1E8\U0001F1F3 CN 67"
   - "\U0001F1E8\U0001F1F3 CN 68"
   - "\U0001F1E8\U0001F1F3 CN 69"
-  - "\U0001F1E8\U0001F1F3 CN 70"
+  - "\U0001F1F3\U0001F1F1 NL 70"
   - "\U0001F1E8\U0001F1F3 CN 71"
   - "\U0001F1E8\U0001F1F3 CN 72"
   - "\U0001F1E8\U0001F1F3 CN 73"
@@ -1146,7 +1261,18 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 90"
   - "\U0001F1E8\U0001F1F3 CN 91"
   - "\U0001F1E8\U0001F1F3 CN 92"
-  - "\U0001F1EF\U0001F1F5 JP 93"
+  - "\U0001F1E8\U0001F1F3 CN 93"
+  - "\U0001F1E8\U0001F1F3 CN 94"
+  - "\U0001F1E8\U0001F1F3 CN 95"
+  - "\U0001F1E8\U0001F1F3 CN 96"
+  - "\U0001F1E8\U0001F1F3 CN 97"
+  - "\U0001F1E8\U0001F1F3 CN 98"
+  - "\U0001F1E8\U0001F1F3 CN 99"
+  - "\U0001F1E8\U0001F1F3 CN 100"
+  - "\U0001F1E8\U0001F1F3 CN 101"
+  - "\U0001F1E8\U0001F1F3 CN 102"
+  - "\U0001F1E8\U0001F1F3 CN 103"
+  - "\U0001F1EF\U0001F1F5 JP 104"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
@@ -1177,10 +1303,10 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 22"
   - "\U0001F1E8\U0001F1F3 CN 23"
   - "\U0001F1E8\U0001F1F3 CN 24"
-  - "\U0001F1E8\U0001F1F3 CN 25"
+  - "\U0001F1EB\U0001F1F7 FR 25"
   - "\U0001F1E8\U0001F1F3 CN 26"
   - "\U0001F1E8\U0001F1F3 CN 27"
-  - "\U0001F1E8\U0001F1F3 CN 28"
+  - "\U0001F1EB\U0001F1F7 FR 28"
   - "\U0001F1E8\U0001F1F3 CN 29"
   - "\U0001F1E8\U0001F1F3 CN 30"
   - "\U0001F1E8\U0001F1F3 CN 31"
@@ -1206,7 +1332,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 51"
   - "\U0001F1E8\U0001F1F3 CN 52"
   - "\U0001F1E8\U0001F1F3 CN 53"
-  - "\U0001F1F0\U0001F1F7 KR 54"
+  - "\U0001F1E8\U0001F1F3 CN 54"
   - "\U0001F1E8\U0001F1F3 CN 55"
   - "\U0001F1E8\U0001F1F3 CN 56"
   - "\U0001F1E8\U0001F1F3 CN 57"
@@ -1216,13 +1342,13 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 61"
   - "\U0001F1E8\U0001F1F3 CN 62"
   - "\U0001F1E8\U0001F1F3 CN 63"
-  - "\U0001F1F0\U0001F1F7 KR 64"
+  - "\U0001F1E8\U0001F1F3 CN 64"
   - "\U0001F1E8\U0001F1F3 CN 65"
   - "\U0001F1E8\U0001F1F3 CN 66"
   - "\U0001F1E8\U0001F1F3 CN 67"
   - "\U0001F1E8\U0001F1F3 CN 68"
   - "\U0001F1E8\U0001F1F3 CN 69"
-  - "\U0001F1E8\U0001F1F3 CN 70"
+  - "\U0001F1F3\U0001F1F1 NL 70"
   - "\U0001F1E8\U0001F1F3 CN 71"
   - "\U0001F1E8\U0001F1F3 CN 72"
   - "\U0001F1E8\U0001F1F3 CN 73"
@@ -1245,7 +1371,18 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 90"
   - "\U0001F1E8\U0001F1F3 CN 91"
   - "\U0001F1E8\U0001F1F3 CN 92"
-  - "\U0001F1EF\U0001F1F5 JP 93"
+  - "\U0001F1E8\U0001F1F3 CN 93"
+  - "\U0001F1E8\U0001F1F3 CN 94"
+  - "\U0001F1E8\U0001F1F3 CN 95"
+  - "\U0001F1E8\U0001F1F3 CN 96"
+  - "\U0001F1E8\U0001F1F3 CN 97"
+  - "\U0001F1E8\U0001F1F3 CN 98"
+  - "\U0001F1E8\U0001F1F3 CN 99"
+  - "\U0001F1E8\U0001F1F3 CN 100"
+  - "\U0001F1E8\U0001F1F3 CN 101"
+  - "\U0001F1E8\U0001F1F3 CN 102"
+  - "\U0001F1E8\U0001F1F3 CN 103"
+  - "\U0001F1EF\U0001F1F5 JP 104"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
