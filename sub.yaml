@@ -79,56 +79,105 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: "\U0001F1EF\U0001F1F5 JP 1"
-  server: jp1.sanfen001.pics
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 8800c518-e68a-4441-a45c-cd67855784c8
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 2"
-  server: hk1.sanfen001.pics
+- name: "\U0001F1E8\U0001F1F3 HK 1"
+  server: hk2.sanfen001.pics
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
   port: 443
   password: 8800c518-e68a-4441-a45c-cd67855784c8
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 3"
-  server: b13f959.ne.gladns.com
+- name: "\U0001F1F8\U0001F1EC SG 2"
+  server: b13f959.nc.gladns.com
   type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
+  country: "\U0001F1E8\U0001F1F3 TW"
   port: 3389
   password: 182228812d1e0f23
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 4"
-  server: trabr1.bitznet.one
+- name: "\U0001F1F8\U0001F1EC SG 3"
+  server: 5.44.249.156
   type: trojan
-  country: "\U0001F1EE\U0001F1F9 IT"
-  port: 32016
-  password: d91e58e8-0ce1-495d-b7a7-0bb96200884e
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 3389
+  password: d02058f4f819dced
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1F8\U0001F1EC SG 4"
+  server: sg2.sanfen001.pics
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: 8800c518-e68a-4441-a45c-cd67855784c8
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 5"
+  server: 5.44.249.157
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 3389
+  password: d02058f4f819dced
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 6"
+  server: 5.44.249.155
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 3389
+  password: d02058f4f819dced
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EB\U0001F1F7 FR 7"
+  server: content-provider5.cdn-delivery.akamaicd.com
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 443
+  password: Sp3eDVp
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 8"
+  server: us2.sanfen001.pics
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 8800c518-e68a-4441-a45c-cd67855784c8
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 9"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24003
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1EF\U0001F1F5 JP 1"
-  - "\U0001F1E8\U0001F1F3 HK 2"
-  - "\U0001F1E8\U0001F1F3 CN 3"
-  - "\U0001F1E8\U0001F1F3 CN 4"
+  - "\U0001F1E8\U0001F1F3 HK 1"
+  - "\U0001F1F8\U0001F1EC SG 2"
+  - "\U0001F1F8\U0001F1EC SG 3"
+  - "\U0001F1F8\U0001F1EC SG 4"
+  - "\U0001F1F8\U0001F1EC SG 5"
+  - "\U0001F1F8\U0001F1EC SG 6"
+  - "\U0001F1EB\U0001F1F7 FR 7"
+  - "\U0001F1FA\U0001F1F8 US 8"
+  - "\U0001F1E8\U0001F1F3 CN 9"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
   type: select
   proxies:
   - automatic
-  - "\U0001F1EF\U0001F1F5 JP 1"
-  - "\U0001F1E8\U0001F1F3 HK 2"
-  - "\U0001F1E8\U0001F1F3 CN 3"
-  - "\U0001F1E8\U0001F1F3 CN 4"
+  - "\U0001F1E8\U0001F1F3 HK 1"
+  - "\U0001F1F8\U0001F1EC SG 2"
+  - "\U0001F1F8\U0001F1EC SG 3"
+  - "\U0001F1F8\U0001F1EC SG 4"
+  - "\U0001F1F8\U0001F1EC SG 5"
+  - "\U0001F1F8\U0001F1EC SG 6"
+  - "\U0001F1EB\U0001F1F7 FR 7"
+  - "\U0001F1FA\U0001F1F8 US 8"
+  - "\U0001F1E8\U0001F1F3 CN 9"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
