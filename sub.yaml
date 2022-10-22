@@ -80,7 +80,7 @@ dns:
     - 0.0.0.0/32
 proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 1"
-  server: hr10.clashcloud.tech
+  server: jp04.clashcloud.tech
   type: ssr
   country: "\U0001F1E8\U0001F1F3 CN"
   port: 55261
@@ -90,7 +90,7 @@ proxies:
   obfs: http_simple
   obfs-param: download.windowsupdate.com
 - name: "\U0001F1E8\U0001F1F3 CN 2"
-  server: au05.clashcloud.tech
+  server: au02.clashcloud.tech
   type: ssr
   country: "\U0001F1E8\U0001F1F3 CN"
   port: 55261
@@ -110,7 +110,7 @@ proxies:
   obfs: http_simple
   obfs-param: download.windowsupdate.com
 - name: "\U0001F1E8\U0001F1F3 CN 4"
-  server: ca05.clashcloud.tech
+  server: ca04.clashcloud.tech
   type: ssr
   country: "\U0001F1E8\U0001F1E6 CA"
   port: 55261
@@ -120,16 +120,24 @@ proxies:
   obfs: http_simple
   obfs-param: download.windowsupdate.com
 - name: "\U0001F1E8\U0001F1F3 CN 5"
-  server: tw04.clashcloud.tech
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 24008
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
 - name: "\U0001F1E8\U0001F1F3 CN 6"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 11427
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 7"
   server: tw01.clashcloud.tech
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
@@ -139,20 +147,10 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 7"
-  server: pvcc01.clashcloud.tech
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
 - name: "\U0001F1E8\U0001F1F3 CN 8"
-  server: sg06.clashcloud.tech
+  server: tw08.clashcloud.tech
   type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
+  country: "\U0001F1E8\U0001F1F3 TW"
   port: 55261
   password: bLWIPj
   cipher: rc4-md5
@@ -160,37 +158,6 @@ proxies:
   obfs: http_simple
   obfs-param: download.windowsupdate.com
 - name: "\U0001F1E8\U0001F1F3 CN 9"
-  server: tw-b.666687.xyz
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 26543
-  password: 2b864k
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 14709:t27j2fhwjqf
-  obfs: tls1.2_ticket_auth
-  obfs-param: NzYzNjcxNDcwOS5taWNyb3NvZnQuY29t
-- name: "\U0001F1E8\U0001F1F3 CN 10"
-  server: sg11.clashcloud.tech
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 11"
-  server: sg08.clashcloud.tech
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 12"
   server: ge4.amamya.live
   type: ssr
   country: "\U0001F1E9\U0001F1EA DE"
@@ -200,10 +167,40 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 13"
-  server: uk02.clashcloud.tech
+- name: "\U0001F1E8\U0001F1F3 CN 10"
+  server: sg03.clashcloud.tech
   type: ssr
-  country: "\U0001F1EB\U0001F1F7 FR"
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 11"
+  server: hk04.clashcloud.tech
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 12"
+  server: hkt01.clashcloud.tech
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 13"
+  server: sg01.clashcloud.tech
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
   port: 55261
   password: bLWIPj
   cipher: rc4-md5
@@ -221,7 +218,17 @@ proxies:
   obfs: http_simple
   obfs-param: download.windowsupdate.com
 - name: "\U0001F1E8\U0001F1F3 CN 15"
-  server: hg03.ptrecord.com
+  server: ir03.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 16"
+  server: hg01.ptrecord.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
   port: 55261
@@ -230,36 +237,16 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 16"
-  server: hr05.clashcloud.tech
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
 - name: "\U0001F1E8\U0001F1F3 CN 17"
-  server: jp07.clashcloud.tech
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1EB\U0001F1F7 FR 18"
-  server: content-provider12.cdn-delivery.akamaicd.com
+  server: iplchk1.bitznet.one
   type: trojan
-  country: "\U0001F1EB\U0001F1F7 FR"
-  port: 443
-  password: origin
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 34443
+  password: d91e58e8-0ce1-495d-b7a7-0bb96200884e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 19"
-  server: in04.clashcloud.tech
+- name: "\U0001F1E8\U0001F1F3 CN 18"
+  server: in08.clashcloud.tech
   type: ssr
   country: "\U0001F1EE\U0001F1F3 IN"
   port: 55261
@@ -268,17 +255,7 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 20"
-  server: hr07.clashcloud.tech
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 21"
+- name: "\U0001F1E8\U0001F1F3 CN 19"
   server: jp01.clashcloud.tech
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -288,8 +265,85 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 22"
-  server: kr08.clashcloud.tech
+- name: "\U0001F1EB\U0001F1F7 FR 20"
+  server: content-provider12.cdn-delivery.akamaicd.com
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 443
+  password: origin
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 21"
+  server: hr05.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1EB\U0001F1F7 FR 22"
+  server: 51.77.71.131
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 443
+  password: Sp3eDVp
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 23"
+  server: hr06.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 24"
+  server: jp02.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 25"
+  server: jp09.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 26"
+  server: jp08.clashcloud.tech
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 27"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 11501
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 28"
+  server: kr13.clashcloud.tech
   type: ssr
   country: "\U0001F1F0\U0001F1F7 KR"
   port: 55261
@@ -298,8 +352,15 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 23"
-  server: sgp11.clashcloud.tech
+- name: "\U0001F1E8\U0001F1F3 CN 29"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 24009
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 30"
+  server: sgp09.clashcloud.tech
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
   port: 55261
@@ -308,8 +369,8 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 24"
-  server: sgp01.clashcloud.tech
+- name: "\U0001F1E8\U0001F1F3 CN 31"
+  server: sgp04.clashcloud.tech
   type: ssr
   country: "\U0001F1F8\U0001F1EC SG"
   port: 55261
@@ -318,8 +379,18 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 25"
-  server: ru01.ptrecord.com
+- name: "\U0001F1E8\U0001F1F3 CN 32"
+  server: sgp05.clashcloud.tech
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 33"
+  server: ru05.ptrecord.com
   type: ssr
   country: "\U0001F1F7\U0001F1FA RU"
   port: 55261
@@ -328,7 +399,44 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 26"
+- name: "\U0001F1E8\U0001F1F3 CN 34"
+  server: sgp07.clashcloud.tech
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 35"
+  server: sgp02.clashcloud.tech
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 36"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24005
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 37"
+  server: us05.clashcloud.tech
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 55261
+  password: bLWIPj
+  cipher: rc4-md5
+  protocol: origin
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 38"
   server: us02.clashcloud.tech
   type: ssr
   country: "\U0001F1FA\U0001F1F8 US"
@@ -338,47 +446,13 @@ proxies:
   protocol: origin
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 27"
-  server: us01.clashcloud.tech
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 28"
-  server: us09.clashcloud.tech
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 29"
-  server: us08.clashcloud.tech
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 55261
-  password: bLWIPj
-  cipher: rc4-md5
-  protocol: origin
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 30"
-  server: huus.fdhsujj.xyz
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 23552
-  password: J3ITPq
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  protocol-param: 286652:Ky6KOw
-  obfs: http_simple
-  obfs-param: VmpKMGExTXlTa1pQVmxaWVYwZDRVVlZyV25KbFZsSnpWV3R3YTFZd2NGbFphMlIzWVcxS1ZXSkVXbHBoYTNCb1ZGVldOR1JHVW5WWGJXeFdWVkU
+- name: "\U0001F1E8\U0001F1F3 CN 39"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24003
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
 proxy-groups:
 - name: automatic
   type: url-test
@@ -400,11 +474,11 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 15"
   - "\U0001F1E8\U0001F1F3 CN 16"
   - "\U0001F1E8\U0001F1F3 CN 17"
-  - "\U0001F1EB\U0001F1F7 FR 18"
+  - "\U0001F1E8\U0001F1F3 CN 18"
   - "\U0001F1E8\U0001F1F3 CN 19"
-  - "\U0001F1E8\U0001F1F3 CN 20"
+  - "\U0001F1EB\U0001F1F7 FR 20"
   - "\U0001F1E8\U0001F1F3 CN 21"
-  - "\U0001F1E8\U0001F1F3 CN 22"
+  - "\U0001F1EB\U0001F1F7 FR 22"
   - "\U0001F1E8\U0001F1F3 CN 23"
   - "\U0001F1E8\U0001F1F3 CN 24"
   - "\U0001F1E8\U0001F1F3 CN 25"
@@ -413,6 +487,15 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 28"
   - "\U0001F1E8\U0001F1F3 CN 29"
   - "\U0001F1E8\U0001F1F3 CN 30"
+  - "\U0001F1E8\U0001F1F3 CN 31"
+  - "\U0001F1E8\U0001F1F3 CN 32"
+  - "\U0001F1E8\U0001F1F3 CN 33"
+  - "\U0001F1E8\U0001F1F3 CN 34"
+  - "\U0001F1E8\U0001F1F3 CN 35"
+  - "\U0001F1E8\U0001F1F3 CN 36"
+  - "\U0001F1E8\U0001F1F3 CN 37"
+  - "\U0001F1E8\U0001F1F3 CN 38"
+  - "\U0001F1E8\U0001F1F3 CN 39"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
@@ -436,11 +519,11 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 15"
   - "\U0001F1E8\U0001F1F3 CN 16"
   - "\U0001F1E8\U0001F1F3 CN 17"
-  - "\U0001F1EB\U0001F1F7 FR 18"
+  - "\U0001F1E8\U0001F1F3 CN 18"
   - "\U0001F1E8\U0001F1F3 CN 19"
-  - "\U0001F1E8\U0001F1F3 CN 20"
+  - "\U0001F1EB\U0001F1F7 FR 20"
   - "\U0001F1E8\U0001F1F3 CN 21"
-  - "\U0001F1E8\U0001F1F3 CN 22"
+  - "\U0001F1EB\U0001F1F7 FR 22"
   - "\U0001F1E8\U0001F1F3 CN 23"
   - "\U0001F1E8\U0001F1F3 CN 24"
   - "\U0001F1E8\U0001F1F3 CN 25"
@@ -449,6 +532,15 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 28"
   - "\U0001F1E8\U0001F1F3 CN 29"
   - "\U0001F1E8\U0001F1F3 CN 30"
+  - "\U0001F1E8\U0001F1F3 CN 31"
+  - "\U0001F1E8\U0001F1F3 CN 32"
+  - "\U0001F1E8\U0001F1F3 CN 33"
+  - "\U0001F1E8\U0001F1F3 CN 34"
+  - "\U0001F1E8\U0001F1F3 CN 35"
+  - "\U0001F1E8\U0001F1F3 CN 36"
+  - "\U0001F1E8\U0001F1F3 CN 37"
+  - "\U0001F1E8\U0001F1F3 CN 38"
+  - "\U0001F1E8\U0001F1F3 CN 39"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
