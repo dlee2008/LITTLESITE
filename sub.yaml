@@ -79,26 +79,56 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: "\U0001F1F0\U0001F1F7 KR 1"
-  server: hg9.leifengkeji.live
+- name: "\U0001F1EF\U0001F1F5 JP 1"
+  server: jp1.sanfen001.pics
   type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 11122
-  password: 752a9404-c729-485e-8ea5-acb3f4fc8180
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: 8800c518-e68a-4441-a45c-cd67855784c8
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 2"
+  server: hk1.sanfen001.pics
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 443
+  password: 8800c518-e68a-4441-a45c-cd67855784c8
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 3"
+  server: b13f959.ne.gladns.com
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 3389
+  password: 182228812d1e0f23
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: trabr1.bitznet.one
+  type: trojan
+  country: "\U0001F1EE\U0001F1F9 IT"
+  port: 32016
+  password: d91e58e8-0ce1-495d-b7a7-0bb96200884e
   skip-cert-verify: true
   udp: true
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1F0\U0001F1F7 KR 1"
+  - "\U0001F1EF\U0001F1F5 JP 1"
+  - "\U0001F1E8\U0001F1F3 HK 2"
+  - "\U0001F1E8\U0001F1F3 CN 3"
+  - "\U0001F1E8\U0001F1F3 CN 4"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
   type: select
   proxies:
   - automatic
-  - "\U0001F1F0\U0001F1F7 KR 1"
+  - "\U0001F1EF\U0001F1F5 JP 1"
+  - "\U0001F1E8\U0001F1F3 HK 2"
+  - "\U0001F1E8\U0001F1F3 CN 3"
+  - "\U0001F1E8\U0001F1F3 CN 4"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
