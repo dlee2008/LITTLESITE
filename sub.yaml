@@ -78,17 +78,267 @@ dns:
     ipcidr:
     - 240.0.0.0/4
     - 0.0.0.0/32
-proxies: []
+proxies:
+- name: "\U0001F1E8\U0001F1F3 CN 1"
+  server: 116.129.254.29
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 3382
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 2"
+  server: 5.44.249.51
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 3389
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 3"
+  server: 5.44.249.52
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 3389
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: 116.129.254.29
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 3383
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 5"
+  server: 5.44.249.44
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 3389
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 6"
+  server: 116.129.253.134
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 3383
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 7"
+  server: 5.44.249.45
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 3389
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 8"
+  server: 5.44.249.53
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 3389
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 9"
+  server: 5.44.249.50
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 3389
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 TW 10"
+  server: 60.249.3.125
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 3389
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 11"
+  server: 183.232.141.119
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 561
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 53929:hjgjuy6t655jjg
+  obfs: plain
+  obfs-param: t.me/vpnhat
+- name: "\U0001F1E8\U0001F1F3 CN 12"
+  server: 116.129.253.134
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 3386
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 13"
+  server: 5.44.249.155
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 3389
+  password: d02058f4f819dced
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 TW 14"
+  server: 60.249.3.229
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 3389
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 TW 15"
+  server: 60.249.3.226
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 3389
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 16"
+  server: 116.162.120.24
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 560
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 53929:hjgjuy6t655jjg
+  obfs: plain
+- name: "\U0001F1E8\U0001F1F3 TW 17"
+  server: 60.249.3.228
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 3389
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 TW 18"
+  server: 60.249.3.227
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 3389
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 19"
+  server: 116.162.120.24
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 562
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 53929:hjgjuy6t655jjg
+  obfs: plain
+- name: "\U0001F1E8\U0001F1F3 CN 20"
+  server: 106.75.173.173
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 3389
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 21"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 11806
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 TW 22"
+  server: 211.72.35.152
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 3389
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 23"
+  server: 116.129.253.191
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 3383
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 24"
+  server: kr1.api-aws.com
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 443
+  password: d66dccd1-90c1-4713-8972-2417a2854df2
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: automatic
   type: url-test
-  proxies: []
+  proxies:
+  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1F8\U0001F1EC SG 2"
+  - "\U0001F1F8\U0001F1EC SG 3"
+  - "\U0001F1E8\U0001F1F3 CN 4"
+  - "\U0001F1F8\U0001F1EC SG 5"
+  - "\U0001F1E8\U0001F1F3 CN 6"
+  - "\U0001F1F8\U0001F1EC SG 7"
+  - "\U0001F1F8\U0001F1EC SG 8"
+  - "\U0001F1F8\U0001F1EC SG 9"
+  - "\U0001F1E8\U0001F1F3 TW 10"
+  - "\U0001F1E8\U0001F1F3 CN 11"
+  - "\U0001F1E8\U0001F1F3 CN 12"
+  - "\U0001F1F8\U0001F1EC SG 13"
+  - "\U0001F1E8\U0001F1F3 TW 14"
+  - "\U0001F1E8\U0001F1F3 TW 15"
+  - "\U0001F1E8\U0001F1F3 CN 16"
+  - "\U0001F1E8\U0001F1F3 TW 17"
+  - "\U0001F1E8\U0001F1F3 TW 18"
+  - "\U0001F1E8\U0001F1F3 CN 19"
+  - "\U0001F1E8\U0001F1F3 CN 20"
+  - "\U0001F1E8\U0001F1F3 CN 21"
+  - "\U0001F1E8\U0001F1F3 TW 22"
+  - "\U0001F1E8\U0001F1F3 CN 23"
+  - "\U0001F1F0\U0001F1F7 KR 24"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
   type: select
   proxies:
   - automatic
+  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1F8\U0001F1EC SG 2"
+  - "\U0001F1F8\U0001F1EC SG 3"
+  - "\U0001F1E8\U0001F1F3 CN 4"
+  - "\U0001F1F8\U0001F1EC SG 5"
+  - "\U0001F1E8\U0001F1F3 CN 6"
+  - "\U0001F1F8\U0001F1EC SG 7"
+  - "\U0001F1F8\U0001F1EC SG 8"
+  - "\U0001F1F8\U0001F1EC SG 9"
+  - "\U0001F1E8\U0001F1F3 TW 10"
+  - "\U0001F1E8\U0001F1F3 CN 11"
+  - "\U0001F1E8\U0001F1F3 CN 12"
+  - "\U0001F1F8\U0001F1EC SG 13"
+  - "\U0001F1E8\U0001F1F3 TW 14"
+  - "\U0001F1E8\U0001F1F3 TW 15"
+  - "\U0001F1E8\U0001F1F3 CN 16"
+  - "\U0001F1E8\U0001F1F3 TW 17"
+  - "\U0001F1E8\U0001F1F3 TW 18"
+  - "\U0001F1E8\U0001F1F3 CN 19"
+  - "\U0001F1E8\U0001F1F3 CN 20"
+  - "\U0001F1E8\U0001F1F3 CN 21"
+  - "\U0001F1E8\U0001F1F3 TW 22"
+  - "\U0001F1E8\U0001F1F3 CN 23"
+  - "\U0001F1F0\U0001F1F7 KR 24"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
