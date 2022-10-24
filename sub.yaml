@@ -79,78 +79,26 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: "\U0001F1E8\U0001F1F3 CN 1"
-  server: liaoningddns.xyz
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 11421
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1F8\U0001F1EC SG 2"
-  server: 5.44.249.157
+- name: "\U0001F1E8\U0001F1F3 HK 1"
+  server: ca.liangyuandian.top
   type: trojan
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 3389
-  password: 182228812d1e0f23
+  country: "\U0001F1E8\U0001F1E6 CA"
+  port: 443
+  password: 53f20cd4-b381-4a80-8059-7bcd484bbb52
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 3"
-  server: 31.222.226.177
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 3389
-  password: 182228812d1e0f23
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 4"
-  server: 116.129.253.191
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 3385
-  password: 182228812d1e0f23
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 5"
-  server: iplc.xiaohouzi.club
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 20029
-  password: c32c56fb-64d9-33c4-b42a-af81b7a33fe7
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 6"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24007
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1E8\U0001F1F3 CN 1"
-  - "\U0001F1F8\U0001F1EC SG 2"
-  - "\U0001F1F8\U0001F1EC SG 3"
-  - "\U0001F1E8\U0001F1F3 CN 4"
-  - "\U0001F1E8\U0001F1F3 CN 5"
-  - "\U0001F1E8\U0001F1F3 CN 6"
+  - "\U0001F1E8\U0001F1F3 HK 1"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
   type: select
   proxies:
   - automatic
-  - "\U0001F1E8\U0001F1F3 CN 1"
-  - "\U0001F1F8\U0001F1EC SG 2"
-  - "\U0001F1F8\U0001F1EC SG 3"
-  - "\U0001F1E8\U0001F1F3 CN 4"
-  - "\U0001F1E8\U0001F1F3 CN 5"
-  - "\U0001F1E8\U0001F1F3 CN 6"
+  - "\U0001F1E8\U0001F1F3 HK 1"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
